@@ -1,0 +1,162 @@
+[
+  {
+    "source": "The Battle Approaches.mp3",
+    "title": "The Battle Approaches",
+    "file": "the-battle-approaches.mp3",
+    "bytes": 4778858,
+    "sha256": "3137cb85fdcd85ee3a23787a799a4256f1316e1b9dd302f9f9bf7fcf99aed8b3",
+    "durationSeconds": 204.144
+  },
+  {
+    "source": "Carmen and Paco.mp3",
+    "title": "Carmen and Paco",
+    "file": "carmen-and-paco.mp3",
+    "bytes": 3537287,
+    "sha256": "260bc94a7d5c0f9b28dd07b46bb46242b995c621f5787ae84ffdb6649b787c37",
+    "durationSeconds": 156.024
+  },
+  {
+    "source": "Saint Anky.mp3",
+    "title": "Saint Anky",
+    "file": "saint-anky.mp3",
+    "bytes": 3889479,
+    "sha256": "c08c90f4cf2a7c6f1ee54fac676a319225084909cc7df267ce868655689b2221",
+    "durationSeconds": 173.232
+  },
+  {
+    "source": "I am Vaerik 2.mp3",
+    "title": "I Am Vaerik 2",
+    "file": "i-am-vaerik-2.mp3",
+    "bytes": 7066944,
+    "sha256": "e5a6b945fec844c5f7cb156bd255e45645785992474640a5b5d71909ac33fe4f",
+    "durationSeconds": 314.4
+  },
+  {
+    "source": "I am Scribonia.mp3",
+    "title": "I Am Scribonia",
+    "file": "i-am-scribonia.mp3",
+    "bytes": 7018148,
+    "sha256": "e156f10b4f51b0d5d0a89160435824459203986b166d3785bbc5311adfddca5a",
+    "durationSeconds": 309.624
+  },
+  {
+    "source": "I Am Olokun.mp3",
+    "title": "I Am Olokun",
+    "file": "i-am-olokun.mp3",
+    "bytes": 6257381,
+    "sha256": "12660afeea95963a07ae5072424d1762f47949a41747f8fb995e10ba2f2cd97d",
+    "durationSeconds": 262.032
+  },
+  {
+    "source": "I am Nymera.mp3",
+    "title": "I Am Nymera",
+    "file": "i-am-nymera.mp3",
+    "bytes": 5277286,
+    "sha256": "ec5851475c5e17d7b2e39151a2e9abd29d863ad663976d18fe95faaa9e753740",
+    "durationSeconds": 228.432
+  },
+  {
+    "source": "I am Gartina.mp3",
+    "title": "I Am Gartina",
+    "file": "i-am-gartina.mp3",
+    "bytes": 4377366,
+    "sha256": "cee19f583f3b8376fc73a715dfc545e443a1c08d1c5dd552300f5394125c298f",
+    "durationSeconds": 198.432
+  },
+  {
+    "source": "I am Arjahn.mp3",
+    "title": "I Am Arjahn",
+    "file": "i-am-arjahn.mp3",
+    "bytes": 6372887,
+    "sha256": "9093f51f4f4d889ce4fd2d13ac22cadb1eb21bb99efea241f36c50587f9796f0",
+    "durationSeconds": 279.624
+  },
+  {
+    "source": "I Am Dale.mp3",
+    "title": "I Am Dale",
+    "file": "i-am-dale.mp3",
+    "bytes": 3749642,
+    "sha256": "875d17948548c86f3a58225dcc49fc2b506fc1a96db4eda2eafe6d642b2262f5",
+    "durationSeconds": 159.984
+  },
+  {
+    "source": "I am Draygar.mp3",
+    "title": "I Am Draygar",
+    "file": "i-am-draygar.mp3",
+    "bytes": 6218629,
+    "sha256": "9c850c13cb68bcabf0e66433a5dcdc38e9cfc3ec1d407ee9e76481f346136a56",
+    "durationSeconds": 270.0
+  },
+  {
+    "source": "I am Elenia.mp3",
+    "title": "I Am Elenia",
+    "file": "i-am-elenia.mp3",
+    "bytes": 5223454,
+    "sha256": "249a604671aa31b67d98da9da43c5a2ed91d3876807d9c0b80845cf28127afc9",
+    "durationSeconds": 224.04
+  },
+  {
+    "source": "I am Fenwick.mp3",
+    "title": "I Am Fenwick",
+    "file": "i-am-fenwick.mp3",
+    "bytes": 8767103,
+    "sha256": "3e6c6c680c2c6381cdabb9578c7aca82db0878b6465b6cbbc3ebcfe267f37e39",
+    "durationSeconds": 382.032
+  },
+  {
+    "source": "I am Aria.mp3",
+    "title": "I Am Aria",
+    "file": "i-am-aria.mp3",
+    "bytes": 7019111,
+    "sha256": "8a4a0fd1536310cfe93cffa537a5c10e412a39b87d550d44cebeb88a6dbb1893",
+    "durationSeconds": 303.36
+  },
+  {
+    "source": "I am Adelia.mp3",
+    "title": "I Am Adelia",
+    "file": "i-am-adelia.mp3",
+    "bytes": 6609496,
+    "sha256": "de95b5159b0b31b60651e7a8ec0405fd1cf945c20d991ebc2d90e5517acc9c37",
+    "durationSeconds": 282.84
+  },
+  {
+    "source": "Carry the Flame.mp3",
+    "title": "Carry the Flame",
+    "file": "carry-the-flame.mp3",
+    "bytes": 6814023,
+    "sha256": "be4555bd6d2eecc00ad1d72fdd143475495942223ae17326cc0180bdde47b19b",
+    "durationSeconds": 308.784
+  },
+  {
+    "source": "Prima Strings.mp3",
+    "title": "Prima Strings",
+    "file": "prima-strings.mp3",
+    "bytes": 4799964,
+    "sha256": "742319b548f7b2f7cdbe0c485dec6538ad3dce8abcfcedda6a7b374be8bfe1c3",
+    "durationSeconds": 203.64
+  },
+  {
+    "source": "Prima Strings (1).mp3",
+    "title": "Prima Strings (Alternate)",
+    "file": "prima-strings-alternate.mp3",
+    "bytes": 4004620,
+    "sha256": "d15c9a739b1454ac96fd83ae7fc9839faf5ac2370457bbcbdfecc67399899658",
+    "durationSeconds": 169.152
+  },
+  {
+    "source": "Prima Five Note.mp3",
+    "title": "Prima Five Note",
+    "file": "prima-five-note.mp3",
+    "bytes": 5510129,
+    "sha256": "5cbecb1f94fbaf683ad4b0220c2a79987ba89f1f7c5e1b6ef05aadfb5d704ebf",
+    "durationSeconds": 228.432
+  },
+  {
+    "source": "I am Wrath.mp3",
+    "title": "I Am Wrath",
+    "file": "i-am-wrath.mp3",
+    "bytes": 6186740,
+    "sha256": "867db62d8ab88db88a47c8e214e581d72bf85f4de19a81afef2b90636a5a6156",
+    "durationSeconds": 274.44
+  }
+]

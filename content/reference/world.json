@@ -6494,7 +6494,7 @@
         "era": "2026 · The war for the Shards",
         "kind": "Divine defeat and warning",
         "article": "vain",
-        "location": "Unrecovered refuge",
+        "location": "First Forest, Prima",
         "people": "Vain; Aionia; Serath; Thorn; Modeli",
         "tags": [
           "Death’s Knights",
@@ -6506,7 +6506,7 @@
         "importance": 3,
         "importanceReason": "Shares intelligence about a Shard hunter; the speaker’s account is not independent proof of every claim.",
         "regions": [
-          "unplaced"
+          "prima"
         ],
         "dating": {
           "kind": "recollection",
@@ -6523,7 +6523,14 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "story": "seraths-sacrifice",
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489798797898023013",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489832844581929141",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489833079995629778",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489834547452313680"
+        ]
       },
       {
         "title": "Ale-Chemy wealth enters Pristinia policy",
@@ -14918,6 +14925,82 @@
           "https://discord.com/channels/1177270231513694249/1199083630354501673/1568136594437709916"
         ],
         "story": "attack-on-the-chains"
+      },
+      {
+        "title": "Serath gives her soul to restore Aionia",
+        "meta": "3 Apr 2026 · First Forest quest",
+        "sort": "2026-04-03-serath-sacrifice",
+        "era": "2026 · The war for the Shards",
+        "kind": "Sacrifice and divine restoration",
+        "article": "seraths-sacrifice",
+        "story": "seraths-sacrifice",
+        "section": "serath-life-for-life",
+        "location": "First Forest, Prima",
+        "people": "Serath Vareth; Aionia; Thorn; Modeli; Aleister Sun-ðuren; Arethusa; Dragos Krezkov",
+        "summary": "After taking a Delerium strike meant for Aionia, Serath gives her soul to restore the fallen goddess. Thorn’s call brings the Great Stag’s strength; Modeli carries Serath’s body home while Aionia returns to battle.",
+        "tags": [
+          "Serath",
+          "Aionia",
+          "Great Stag",
+          "sacrifice"
+        ],
+        "importance": 5,
+        "importanceReason": "The quest narrates a divine caretaker’s death and restoration through Serath’s soul, followed by the goddess’s return to the war. The rating rests on that observed outcome, not on an assumed destruction of Prima.",
+        "regions": [
+          "prima"
+        ],
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489798797898023013",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489837831827357797",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489838614388015235",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489857710722646116",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489860186851119305",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489860989112291368",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489861909858746528",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489863836126285865",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864260770070671",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864857682448394",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489865231201992765",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489865801057042453",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489866295829856266",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489867979528208466"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "The source scene crosses midnight in other time zones. Retain the existing 3 April quest day and preserve the full posting window.",
+          "postingWindow": {
+            "start": "2026-04-03",
+            "end": "2026-04-04",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 761,
+            "end": 761,
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-04-03",
+            "reason": "Continuous First Forest quest already represented on 3 April in the timeline; the original export timestamps remain on that day through the sacrifice and departure. Preserve that established quest day across the later local midnight.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489798797898023013",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489837831827357797",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489838614388015235",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489857710722646116",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489860186851119305",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489860989112291368",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489861909858746528",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489863836126285865",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864260770070671",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864857682448394",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489865231201992765",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489865801057042453",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489866295829856266",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1489867979528208466"
+            ]
+          }
+        }
       }
     ],
     "characters": [
@@ -15625,7 +15708,7 @@
         "meta": "Veilguard; returned survivor",
         "article": "thorn",
         "image": "assets/characters/thorn.png",
-        "summary": "A Veilguard member whose healing, field investigation and rebuilding continue after death and a hard-won recovery in Gael.",
+        "summary": "A loud, practical goblin druid who puts out fires, bargains for cattle and keeps returning for her companions. Her work joins Pristinia’s rebuilding, Aionia’s rescue, the Veilguard and the groves she still hopes to grow.",
         "aliases": [
           "Thorn"
         ]
@@ -15985,7 +16068,7 @@
         "title": "Modeli",
         "article": "modeli",
         "meta": "Scribe and divine spellcaster · Veilguard founder",
-        "summary": "An inexperienced scribe who runs toward a harbor attack, then tries to become worthy of divine trust without accepting that command must reduce people to numbers."
+        "summary": "A Pristinian scribe who learns whose magic he carries while trying to save Aionia. Serath’s death leaves him with faith, anger and a duty to people that reading, rebuilding and uncertain leadership keep testing."
       },
       {
         "title": "Bohlale Katsaros",
@@ -16008,6 +16091,15 @@
         "article": "dorothea-waldner",
         "meta": "Student of magic · preserving her mother’s teaching",
         "summary": "Dorothea wants to rebuild her mother’s lost teaching. Burn injuries make speaking, moving and accepting a room difficult, but she still cools Kiralyn’s fire, teaches what she knows and asks how to help the doctor who shelters her."
+      },
+      {
+        "title": "Serath Vareth",
+        "article": "serath-vareth",
+        "meta": "Priest · a life freely given for Aionia",
+        "summary": "Serath wants to know whether people like her can be welcomed. She keeps asking, keeps offering help, and in the First Forest stands between a wounded goddess and the people who would kill her.",
+        "aliases": [
+          "Serath"
+        ]
       }
     ],
     "npcs": [
@@ -25970,6 +26062,14 @@
         "People of Fenumion",
         "Characters K–Z",
         "Trougar"
+      ]
+    ],
+    [
+      "serath-vareth",
+      [
+        "People of Fenumion",
+        "Characters K–Z",
+        "Serath Vareth"
       ]
     ]
   ],
@@ -41919,6 +42019,10 @@
     [
       "yen",
       "discovery-047"
+    ],
+    [
+      "serath",
+      "serath-vareth"
     ]
   ],
   "windowData": {
@@ -53294,7 +53398,9 @@
     "bohlale-katsaros",
     "kiralyn-mohrn",
     "dorothea-waldner",
-    "trougar"
+    "trougar",
+    "seraths-sacrifice",
+    "serath-vareth"
   ],
   "timelineRegions": [
     {

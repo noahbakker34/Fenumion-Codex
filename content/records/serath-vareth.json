@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "id": "serath-vareth",
+  "title": "Serath Vareth",
+  "category": "People",
+  "type": "Priest · a life freely given for Aionia",
+  "dek": "Serath wants to know whether people like her can be welcomed. She keeps asking, keeps offering help, and in the First Forest stands between a wounded goddess and the people who would kill her.",
+  "tags": [
+    "Serath",
+    "Serath Vareth",
+    "Aionia",
+    "Modeli",
+    "Thorn"
+  ],
+  "facts": {
+    "Role": "Player character",
+    "Self-description": "Does not breathe or eat; identifies as reborn",
+    "Earlier company": "Moira and Gregory at Cala’s ceremony; Djö on the Everafter visit",
+    "Final witnessed choice": "Gives her soul to restore Aionia · 3 April 2026",
+    "Aftermath": "Modeli carries her body toward Pristinia; he still remembers her as dead in the later June quest"
+  },
+  "protected": false,
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469140144148709499",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469140391780684047",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469141589539422411",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469141865231290490",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469142753593131191",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469142828306272480",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469143476837814456",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469143972877303919",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469144137704935507",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469144966520639613",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469146605511901186",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469147756156420098",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469148153679843532",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469148281970884810",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469148870054514961",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469149972002766903",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469150759378747537",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469157106450960456",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469157698158333973",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469158204142522511",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469161174418325554",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469166192823500956",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469172056770875424",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469173694025961537",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469176265918517249",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469180362570727456",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469185267087966350",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469192738271531043",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469194205640396822",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1469195379349258403",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482184378233917532",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482185089092681828",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482185165475418263",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482187971649343713",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482189062415712377",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482189694258249728",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482190262636642424",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482191346730270862",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482192058977488916",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482193751060385935",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482194564159766599",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482195486742937600",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482197727612899391",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482198257936367807",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482200629073154142",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482201365773025412",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482204144746889247",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482205635947925706",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482207607153234021",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482208463982559273",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482209865731538945",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482211992562303047",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482212517777248398",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482213224551157802",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482214136153903174",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482214621640392966",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482216534767308966",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482217465932021934",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482218031253033021",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482218772164247563",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482220382164357262",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1482221042779951184",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489812548776759356",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489824490962812959",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489824730801373184",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489826783984357508",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489827827548426291",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489828759161929788",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489829145851592845",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489830541288149133",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489831426386821260",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489833066414211133",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489833525023735890",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489837831827357797",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489837987645886464",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489838247851982959",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489838614388015235",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489838970278772876",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489843323383320700",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489854409583362208",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489857315426406512",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489857710722646116",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489859440294498477",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489860989112291368",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489861490201727118",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489861803633803306",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489861909858746528",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489862472897794140",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489863836126285865",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864257276215476",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864260770070671",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489865801057042453",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864857682448394",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489865231201992765",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489865408507809823",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489866166955671735",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489866295829856266",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489867979528208466",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490078089068281937",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490079212726648862",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490088105301246115",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1493844415410733150",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512884650257940540"
+  ],
+  "body": "<p>Serath Vareth is pale, barefoot and cautious about the welcome she will receive. Her concern is personal: she says a follower of Cala has already attacked someone like her. Yet when she reaches a ceremony for Cala, she asks how she can help it continue.</p><p>That willingness becomes more costly in the First Forest. She takes a Delerium blow meant for Aionia, then gives her soul after the goddess falls. The choice belongs beside the person making it: a newcomer who wants protection herself and still keeps offering it to others.</p><h2 id=\"serath-asking-for-welcome\">Whether people like her may come in</h2><p>Walking with Moira toward a ceremony, Serath asks whether the place accepts people like her. She says she does not breathe or eat and describes an armored follower of Cala who attacked her. That is her account of an earlier encounter, not evidence that every follower will do the same.</p><p>Moira and Gregory give her company while she approaches. Serath stays close, asks what the ceremony means and keeps looking for the person who leads it. She wants permission to add light, then chants and imitates the gestures she sees. Being afraid of the welcome does not make her unwilling to participate.</p><p>When an exchange with a warrior might become a challenge, she steps back and watches anxiously. Her attention returns to the rite. At the end she thanks the elder for letting her help. The scene leaves her curious, hesitant and determined to find a way into the company around her.</p><h2 id=\"serath-questions-for-everafter\">A guest who asks about the missing</h2><p>On the visit to Mr. Everafter, Serath greets Djö and asks whether he is coming. She does not need the meal herself, but notices that her friend is hungry and asks for food for him. The practical care sits beside her own uncertainty about who and what they are meeting.</p><p>She looks for guardians, religious symbols and signs of the kinds of undead she knows. Some of her suspicions come from that expectation. She keeps watching the host and finally asks where the people who disappeared have been placed. It is a direct question, without a recovered answer that lets her solve their fate.</p><p>A later riddle draws another guess from her: perhaps the answer is a guest. She asks about leadership and organization, then tries to understand the movement and magic around the room before leaving by boat. The visit shows her asking for explanations rather than accepting an impressive setting as its own reassurance.</p><h2 id=\"serath-the-cost-she-chooses\">The hurt she will not walk past</h2><p>The golden trail in the First Forest gives Serath another person to worry about. She wants to find the wounded celestial, helps Modeli tend Arethusa and is herself brought back to her feet when distorted magic makes her collapse. She is still holding Modeli’s hand as they approach Aionia.</p><p>When Aleister throws Delerium, Serath intercepts it with her chest. She remains in front of Aionia, then stays to defend her against the mist. The explanation she gives is the suffering already before her: the goddess is bleeding for others, and Serath cannot ignore it.</p><p>After Aionia falls, Serath places the life-tether ankh on her and offers herself. The first attempt fails, but she stays and tries again. Thorn and Modeli also offer themselves; the narrator ultimately shows Serath’s soul entering Aionia and her body falling. The goddess lives, then receives the Great Stag’s strength. <a href=\"#seraths-sacrifice\">Read the complete quest →</a></p><h2 id=\"serath-the-people-left\">The people who have to remember</h2><p>Aionia cradles Serath’s body and weeps. She asks Modeli to remember her, then restores Aleister and returns to battle. Modeli promises remembrance, blames himself and carries Serath toward Pristinia. Thorn’s prayer asks for her name to remain in flowing water, wind and the care people give one another.</p><p>Those responses are different ways of bearing the same loss. The next day Pristinia is full of questions. At the leadership tests Modeli still hopes for a revival; in the later journey into The Before, he still thinks of her as dead. These later scenes preserve grief and hope, without supplying a witnessed return for her.</p><p>Her history does not end with a claim that she had always wanted to die. The earlier Serath wanted safety, company, explanations and a place to offer help. The sacrifice shows what she finally chose for someone she saw suffering. <a href=\"#modeli\">Modeli</a> · <a href=\"#thorn\">Thorn</a> · <a href=\"#aionia\">Aionia</a></p>",
+  "sections": [
+    {
+      "id": "serath-asking-for-welcome",
+      "title": "Whether people like her may come in",
+      "chapter": "Whether people like her may come in",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scene & attributed accounts",
+        "summary": "Narrated actions and outcomes are distinguished from personal accounts, intentions and interpretations.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469140144148709499",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469140391780684047",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469141589539422411",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469141865231290490",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469142753593131191",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469142828306272480",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469143476837814456",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469143972877303919",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469144137704935507",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469144966520639613",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469146605511901186",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469147756156420098",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469148153679843532",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469148281970884810",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469148870054514961",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469149972002766903",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469150759378747537",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469157106450960456",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469157698158333973",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469158204142522511",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469161174418325554",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469166192823500956",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469172056770875424",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469173694025961537",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469176265918517249",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469180362570727456",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469185267087966350",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469192738271531043",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469194205640396822",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469195379349258403"
+        ]
+      }
+    },
+    {
+      "id": "serath-questions-for-everafter",
+      "title": "A guest who asks about the missing",
+      "chapter": "A guest who asks about the missing",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scene & attributed accounts",
+        "summary": "Narrated actions and outcomes are distinguished from personal accounts, intentions and interpretations.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482184378233917532",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482185089092681828",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482185165475418263",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482187971649343713",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482189062415712377",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482189694258249728",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482190262636642424",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482191346730270862",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482192058977488916",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482193751060385935",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482194564159766599",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482195486742937600",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482197727612899391",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482198257936367807",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482200629073154142",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482201365773025412",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482204144746889247",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482205635947925706",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482207607153234021",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482208463982559273",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482209865731538945",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482211992562303047",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482212517777248398",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482213224551157802",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482214136153903174",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482214621640392966",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482216534767308966",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482217465932021934",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482218031253033021",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482218772164247563",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482220382164357262",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1482221042779951184"
+        ]
+      }
+    },
+    {
+      "id": "serath-the-cost-she-chooses",
+      "title": "The hurt she will not walk past",
+      "chapter": "The hurt she will not walk past",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scene & attributed accounts",
+        "summary": "Narrated actions and outcomes are distinguished from personal accounts, intentions and interpretations.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489812548776759356",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489824490962812959",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489824730801373184",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489826783984357508",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489827827548426291",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489828759161929788",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489829145851592845",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489830541288149133",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489831426386821260",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489833066414211133",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489833525023735890",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489837831827357797",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489837987645886464",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489838247851982959",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489838614388015235",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489838970278772876",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489843323383320700",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489854409583362208",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489857315426406512",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489857710722646116",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489859440294498477",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489860989112291368",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489861490201727118",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489861803633803306",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489861909858746528",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489862472897794140",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489863836126285865",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864257276215476",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864260770070671",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489865801057042453"
+        ]
+      }
+    },
+    {
+      "id": "serath-the-people-left",
+      "title": "The people who have to remember",
+      "chapter": "The people who have to remember",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scene & attributed accounts",
+        "summary": "Narrated actions and outcomes are distinguished from personal accounts, intentions and interpretations.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864260770070671",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864857682448394",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489865231201992765",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489865408507809823",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489865801057042453",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489866166955671735",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489866295829856266",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489867979528208466",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490078089068281937",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490079212726648862",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490088105301246115",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1493844415410733150",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512884650257940540"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "serath-asking-for-welcome",
+        "title": "Whether people like her may come in",
+        "sections": [
+          "serath-asking-for-welcome"
+        ]
+      },
+      {
+        "id": "serath-questions-for-everafter",
+        "title": "A guest who asks about the missing",
+        "sections": [
+          "serath-questions-for-everafter"
+        ]
+      },
+      {
+        "id": "serath-the-cost-she-chooses",
+        "title": "The hurt she will not walk past",
+        "sections": [
+          "serath-the-cost-she-chooses"
+        ]
+      },
+      {
+        "id": "serath-the-people-left",
+        "title": "The people who have to remember",
+        "sections": [
+          "serath-the-people-left"
+        ]
+      },
+      {
+        "id": "serath-vareth-people",
+        "title": "People who change this history",
+        "kind": "relationships",
+        "sections": []
+      }
+    ],
+    "relationships": [
+      "modeli",
+      "thorn",
+      "aionia"
+    ]
+  },
+  "sourceReview": {
+    "latestReview": "2026-11-12",
+    "scope": "Three selected original quest encounters, the witnessed soul transfer and later remembrance. No hidden origin, unobserved revival or complete-life claim.",
+    "reviewLedger": "thorn-modeli-serath-review-2026-11-12.json"
+  },
+  "relationshipMap": {
+    "title": "People in Serath Vareth’s history",
+    "intro": "Follow the people whose choices change this history.",
+    "center": {
+      "title": "Serath Vareth",
+      "subtitle": "Priest · a life freely given for Aionia"
+    },
+    "filters": [
+      {
+        "id": "all",
+        "label": "All ties"
+      },
+      {
+        "id": "bond",
+        "label": "People and commitments"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "modeli",
+        "title": "Modeli",
+        "subtitle": "The companion who carries her home",
+        "category": "bond",
+        "strength": 1,
+        "x": 50,
+        "y": 8,
+        "direction": "mutual",
+        "relation": "The companion who carries her home",
+        "history": "Modeli helps her after the misfiring spell and offers himself beside her. He survives to carry her body home.",
+        "consequence": "Her death stays with his faith and later choices.",
+        "evidence": "Established scenes; motives and unresolved results retain the limits stated in the history.",
+        "article": "modeli"
+      },
+      {
+        "id": "thorn",
+        "title": "Thorn",
+        "subtitle": "Help offered beside the same goddess",
+        "category": "bond",
+        "strength": 1,
+        "x": 82,
+        "y": 34,
+        "direction": "mutual",
+        "relation": "Help offered beside the same goddess",
+        "history": "Thorn tries to help Serath earlier in the quest, calls the Great Stag and offers herself during the restoration.",
+        "consequence": "She is left praying beside the body after Aionia returns.",
+        "evidence": "Established scenes; motives and unresolved results retain the limits stated in the history.",
+        "article": "thorn"
+      },
+      {
+        "id": "aionia",
+        "title": "Aionia",
+        "subtitle": "The person she will not abandon",
+        "category": "bond",
+        "strength": 1,
+        "x": 70,
+        "y": 80,
+        "direction": "mutual",
+        "relation": "The person she will not abandon",
+        "history": "Serath takes the Delerium blow meant for Aionia and later gives her soul to restore her.",
+        "consequence": "Aionia returns to battle and asks others to remember Serath.",
+        "evidence": "Established scenes; motives and unresolved results retain the limits stated in the history.",
+        "article": "aionia"
+      }
+    ],
+    "insights": []
+  }
+}

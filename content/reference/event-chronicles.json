@@ -1,6 +1,6 @@
 {
   "reviewed": "2026-10-30",
-  "scope": "All 37 public Interregional/World Changing milestones plus selected regional and focused histories. Event context links remain distinct from story destinations.",
+  "scope": "All 38 public Interregional/World Changing milestones plus selected regional and focused histories. Event context links remain distinct from story destinations.",
   "stories": [
     {
       "article": "first-called-arrival",
@@ -745,6 +745,23 @@
       "chapters": 4,
       "words": 755,
       "sourceReceipts": 73
+    },
+    {
+      "article": "seraths-sacrifice",
+      "events": [
+        "Aionia names Vain as Death’s Shard hunter",
+        "Serath gives her soul to restore Aionia"
+      ],
+      "existingPublicAccounts": [
+        "thorn",
+        "modeli",
+        "aionia",
+        "vain",
+        "first-forest"
+      ],
+      "chapters": 6,
+      "words": 1103,
+      "sourceReceipts": 129
     }
   ],
   "calendarCorrection": {

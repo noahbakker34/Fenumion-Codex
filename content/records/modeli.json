@@ -4,7 +4,7 @@
   "title": "Modeli",
   "category": "People",
   "type": "Scribe and divine spellcaster · Veilguard founder",
-  "dek": "An inexperienced scribe who runs toward a harbor attack, then tries to become worthy of divine trust without accepting that command must reduce people to numbers.",
+  "dek": "A Pristinian scribe who learns whose magic he carries while trying to save Aionia. Serath’s death leaves him with faith, anger and a duty to people that reading, rebuilding and uncertain leadership keep testing.",
   "tags": [
     "Modeli",
     "Vanguard",
@@ -15,7 +15,11 @@
     "Work before the front": "Scribe; initially little battle experience",
     "Affiliation": "Founding participant in the New Vanguard / Veilguard",
     "Outlook": "Listen, preserve people and learn without pretending certainty",
-    "Limits": "Test answers are hypothetical; later plans remain unfinished"
+    "Limits": "Test answers are hypothetical; later plans remain unfinished",
+    "Divine service": "Aionia · identified during the First Forest encounter",
+    "Serath": "Offers himself for Aionia; carries Serath’s body home after her sacrifice",
+    "Useful work": "Reading unfamiliar records; protecting companions; organizing civic help",
+    "Last checked journeys": "The Before; Pristinia’s rebuilding; Emberwillow and Larkhollow"
   },
   "protected": false,
   "sources": [
@@ -60,9 +64,139 @@
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1512921146331369676",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1512925803787059253",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1522660345553096736",
-    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522662077368504412"
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522662077368504412",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489799692345937981",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489801670131974154",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489808015174533181",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489808424979005582",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489809400855265420",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489810024929689774",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489810439784235008",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489811152878960731",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489812352093257858",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489824490962812959",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489824730801373184",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489825696976080959",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489826646956703884",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489828759161929788",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489829145851592845",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489829676858736730",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489830056690847794",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489830541288149133",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489831423753064562",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489832249712050186",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489832797454729217",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489834284780097566",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489835163654553620",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489835781551034529",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489837451865231441",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489838049410945184",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489838616208211978",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489840575686643773",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489841980937605301",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489843012719742977",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489843367666782311",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489848312470442014",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489851130484883566",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489855663961018459",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489859103529369620",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489862319243530312",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489863836126285865",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864064791351421",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864260770070671",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864857682448394",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489866295829856266",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512869200300085480",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512870275312648332",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512871213758812404",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512872425921183880",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512872512651005962",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512872721963417630",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512877559669461033",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512878320826454107",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512882962792845516",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512888180108689529",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512888596036718774",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512890666571661362",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512891615012720682",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512892806203576320",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512893733605998632",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512894641521954867",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512895305471885503",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512896639646302409",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512897729469091840",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512898537526919319",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512899873815531562",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512899962059489411",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512900392701132900",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512901690041565215",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512903587712466954",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512905119166107820",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512908369931931779",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512908651499618496",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512913757704032266",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512914314464333966",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512917511774146712",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512919470937477321",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512919965412491324",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512920952218976497",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512921392121647204",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512926019584131195",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512927006596005945",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512927563226419250",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512935351520595969",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512938420203163678",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512938622821728466",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512938941161144515",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512939186745901106",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512939301397204993",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522657316267229254",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522660496187064457",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522664145034412132",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522665431167406090",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522666493312241684",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522667613556047902",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522668454581374986",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522669631314329720",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522670471064064301",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522671402379903099",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522672372337868810",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522673303607574760",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531836712064516278",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531838991790374922",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531841187399340203",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531843178288779387",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531844160901091409",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531845236765233202",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531846424751247381",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531847999226122250",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531849789266858046",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531851098896465972",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531852286555459816",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531852875171631135",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531854217398976593",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531855316252360796",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531856788423442452",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531859170440253531",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531860304932241570",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531869443976597617",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531874004413972611",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531875635507761270",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531877134581239958",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531878819701461012",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531879951203172374",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531881903357956259",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531883431623921734",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531884239354597549",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531885383145492641",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531886089923461210",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531886952133951518",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531888427354689657",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531890277629821143",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531890833652187189",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1531891503264436254"
   ],
-  "body": "<p>Modeli’s first venture beyond Pristinia begins with stew, a drink and the hope that the more confident adventurers can handle any trouble. When smoke and screaming come, he runs toward them. His later place in the Veilguard grows from the tension between wanting to protect people and fearing what the work will make him.</p>\n<h2 id=\"modeli-harbor\">The scribe runs toward the fire</h2><p>At the harbor attack, Modeli looks first for ways to stop the fire spreading and get civilians to safety. He tells the company he has mostly been a scribe and has tried the training dungeon only once. He offers support to the front fighters rather than claiming to be one.</p><p>His anger at the attackers is harsher than his inexperience suggests. He demands that they leave, then wants the threat removed. Afterward the fight feels good to him: he thinks about how powerless he had been when the Rahu came and calls this victory justice. Days later he is troubled by his own pride and satisfaction. The question is his, even while he believes the people he defended needed help.</p>\n<h2 id=\"modeli-loss-and-learning\">A student already carrying grief</h2><p>At another encounter he moves between Aionia and a person holding a purple crystal, saying he came through the Rahu lines to serve the pantheon and protect Pristinia. Afterward he promises to remember what he has heard and blames himself for Serath’s death. The blame is his testimony, not a settled account of every cause of the loss.</p><p>He reaches the selection tests visibly exhausted from watching over a body. Kumai’s mockery does not make him docile. He asks the veteran to teach rather than merely belittle the people who have come to learn. He wants to become worthy of his blessings and needs instruction before there is another corpse to watch over.</p>\n<h2 id=\"modeli-leadership\">Listening and refusing the offered choices</h2><p>Modeli defines leadership as listening closely enough to choose well, including knowing when to ask someone else for help. Wisdom means being willing to adapt. When Kumai offers imagined sacrifices, he rejects the assumption that those choices exhaust what a leader can do.</p><p>He refuses to condemn an innocent scout merely to preserve an alliance built on protecting a traitor. In a different hypothetical, he accepts letting a friend rest rather than killing another person to bring them back. His principle is not that every loss can be prevented. It is that command must not make someone else’s life a convenient thing to spend.</p><p>He trusts Thorn because they have fought together and he believes she is good. He also respects Kasiri’s balance of reason and feeling, while admitting he does not know Pin well enough to promise allegiance. These judgments are his view at the test, not a verdict on everyone’s later conduct.</p>\n<h2 id=\"modeli-training\">Learning what pain can teach, and what it cannot</h2><p>In the arena Modeli attacks Kasiri while she is occupied and hopes she will still consider him an ally afterward. He wants his weaknesses exposed in a setting where failing can teach him something before a real battle.</p><p>The lesson is brutal. He keeps advancing while battered and exhausted, repeats that he is not down yet and eventually falls. When he gets up, he is in no condition to turn immediately to the leadership discussion. Willingness to endure has limits in a body that is still bleeding. The test does not prove that training has made him ready for every danger.</p>\n<h2 id=\"modeli-acting-together\">Following a chosen company without becoming certain</h2><p>At the later field test, Modeli still resents being talked down to when the candidates have already faced real loss. He nevertheless follows Severina’s direction. He is uneasy with reinforcing the role of a single leader, but recognizes that the group has chosen a route and he must commit to acting with it.</p><p>Near Delerium he wants to flee back to his books. Instead he urges the company to protect companions who may not understand the danger and holds his ground despite fear. His insistence that they must all come home is a commitment made under pressure, not evidence by itself that every expedition ends as he hopes.</p>\n<h2 id=\"modeli-practical-service\">Work beyond proving himself</h2><p>Later Modeli tries, awkwardly, to cheer a companion and reminds people to drink. He approaches Melian with an offer of work, carrying equipment the company found in her old home, and tells her he can show her family’s graves.</p><p>The same person who wants to be worthy of divine trust also has to learn ordinary reassurance and careful service to another person’s history. His role in <a href=\"#veilguard\">the Veilguard</a> remains tied to those choices, not simply to Mya’s prediction of what power he might one day possess.</p>",
+  "body": "<p>Modeli’s first venture beyond Pristinia begins with stew, a drink and the hope that the more confident adventurers can handle any trouble. When smoke and screaming come, he runs toward them. His later place in the Veilguard grows from the tension between wanting to protect people and fearing what the work will make him.</p>\n<h2 id=\"modeli-harbor\">The scribe runs toward the fire</h2><p>At the harbor attack, Modeli looks first for ways to stop the fire spreading and get civilians to safety. He tells the company he has mostly been a scribe and has tried the training dungeon only once. He offers support to the front fighters rather than claiming to be one.</p><p>His anger at the attackers is harsher than his inexperience suggests. He demands that they leave, then wants the threat removed. Afterward the fight feels good to him: he thinks about how powerless he had been when the Rahu came and calls this victory justice. Days later he is troubled by his own pride and satisfaction. The question is his, even while he believes the people he defended needed help.</p>\n<h2 id=\"modeli-loss-and-learning\">A student already carrying grief</h2><p>At another encounter he moves between Aionia and a person holding a purple crystal, saying he came through the Rahu lines to serve the pantheon and protect Pristinia. Afterward he promises to remember what he has heard and blames himself for Serath’s death. The blame is his testimony, not a settled account of every cause of the loss.</p><p>He reaches the selection tests visibly exhausted from watching over a body. Kumai’s mockery does not make him docile. He asks the veteran to teach rather than merely belittle the people who have come to learn. He wants to become worthy of his blessings and needs instruction before there is another corpse to watch over.</p>\n<h2 id=\"modeli-leadership\">Listening and refusing the offered choices</h2><p>Modeli defines leadership as listening closely enough to choose well, including knowing when to ask someone else for help. Wisdom means being willing to adapt. When Kumai offers imagined sacrifices, he rejects the assumption that those choices exhaust what a leader can do.</p><p>He refuses to condemn an innocent scout merely to preserve an alliance built on protecting a traitor. In a different hypothetical, he accepts letting a friend rest rather than killing another person to bring them back. His principle is not that every loss can be prevented. It is that command must not make someone else’s life a convenient thing to spend.</p><p>He trusts Thorn because they have fought together and he believes she is good. He also respects Kasiri’s balance of reason and feeling, while admitting he does not know Pin well enough to promise allegiance. These judgments are his view at the test, not a verdict on everyone’s later conduct.</p>\n<h2 id=\"modeli-training\">Learning what pain can teach, and what it cannot</h2><p>In the arena Modeli attacks Kasiri while she is occupied and hopes she will still consider him an ally afterward. He wants his weaknesses exposed in a setting where failing can teach him something before a real battle.</p><p>The lesson is brutal. He keeps advancing while battered and exhausted, repeats that he is not down yet and eventually falls. When he gets up, he is in no condition to turn immediately to the leadership discussion. Willingness to endure has limits in a body that is still bleeding. The test does not prove that training has made him ready for every danger.</p>\n<h2 id=\"modeli-acting-together\">Following a chosen company without becoming certain</h2><p>At the later field test, Modeli still resents being talked down to when the candidates have already faced real loss. He nevertheless follows Severina’s direction. He is uneasy with reinforcing the role of a single leader, but recognizes that the group has chosen a route and he must commit to acting with it.</p><p>Near Delerium he wants to flee back to his books. Instead he urges the company to protect companions who may not understand the danger and holds his ground despite fear. His insistence that they must all come home is a commitment made under pressure, not evidence by itself that every expedition ends as he hopes.</p>\n<h2 id=\"modeli-practical-service\">Work beyond proving himself</h2><p>Later Modeli tries, awkwardly, to cheer a companion and reminds people to drink. He approaches Melian with an offer of work, carrying equipment the company found in her old home, and tells her he can show her family’s graves.</p><p>The same person who wants to be worthy of divine trust also has to learn ordinary reassurance and careful service to another person’s history. His role in <a href=\"#veilguard\">the Veilguard</a> remains tied to those choices, not simply to Mya’s prediction of what power he might one day possess.</p><h2 id=\"modeli-blood-and-patron\">A question he insists on asking</h2><p>At the start of the First Forest quest, Modeli is still troubled by how good his first victory felt. The golden footprints give him something more precise to work on. He asks whether anyone has examined them, cuts a small mark in his own arm with his letter knife and compares the blood. He wants an answer before a theory becomes the party’s route.</p><p>His care becomes much less methodical when companions fall. He helps Serath tend Arethusa after the misfiring magic, then tries a storybook kiss when Serath collapses in turn. She rises under the distorted weave. He has saved someone in a way he scarcely understands, and walks on holding her hand.</p><p>Aionia’s arrival turns curiosity inward. He asks what they can do, who she is and whose cleric he has become. She wishes he had enjoyed discovering the answer, but he insists that asking a reliable source is discovery too. The frightened novice has found his goddess and is still arguing for his way of learning. Her affectionate address does not establish a biological parentage.</p><h2 id=\"modeli-serath-and-the-second-chance\">The second chance he has to watch</h2><p>When Aleister threatens Aionia, Modeli puts himself between them. He is willing to be hurt and then willing to die. As the mist closes, he holds out his amulet in the hope that it will take him instead. His pleas become a desperate request for the other gods to help a sister already fighting for them.</p><p>Aionia falls anyway. Modeli feels the loss of the patron he has only just recognized. He offers himself again during Serath’s attempt to restore her, but the narrator does not take his soul. Serath’s enters the goddess. He must remain to see what follows.</p><p>Aionia restores Aleister, then asks Modeli to remember Serath and the beauty of a life freely given. He promises, while blaming himself and resenting the mercy shown to the man who attacked her. Carrying Serath home makes the lesson physical: the person with another chance is walking, and the person who saved the goddess is in his arms.</p><p>By the later journey into The Before, he still thinks of Serath as dead and cannot make forgiveness easy. His self-blame remains his response to the loss, rather than the Codex’s judgment that he caused it. <a href=\"#seraths-sacrifice\">Read the full sacrifice →</a></p><h2 id=\"modeli-the-before-reading\">Reading when he wishes he could not</h2><p>Melian sends the company to learn from The Before and will not enter her old home herself. Modeli asks whether she wants anything retrieved. Inside, the Delerium recalls Aionia’s fall and Serath’s loss. He is the reader the others need, but he wishes he were illiterate when he has to examine a repellent monolith.</p><p>He reads the directions aloud, questions who wrote them and follows street signs that do not solve the route as neatly as he hopes. In the cemetery, he stops to clean the Starguard graves. He wants to remember them well enough to show Melian an image of a place she will not revisit. The care interrupts the search without becoming less part of his work.</p><p>At the water, he offers protection to the companions going below. The splash draws corrupted creatures against those left on the surface. Modeli admits he wants to run and hide in his books, then stays to keep the fight away from the divers. The narrator confirms that he drives off a Delerium elemental. When the company flees with the recovered body, he keeps his protection ready as he follows.</p><p>His theories about roots, corruption and the city’s beginning remain questions. The useful acts are more certain: reading, remembering names, protecting others and leaving with them. <a href=\"#before-survey\">The Before</a></p><h2 id=\"modeli-rebuilding-and-delegation\">The work he wants people to see</h2><p>After the Common Man burns, Modeli tries to bring hope in a voice that does not come naturally to him. He greets Herb, awkwardly tells him to keep people drinking, and offers Melian his hands for whatever needs doing. He is wearing equipment found in her old home and can now offer to show her the family graves he cleaned.</p><p>The stolen building supplies force another choice. Modeli wants a small company to recover them in Eovar without starting another large fight. People in Pristinia have already bled for adventurers, he says; now they need to see adventurers do the ordinary work that keeps the town alive.</p><p>He recruits through Saelihn and Vaelith, asks for discretion and plans to stay with the rebuilding himself. He is uncomfortable sending people he has barely met into danger. His instruction favors those who can keep a recovery from becoming a wider conflict. He calls himself neither high priest nor great organizer, only someone trying to make good on the trust placed in him. The proposed quiet recovery is not a completed mission in this conversation.</p><h2 id=\"modeli-trust-without-certainty\">Suspicion, an apology and a small sip</h2><p>On the later journey from Emberwillow, Modeli reads a letter he cannot name the language of and agrees to travel toward Larkhollow. He carries Thorn, lets her cut grips in his coat and asks the experienced companions to lead. During his watch, the sight he thought he could rely on finds nothing. He admits it the next morning.</p><p>After fighting the Children of Viota, he is disturbed by having helped kill something that tried to communicate. The question stays with him as he meets Hana. Her insistence that the company remain for tea makes him suspicious, and his childhood stories make him reluctant to drink.</p><p>He tests whether he can leave, questions someone outside and then returns to apologize for reading danger into her trained movements. An examination of the cups finds abjuration magic; he finally takes the smallest sip. The scene does not prove all his suspicions right or establish every reassurance as safe. It shows him trying to correct himself while keeping some caution.</p>",
   "sections": [
     {
       "id": "modeli-harbor",
@@ -183,11 +317,218 @@
           "https://discord.com/channels/1177270231513694249/1199083630354501673/1522662077368504412"
         ]
       }
+    },
+    {
+      "id": "modeli-blood-and-patron",
+      "title": "A question he insists on asking",
+      "chapter": "A question he insists on asking",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scene & attributed accounts",
+        "summary": "Narrated actions and outcomes are distinguished from personal accounts, intentions and interpretations.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489798460050768133",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489799692345937981",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489801670131974154",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489808015174533181",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489808424979005582",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489809400855265420",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489810024929689774",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489810439784235008",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489811152878960731",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489812352093257858",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489824490962812959",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489824730801373184",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489825696976080959",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489826646956703884",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489828759161929788",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489829145851592845",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489829676858736730",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489830056690847794",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489830541288149133",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489831423753064562",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489832249712050186",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489832797454729217",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489834284780097566",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489835163654553620",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489835781551034529"
+        ]
+      }
+    },
+    {
+      "id": "modeli-serath-and-the-second-chance",
+      "title": "The second chance he has to watch",
+      "chapter": "The second chance he has to watch",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scene & attributed accounts",
+        "summary": "Narrated actions and outcomes are distinguished from personal accounts, intentions and interpretations.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489836944216297684",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489837451865231441",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489838049410945184",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489838616208211978",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489840575686643773",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489841980937605301",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489843012719742977",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489843367666782311",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489848312470442014",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489851130484883566",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489855663961018459",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489859103529369620",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489862319243530312",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489863836126285865",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864064791351421",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864260770070671",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489864857682448394",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489865408507809823",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489866295829856266",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1493844415410733150",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512884650257940540"
+        ]
+      }
+    },
+    {
+      "id": "modeli-the-before-reading",
+      "title": "Reading when he wishes he could not",
+      "chapter": "Reading when he wishes he could not",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scene & attributed accounts",
+        "summary": "Narrated actions and outcomes are distinguished from personal accounts, intentions and interpretations.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512869200300085480",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512870275312648332",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512871213758812404",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512872425921183880",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512872512651005962",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512872721963417630",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512877559669461033",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512878320826454107",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512882962792845516",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512884650257940540",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512887278660223020",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512888180108689529",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512888596036718774",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512890666571661362",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512891615012720682",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512892806203576320",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512893733605998632",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512894641521954867",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512895305471885503",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512896639646302409",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512897729469091840",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512898537526919319",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512899873815531562",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512899962059489411",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512900392701132900",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512901690041565215",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512903587712466954",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512905119166107820",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512908369931931779",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512908651499618496",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512913757704032266",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512914314464333966",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512917511774146712",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512919470937477321",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512919965412491324",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512920952218976497",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512921146331369676",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512921392121647204",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512925803787059253",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512926019584131195",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512927006596005945",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512927563226419250",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512935351520595969",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512938420203163678",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512938622821728466",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512938941161144515",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512939186745901106",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512939301397204993"
+        ]
+      }
+    },
+    {
+      "id": "modeli-rebuilding-and-delegation",
+      "title": "The work he wants people to see",
+      "chapter": "The work he wants people to see",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scene & attributed accounts",
+        "summary": "Narrated actions and outcomes are distinguished from personal accounts, intentions and interpretations.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522657316267229254",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522660345553096736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522660496187064457",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522662077368504412",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522664145034412132",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522665431167406090",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522666493312241684",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522667613556047902",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522668454581374986",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522669631314329720",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522670471064064301",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522671402379903099",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522672372337868810",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522673303607574760"
+        ]
+      }
+    },
+    {
+      "id": "modeli-trust-without-certainty",
+      "title": "Suspicion, an apology and a small sip",
+      "chapter": "Suspicion, an apology and a small sip",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scene & attributed accounts",
+        "summary": "Narrated actions and outcomes are distinguished from personal accounts, intentions and interpretations.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531836712064516278",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531838991790374922",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531841187399340203",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531843178288779387",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531844160901091409",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531845236765233202",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531846424751247381",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531847999226122250",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531849789266858046",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531851098896465972",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531852286555459816",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531852875171631135",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531854217398976593",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531855316252360796",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531856788423442452",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531859170440253531",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531860304932241570",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531869443976597617",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531874004413972611",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531875635507761270",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531877134581239958",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531878819701461012",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531879951203172374",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531881903357956259",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531883431623921734",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531884239354597549",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531885383145492641",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531886089923461210",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531886952133951518",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531888427354689657",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531890277629821143",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531890833652187189",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1531891503264436254"
+        ]
+      }
     }
   ],
   "sourceReview": {
-    "latestReview": "2026-11-02",
-    "scope": "Selected early quest and Babel histories, range conversation and successor-company scenes. Native and original-export versions are distinguished in the review ledger. Existing earlier prose retains its prior review scope; no exhaustive archive, unseen combat or attachment review is claimed."
+    "latestReview": "2026-11-12",
+    "scope": "Selected original quest scenes, the complete First Forest sacrifice and compatible already-reviewed continuations. The earlier unchanged prose retains its established source scope.",
+    "reviewLedger": "thorn-modeli-serath-review-2026-11-12.json"
   },
   "readingLayout": "biography",
   "biography": {
@@ -197,6 +538,20 @@
         "title": "The first real battle",
         "sections": [
           "modeli-harbor"
+        ]
+      },
+      {
+        "id": "modeli-discovery",
+        "title": "Whose magic he carries",
+        "sections": [
+          "modeli-blood-and-patron"
+        ]
+      },
+      {
+        "id": "modeli-loss",
+        "title": "Serath’s sacrifice and Aionia’s lesson",
+        "sections": [
+          "modeli-serath-and-the-second-chance"
         ]
       },
       {
@@ -228,13 +583,120 @@
         ]
       },
       {
+        "id": "modeli-reading",
+        "title": "The reader in The Before",
+        "sections": [
+          "modeli-the-before-reading"
+        ]
+      },
+      {
         "id": "modeli-serving",
         "title": "The work beyond strength",
         "sections": [
-          "modeli-practical-service"
+          "modeli-practical-service",
+          "modeli-rebuilding-and-delegation"
         ]
+      },
+      {
+        "id": "modeli-larkhollow",
+        "title": "Caution he can reconsider",
+        "sections": [
+          "modeli-trust-without-certainty"
+        ]
+      },
+      {
+        "id": "modeli-people",
+        "title": "People who change this history",
+        "kind": "relationships",
+        "sections": []
       }
     ],
-    "relationships": []
+    "relationships": [
+      "serath-vareth",
+      "aionia",
+      "thorn",
+      "melian-starguard"
+    ]
+  },
+  "relationshipMap": {
+    "title": "People in Modeli’s history",
+    "intro": "Follow the people whose choices change this history.",
+    "center": {
+      "title": "Modeli",
+      "subtitle": "Scribe and divine spellcaster · Veilguard founder"
+    },
+    "filters": [
+      {
+        "id": "all",
+        "label": "All ties"
+      },
+      {
+        "id": "bond",
+        "label": "People and commitments"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "serath-vareth",
+        "title": "Serath Vareth",
+        "subtitle": "The life he carries home",
+        "category": "bond",
+        "strength": 1,
+        "x": 50,
+        "y": 8,
+        "direction": "mutual",
+        "relation": "The life he carries home",
+        "history": "He helps Serath earlier in the quest and offers himself for Aionia. Serath’s soul is taken; he carries her body back.",
+        "consequence": "The loss continues to shape his anger, caution and faith.",
+        "evidence": "Established scenes; motives and unresolved results retain the limits stated in the history.",
+        "article": "serath-vareth"
+      },
+      {
+        "id": "aionia",
+        "title": "Aionia",
+        "subtitle": "Faith and a difficult second chance",
+        "category": "bond",
+        "strength": 1,
+        "x": 82,
+        "y": 34,
+        "direction": "mutual",
+        "relation": "Faith and a difficult second chance",
+        "history": "He recognizes his patron during the encounter, then witnesses her raise Aleister after Serath restores her.",
+        "consequence": "He promises remembrance while struggling to accept the mercy she asks him to understand.",
+        "evidence": "Established scenes; motives and unresolved results retain the limits stated in the history.",
+        "article": "aionia"
+      },
+      {
+        "id": "thorn",
+        "title": "Thorn",
+        "subtitle": "Trust earned in company",
+        "category": "bond",
+        "strength": 1,
+        "x": 70,
+        "y": 80,
+        "direction": "mutual",
+        "relation": "Trust earned in company",
+        "history": "They fight beside one another and offer themselves for the same rescue. On the Larkhollow road they share carrying, watches and practical help.",
+        "consequence": "His stated trust is supported by work together, without making every judgment infallible.",
+        "evidence": "Established scenes; motives and unresolved results retain the limits stated in the history.",
+        "article": "thorn"
+      },
+      {
+        "id": "melian-starguard",
+        "title": "Melian Starguard",
+        "subtitle": "A town’s history and present work",
+        "category": "bond",
+        "strength": 1,
+        "x": 30,
+        "y": 80,
+        "direction": "mutual",
+        "relation": "A town’s history and present work",
+        "history": "He cleans her family graves in The Before and later offers labor and help organizing supplies.",
+        "consequence": "Reading the dead and helping the living become connected forms of service.",
+        "evidence": "Established scenes; motives and unresolved results retain the limits stated in the history.",
+        "article": "melian-starguard"
+      }
+    ],
+    "insights": []
   }
 }

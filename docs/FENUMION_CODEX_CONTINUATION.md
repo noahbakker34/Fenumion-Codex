@@ -2,6 +2,14 @@
 
 Last updated: 2026-11-12
 
+## Thorn, Modeli and Serath’s sacrifice · 12 November 2026
+
+The owner asks for fuller Thorn and Modeli histories and the sacrifice of Serath for a goddess, then confirms Serath Vareth is a PC. Thorn gains earlier siege relief, the cow bargain, the Great Stag call, personal company and later Yen defence. Modeli gains Aionia’s recognition, Serath’s loss, the work of reading The Before, civic organization and uncertain trust. Serath receives her own player profile, with earlier life before the sacrifice. The new six-chapter event follows the golden trail, Aleister’s strike, the mist, Serath’s soul transfer, the Stag and the difficult return home. Details: THORN_MODELI_SERATH_2026_11_12.md and thorn-modeli-serath-review-2026-11-12.json.
+
+384 source versions are checked against the hash-verified original quest export and selected native continuation. Thorn and Modeli offer themselves but survive; Serath’s soul transfer and Aionia’s subsequent Stag-aided return are narrated. No biological parentage, universal resurrection rule, later Serath revival or Vain/mist identity is invented. The new World Changing milestone opens the full story. The older Vain-warning event gains its explicitly narrated First Forest/Prima setting and the same story destination; its date/rating stay exact. Aionia’s current condition/open question and Vain’s reported-victory label retain the revised evidence limits.
+
+All forty inherited source sections, 129 older paragraphs, old reader IDs, art/sources and 403 other old event objects survive. One Aionia unresolved paragraph narrows; no old date/rating changes. Maps/quotes/previews/Gedankin/private payload remain unchanged. Serath is the sole new directory identity. Catalog319/build `87443f2047d8bf0b`: 670 records/621 bodies/3,126 sections, 273 people, 405 events/379 public, 47 stories/44 library entries. Three profiles have relationship cards; the existing biography gate adds Serath. No runtime/style/dependency/workflow-stage/asset change. Static,complete directory/timeline/event checks and focused 36-chapter/42-anchor/eight-mobile/nine-width reading journeys pass. Screenshots are inspected without script/public HTTP errors. Publication/live verification follows.
+
 ## Regional updates and one tournament · 12 November 2026
 
 The owner supplies regional updates and the remaining 2024-rp text. Forty-four Fenumion records gain sixty-two sections, including a full Yen quest story, later Selwyn treatment and the ongoing Maw march. Five PC histories are added, Yen’s existing route expands, and three people join the directory. Bohlale, Marius and Dorothea are confirmed PCs; Kiralyn is provisional; Zelaria stays unclassified. Details: SOURCE_UPDATE_2026_11_12.md and source-update-2026-11-12.json.

@@ -68,5 +68,17 @@
       "vanguard",
       "people-directory"
     ]
+  },
+  {
+    "date": "2026-11-12",
+    "subject": "Serath Vareth’s directory identity",
+    "decision": "Serath Vareth is a player character.",
+    "limits": "This establishes player classification. Her earlier-life accounts, the witnessed sacrifice and subsequent hopes of revival retain their distinct source authority.",
+    "articles": [
+      "serath-vareth",
+      "seraths-sacrifice",
+      "modeli",
+      "thorn"
+    ]
   }
 ]

@@ -71,7 +71,7 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   await group.selectOption('i-am');
   for(const width of [1440,768,390,320]){
    await page.setViewportSize({width,height:844});assert(await page.locator('#music-panel').evaluate(el=>{const rect=el.getBoundingClientRect();return rect.left>=0&&rect.right<=innerWidth&&el.scrollWidth<=el.clientWidth+1;}),'panel fits '+width);
-   assert(await group.evaluate(el=>el.getBoundingClientRect().height>=40),'usable playlist selector');
+   assert(await group.evaluate(el=>el.getBoundingClientRect().height>=44),'usable playlist selector');
   }
   await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'/tmp/fenumion-music-playlists-desktop.png'});
   await group.selectOption('prima');await page.setViewportSize({width:390,height:844});await page.screenshot({path:'/tmp/fenumion-music-playlists-mobile.png'});

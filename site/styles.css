@@ -130,7 +130,7 @@ a:hover { color: var(--gold-bright); }
 .music-recommendation small { margin-top: .18rem; overflow: hidden; color: var(--muted); font: 500 .62rem/1.35 var(--sans); text-overflow: ellipsis; white-space: nowrap; }
 .music-library { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: .55rem; margin-top: .7rem; }
 .music-library label { display: grid; gap: .22rem; color: var(--faint); font: 700 .54rem/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
-.music-library select { min-width: 0; width: 100%; padding: .48rem 1.65rem .48rem .48rem; color: #eee5cd; background: #0b1915; border: 1px solid var(--line); border-radius: 5px; font: 600 .64rem/1.2 var(--sans); text-overflow: ellipsis; cursor: pointer; }
+.music-library select { min-width: 0; min-height: 44px; width: 100%; padding: .48rem 1.65rem .48rem .48rem; color: #eee5cd; background: #0b1915; border: 1px solid var(--line); border-radius: 5px; font: 600 .64rem/1.2 var(--sans); text-overflow: ellipsis; cursor: pointer; }
 .music-library select:focus-visible { outline: 1px solid var(--gold); outline-offset: 1px; }
 .music-progress-row { display: grid; grid-template-columns: 34px 1fr 34px; gap: .5rem; align-items: center; margin: .9rem 0 .65rem; color: var(--faint); font: 600 .58rem/1 var(--sans); }
 .music-progress-row input,

@@ -28,3 +28,5 @@ Original audio remains streamed from immutable public repository commits to pres
 Canonical content, calendar/history behavior, maps, existing artwork/video and the complete protected payload remain unchanged. Live publication and verification receipts follow below.
 
 Before runtime publication, the complete player gate also passes against the actual public pinned audio URLs, with local audio interception disabled. All 40 Fenumion recordings actually play over that transport.
+
+The first hosted release passed actual playback of all 40 Fenumion recordings but stopped on the playlist selector height check: Linux native select rendering was shorter than macOS. The existing select rule now guarantees 44 px and its assertion remains. Shared styles178; no other control or page styling changes. The complete real-stream playback/player gate is rerun after this fix.

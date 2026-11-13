@@ -37,3 +37,7 @@ After adding the two remaining songs, the same browser checks passed for all 20 
 ## I Am and Prima playlists · 13 November 2026
 
 Twenty new originals bring the Fenumion group to 40 tracks and the full library to 179. I Am contains 13 I Am songs plus Saint Anky; Prima contains six recordings whose public generation prompts name Hardanger fiddle. Both Prima Strings recordings are retained; the resupplied Four Came In has identical audio and remains a single entry. See [the playlist update](SOUNDTRACK_PLAYLISTS_2026_11_13.md), original-file hash manifest and instrument-review receipt. Existing original tracks and source URLs are preserved. Music7 uses the same existing player and immutable audio transport.
+
+## Separate source collections · 13 November 2026
+
+The owner requests separate custom Suno and background playlists. Music8 removes the mixed All styles queue and organizes all 40 custom songs into five themes, with the 139 general tracks remaining in their seven mood playlists. Recommendations and saved preferences respect that boundary. See [the organization update](SOUNDTRACK_ORGANIZATION_2026_11_13.md).

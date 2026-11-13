@@ -2,6 +2,14 @@
 
 Last updated: 2026-11-13
 
+## Separate custom and background playlists · 13 November 2026
+
+Owner asks to organize the remaining music and keep custom Suno tracks in their own playlists. Music8 adds Custom Fenumion · Suno and Background soundtrack option groups and changes the control label to Playlist. No mixed All styles queue remains. Forty custom songs have exactly one thematic home: I Am14, Prima6, Tales & Remembrance7, Places & Journeys8, Peril & Resolve5. The 139 background tracks retain their seven mood playlists; each collection has its own complete-list option. Details: SOUNDTRACK_ORGANIZATION_2026_11_13.md.
+
+Recommendations, playback navigation and repeat stay inside the selected playlist. Counters identify the collection. Legacy saved custom songs in All styles migrate to the custom collection without losing the selected recording; background preferences stay separate. All 179 track objects/source URLs and original media remain exact. Canonical content, calendar, histories, maps, art and the private payload are unchanged. No dependency or workflow-stage change.
+
+Expanded existing music checks pass all-playlist source isolation, complete/nonoverlapping custom coverage, recommendations, migration, actual playback of every custom song, controls and four widths. Build/content/syntax/whitespace and unchanged-track comparison pass. Publication and live verification follow.
+
 ## I Am, Prima and playable soundtrack additions · 13 November 2026
 
 Owner supplies 21 songs, requests I Am (including Saint Anky) and Prima playlists, then asks for all Hardanger fiddle tracks in Prima and all songs playable on the website. Twenty new originals are imported byte-for-byte. The resupplied Four Came In has identical audio after its metadata header, so remains one existing entry. Both distinct Prima Strings recordings survive. I Am contains 14 tracks; Prima contains six. All new songs also appear under Fenumion (40) and All styles (179). The original 159 track entries and pinned URLs remain exact.

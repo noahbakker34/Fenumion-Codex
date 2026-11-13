@@ -4,17 +4,20 @@ const FENUMION_MUSIC_BASE = "https://raw.githubusercontent.com/noahbakker34/Fenu
 const FENUMION_ADDITIONAL_MUSIC_BASE = "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion";
 
 const musicStyles = [
-  { id: "all", label: "All styles", description: "The complete Fenumion soundtrack." },
-  { id: "fenumion", label: "Fenumion", description: "Songs of Fenumion’s people, places, and adventures." },
-  { id: "i-am", label: "I Am", description: "Character songs, including Saint Anky." },
-  { id: "prima", label: "Prima", description: "Prima themes whose generation prompts name Hardanger fiddle." },
-  { id: "adventure", label: "Adventure & Wonder", description: "Journeys, discoveries, heroes, and radiant places." },
-  { id: "battle", label: "Battle & Pursuit", description: "Combat, chases, sieges, and rising stakes." },
-  { id: "dark", label: "Darkness & Horror", description: "Dread, corruption, death, and dangerous realms." },
-  { id: "mystery", label: "Mystery & Intrigue", description: "Secrets, schemes, betrayals, and veiled truths." },
-  { id: "emotion", label: "Reflection & Sorrow", description: "Memory, sacrifice, grief, and quiet character moments." },
-  { id: "magic", label: "Magic & Ceremony", description: "Gods, ancient rites, wonder, and the arcane." },
-  { id: "exploration", label: "Ruins & Exploration", description: "Dungeons, wilderness, forgotten halls, and uneasy travel." }
+  { id: "all", label: "All background music", collection: "background" },
+  { id: "fenumion", label: "All Fenumion songs", collection: "custom" },
+  { id: "i-am", label: "I Am", collection: "custom" },
+  { id: "prima", label: "Prima", collection: "custom" },
+  { id: "fenumion-tales", label: "Tales & Remembrance", collection: "custom" },
+  { id: "fenumion-places", label: "Places & Journeys", collection: "custom" },
+  { id: "fenumion-peril", label: "Peril & Resolve", collection: "custom" },
+  { id: "adventure", label: "Adventure & Wonder", collection: "background" },
+  { id: "battle", label: "Battle & Pursuit", collection: "background" },
+  { id: "dark", label: "Darkness & Horror", collection: "background" },
+  { id: "mystery", label: "Mystery & Intrigue", collection: "background" },
+  { id: "emotion", label: "Reflection & Sorrow", collection: "background" },
+  { id: "magic", label: "Magic & Ceremony", collection: "background" },
+  { id: "exploration", label: "Ruins & Exploration", collection: "background" }
 ];
 
 const musicStyleRules = [
@@ -201,11 +204,37 @@ const primaMusicFiles = new Set([
   "prima-strings.mp3"
 ]);
 
-// Playlists overlap the complete Fenumion group; each recording stays a single track.
+// Editorial listening groups: these memberships make no new lore claims.
+const fenumionListeningPlaylists = {
+  "fenumion-tales": new Set([
+    "aiya-elen-sila.mp3", "aria-before-the-crown.mp3", "carmen-and-paco.mp3",
+    "elda.mp3", "four-came-in.mp3", "go-gently-friend.mp3", "melian-carries-the-glow.mp3"
+  ]),
+  "fenumion-places": new Set([
+    "adventure.mp3", "babel.mp3", "breath-of-the-wild.mp3", "gael.mp3",
+    "rahu.mp3", "the-void.mp3", "will-babel-claim-you.mp3", "zarathis.mp3"
+  ]),
+  "fenumion-peril": new Set([
+    "carry-the-flame.mp3", "death.mp3", "death-arrives.mp3",
+    "pristinia-stands.mp3", "the-battle-approaches.mp3"
+  ])
+};
+
 function musicPlaylistIncludes(track, playlist) {
-  if (playlist === "i-am") return track.style === "fenumion" && (/^I Am /i.test(track.title) || track.file === "saint-anky.mp3");
-  if (playlist === "prima") return primaMusicFiles.has(track.file);
-  return track.style === playlist;
+  const custom = track.style === "fenumion";
+  if (playlist === "all") return !custom; // Migrate the former mixed selector to background only.
+  if (playlist === "fenumion") return custom;
+  if (musicStyles.find(style => style.id === playlist)?.collection === "custom") {
+    if (!custom) return false;
+    if (playlist === "i-am") return /^I Am /i.test(track.title) || track.file === "saint-anky.mp3";
+    if (playlist === "prima") return primaMusicFiles.has(track.file);
+    return fenumionListeningPlaylists[playlist]?.has(track.file) || false;
+  }
+  return !custom && track.style === playlist;
+}
+
+function musicCollectionLabel(track) {
+  return track.style === "fenumion" ? "Custom Fenumion" : "Background music";
 }
 
 const fenumionSoundtrack = [
@@ -404,11 +433,14 @@ function getMusicContext() {
   return `${route} ${heading}`.toLowerCase();
 }
 
-function getMusicRecommendation() {
+function getMusicRecommendation(styleId) {
   const context = getMusicContext();
-  return musicRecommendations.find(recommendation => recommendation.match.test(context)) || {
-    title: "Middle Earth",
-    reason: "A broad Fenumion theme suited to exploring this part of the Codex."
+  const tracks = fenumionSoundtrack.filter(track => musicPlaylistIncludes(track, styleId));
+  const matchingPerson = tracks.find(track => /^I Am /i.test(track.title) && context.includes(track.title.replace(/^I Am /i, "").toLowerCase()));
+  if (matchingPerson) return { title: matchingPerson.title, reason: "A character song from your custom Fenumion playlist." };
+  return musicRecommendations.find(recommendation => tracks.some(track => track.title === recommendation.title) && recommendation.match.test(context)) || {
+    title: tracks[0].title,
+    reason: tracks[0].style === "fenumion" ? "A song from your custom Fenumion playlist." : "A selection from this background playlist."
   };
 }
 
@@ -419,25 +451,33 @@ function findMusicTrack(title) {
 let activeMusicStyle = localStorage.getItem("fenumion-music-style") || "all";
 if (!musicStyles.some(style => style.id === activeMusicStyle)) activeMusicStyle = "all";
 const savedMusicFile = localStorage.getItem("fenumion-music-file");
-const firstRecommendation = getMusicRecommendation();
+const firstRecommendation = getMusicRecommendation(activeMusicStyle);
 let musicIndex = savedMusicFile ? fenumionSoundtrack.findIndex(track => track.file === savedMusicFile) : findMusicTrack(firstRecommendation.title);
 let musicLoops = localStorage.getItem("fenumion-music-loop") !== "false";
 musicIndex = Number.isInteger(musicIndex) && musicIndex >= 0 && musicIndex < fenumionSoundtrack.length ? musicIndex : 0;
+// Preserve a saved custom song from the old mixed All styles list without crossing collections.
+if (activeMusicStyle === "all" && savedMusicFile && fenumionSoundtrack[musicIndex].style === "fenumion") activeMusicStyle = "fenumion";
+if (!musicPlaylistIncludes(fenumionSoundtrack[musicIndex], activeMusicStyle)) musicIndex = fenumionSoundtrack.findIndex(track => musicPlaylistIncludes(track, activeMusicStyle));
+
 
 function musicStyle(styleId) {
   return musicStyles.find(style => style.id === styleId) || musicStyles[0];
 }
 
 function visibleMusicTracks() {
-  return activeMusicStyle === "all" ? fenumionSoundtrack : fenumionSoundtrack.filter(track => musicPlaylistIncludes(track, activeMusicStyle));
+  return fenumionSoundtrack.filter(track => musicPlaylistIncludes(track, activeMusicStyle));
 }
 
 function populateMusicStyles() {
-  musicStyleSelect.replaceChildren(...musicStyles.map(style => {
-    const option = document.createElement("option");
-    option.value = style.id;
-    option.textContent = style.label;
-    return option;
+  musicStyleSelect.replaceChildren(...[
+    { id: "custom", label: "Custom Fenumion · Suno" },
+    { id: "background", label: "Background soundtrack" }
+  ].map(collection => {
+    const group = document.createElement("optgroup"); group.label = collection.label;
+    musicStyles.filter(style => style.collection === collection.id).forEach(style => {
+      const option = document.createElement("option"); option.value = style.id; option.textContent = style.label; group.append(option);
+    });
+    return group;
   }));
   musicStyleSelect.value = activeMusicStyle;
 }
@@ -455,7 +495,7 @@ function populateMusicTracks() {
 }
 
 function updateMusicRecommendation() {
-  const recommendation = getMusicRecommendation();
+  const recommendation = getMusicRecommendation(activeMusicStyle);
   musicRecommendationTitle.textContent = recommendation.title;
   musicRecommendationReason.textContent = recommendation.reason;
   musicRecommendation.dataset.track = recommendation.title;
@@ -485,10 +525,10 @@ function loadMusicTrack(index, { autoplay = false } = {}) {
   musicAudio.src = track.src;
   musicTitle.textContent = track.title;
   musicToggleNow.textContent = track.title;
-  musicStyleLabel.textContent = musicStyle(activeMusicStyle === "all" ? track.style : activeMusicStyle).label;
+  musicStyleLabel.textContent = musicStyle(activeMusicStyle).label;
   musicTrackNumber.textContent = playlistIndex >= 0
-    ? `Track ${playlistIndex + 1} of ${tracks.length} · ${fenumionSoundtrack.length} total`
-    : `${fenumionSoundtrack.length} tracks`;
+    ? `Track ${playlistIndex + 1} of ${tracks.length} · ${musicCollectionLabel(track)}`
+    : `${tracks.length} tracks · ${musicCollectionLabel(track)}`;
   populateMusicTracks();
   musicTrackSelect.value = track.file;
   musicProgress.value = 0;
@@ -514,15 +554,16 @@ function selectMusicStyle(styleId, { loadFirst = true } = {}) {
   const tracks = visibleMusicTracks();
   const currentTrack = fenumionSoundtrack[musicIndex];
   populateMusicTracks();
-  musicStyleLabel.textContent = musicStyle(activeMusicStyle === "all" ? currentTrack.style : activeMusicStyle).label;
+  musicStyleLabel.textContent = musicStyle(activeMusicStyle).label;
   if (loadFirst && !tracks.includes(currentTrack) && tracks.length) {
     loadMusicTrack(fenumionSoundtrack.indexOf(tracks[0]), { autoplay: !musicAudio.paused });
   } else {
     const currentPlaylistIndex = tracks.indexOf(currentTrack);
     musicTrackNumber.textContent = currentPlaylistIndex >= 0
-      ? `Track ${currentPlaylistIndex + 1} of ${tracks.length} · ${fenumionSoundtrack.length} total`
-      : `${tracks.length} tracks · ${fenumionSoundtrack.length} total`;
+      ? `Track ${currentPlaylistIndex + 1} of ${tracks.length} · ${musicCollectionLabel(currentTrack)}`
+      : `${tracks.length} tracks · ${musicCollectionLabel(currentTrack)}`;
   }
+  updateMusicRecommendation();
 }
 
 function openMusicPanel(open = true) {
@@ -536,8 +577,7 @@ musicClose.addEventListener("click", () => { openMusicPanel(false); musicToggle.
 musicRecommendation.addEventListener("click", () => {
   const index = findMusicTrack(musicRecommendation.dataset.track);
   if (index < 0) return;
-  activeMusicStyle = fenumionSoundtrack[index].style;
-  selectMusicStyle(activeMusicStyle, { loadFirst: false });
+  if (!musicPlaylistIncludes(fenumionSoundtrack[index], activeMusicStyle)) return;
   loadMusicTrack(index, { autoplay: true });
 });
 musicStyleSelect.addEventListener("change", () => selectMusicStyle(musicStyleSelect.value));

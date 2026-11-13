@@ -48,12 +48,34 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   assert.deepEqual((await track.locator('option').evaluateAll(nodes=>nodes.map(node=>node.value))).sort(),instrumentReview.songs.filter(song=>song.hardangerNamed).map(song=>song.file).sort(),'all prompt-identified Hardanger tracks are in Prima');
   assert.equal(await page.locator('#music-style-label').textContent(),'Prima');
   await track.selectOption('prima-strings-alternate.mp3');await group.selectOption('fenumion');assert.equal(await track.inputValue(),'prima-strings-alternate.mp3','overlapping collection retains current song');
-  assert.equal(await page.locator('#music-style-label').textContent(),'Fenumion');assert.equal(await track.locator('option').count(),40);
+  assert.equal(await page.locator('#music-style-label').textContent(),'All Fenumion songs');assert.equal(await track.locator('option').count(),40);
   assert.equal(await track.locator('option').filter({hasText:/^Four Came In$/}).count(),1,'identical audio has one entry');
   for(const title of ['The Battle Approaches','Carmen and Paco','Carry the Flame'])assert((await track.locator('option').allTextContents()).includes(title));
-  await group.selectOption('all');assert.equal(await track.locator('option').count(),179);
+  await group.selectOption('all');assert.equal(await track.locator('option').count(),139,'background collection excludes all custom songs');
   const entries=await page.evaluate(()=>fenumionSoundtrack.map(track=>({title:track.title,file:track.file,src:track.src,style:track.style})));
   assert.equal(new Set(entries.map(row=>row.file)).size,179);assert.equal(entries.filter(row=>row.style!=='fenumion').length,139,'original background library remains intact');
+  // Every custom song has one thematic home, and no playlist mixes source collections.
+  const customFiles=new Set(entries.filter(row=>row.style==='fenumion').map(row=>row.file));
+  assert.deepEqual(await group.locator('optgroup').evaluateAll(nodes=>nodes.map(node=>node.label)),['Custom Fenumion · Suno','Background soundtrack']);
+  const themes=[['i-am',14],['prima',6],['fenumion-tales',7],['fenumion-places',8],['fenumion-peril',5]],covered=[];
+  for(const [id,count] of themes){await group.selectOption(id);const files=await track.locator('option').evaluateAll(nodes=>nodes.map(node=>node.value));assert.equal(files.length,count,id);assert(files.every(file=>customFiles.has(file)),id+' is custom only');covered.push(...files);}
+  assert.equal(covered.length,40);assert.equal(new Set(covered).size,40,'custom themes do not overlap');assert.deepEqual([...new Set(covered)].sort(),[...customFiles].sort(),'every custom song is organized');
+  const playlistIds=await group.locator('option').evaluateAll(nodes=>nodes.map(node=>({id:node.value,custom:node.parentElement.label.startsWith('Custom')})));
+  for(const playlist of playlistIds){
+   await group.selectOption(playlist.id);
+   const options=await track.locator('option').evaluateAll(nodes=>nodes.map(node=>({file:node.value,title:node.textContent})));
+   assert(options.length>0,playlist.id);assert(options.every(row=>customFiles.has(row.file)===playlist.custom),'source isolation '+playlist.id);
+   const recommendation=await page.locator('#music-recommendation').getAttribute('data-track');assert(options.some(row=>row.title===recommendation),'recommendation remains in '+playlist.id);
+   const selected=await track.inputValue();await page.locator('#music-previous').click();await page.locator('#music-next').click();assert.equal(await track.inputValue(),selected,'navigation remains in '+playlist.id);
+  }
+  await group.selectOption('fenumion-tales');await page.locator('#music-recommendation').click();await page.waitForFunction(()=>musicAudio.currentTime>.15&&!musicAudio.paused);await page.locator('#music-play').click();assert.equal(await group.inputValue(),'fenumion-tales','a custom recommendation retains its playlist');
+  await group.selectOption('battle');await page.locator('#music-recommendation').click();await page.waitForFunction(()=>musicAudio.currentTime>.15&&!musicAudio.paused);await page.locator('#music-play').click();assert.equal(await group.inputValue(),'battle','a background recommendation retains its playlist');
+  // Old mixed-list preferences migrate without losing a saved custom song.
+  await page.evaluate(()=>{localStorage.setItem('fenumion-music-style','all');localStorage.setItem('fenumion-music-file','i-am-olokun.mp3');});
+  await page.reload();await page.waitForFunction(()=>document.querySelector('#music-style').value==='fenumion');assert.equal(await track.inputValue(),'i-am-olokun.mp3');assert.equal(await track.locator('option').count(),40);
+  await page.evaluate(()=>{localStorage.setItem('fenumion-music-style','all');localStorage.setItem('fenumion-music-file','middle-earth.mp3');});
+  await page.reload();await page.waitForFunction(()=>document.querySelector('#music-style').value==='all');assert.equal(await track.inputValue(),'middle-earth.mp3');assert.equal(await track.locator('option').count(),139);
+  await page.locator('#music-toggle').click();
   // Actually play all 40 Fenumion recordings, including every new file and the existing Four Came In.
   const songs=entries.filter(track=>track.style==='fenumion');
   for(let index=0;index<songs.length;index+=2){
@@ -73,9 +95,9 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
    await page.setViewportSize({width,height:844});assert(await page.locator('#music-panel').evaluate(el=>{const rect=el.getBoundingClientRect();return rect.left>=0&&rect.right<=innerWidth&&el.scrollWidth<=el.clientWidth+1;}),'panel fits '+width);
    assert(await group.evaluate(el=>el.getBoundingClientRect().height>=44),'usable playlist selector');
   }
-  await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'/tmp/fenumion-music-playlists-desktop.png'});
+  await page.setViewportSize({width:1440,height:1000});await page.evaluate(async()=>{await document.fonts.ready;await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));});await page.screenshot({path:'/tmp/fenumion-music-playlists-desktop.png'});
   await group.selectOption('prima');await page.setViewportSize({width:390,height:844});await page.screenshot({path:'/tmp/fenumion-music-playlists-mobile.png'});
   assert.deepEqual(errors,[]);
-  console.log('PASS I Am 14 incl Saint Anky; Prima 6 incl both Strings recordings; 40 Fenumion/179 total; no duplicate Four Came In; all 40 Fenumion MP3s actually play; play/pause/seek/next/previous/loop/completion/persistence; 4 widths');
+  console.log('PASS five custom playlists cover 40 Suno songs once; seven mood playlists cover 139 background tracks; source-isolated collections/recommendations/navigation; legacy preference migration; all 40 custom MP3s play; controls/persistence and 4 widths');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1);});

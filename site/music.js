@@ -1,9 +1,13 @@
 // Original audio is served from a pinned repository commit to keep Pages below 1 GB.
 const FENUMION_MUSIC_BASE = "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music";
 
+const FENUMION_ADDITIONAL_MUSIC_BASE = "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion";
+
 const musicStyles = [
   { id: "all", label: "All styles", description: "The complete Fenumion soundtrack." },
   { id: "fenumion", label: "Fenumion", description: "Songs of Fenumion’s people, places, and adventures." },
+  { id: "i-am", label: "I Am", description: "Character songs, including Saint Anky." },
+  { id: "prima", label: "Prima", description: "Prima themes whose generation prompts name Hardanger fiddle." },
   { id: "adventure", label: "Adventure & Wonder", description: "Journeys, discoveries, heroes, and radiant places." },
   { id: "battle", label: "Battle & Pursuit", description: "Combat, chases, sieges, and rising stakes." },
   { id: "dark", label: "Darkness & Horror", description: "Dread, corruption, death, and dangerous realms." },
@@ -102,6 +106,107 @@ const fenumionSongs = [
   ["Breath of the Wild", "breath-of-the-wild.mp3"],
   ["Will Babel Claim You", "will-babel-claim-you.mp3"]
 ].map(([title, file]) => ({ title, file, style: "fenumion", src: `${FENUMION_MUSIC_BASE}/fenumion/${file}` }));
+
+const additionalFenumionSongs = [
+  [
+    "The Battle Approaches",
+    "the-battle-approaches.mp3"
+  ],
+  [
+    "Carmen and Paco",
+    "carmen-and-paco.mp3"
+  ],
+  [
+    "Saint Anky",
+    "saint-anky.mp3"
+  ],
+  [
+    "I Am Vaerik 2",
+    "i-am-vaerik-2.mp3"
+  ],
+  [
+    "I Am Scribonia",
+    "i-am-scribonia.mp3"
+  ],
+  [
+    "I Am Olokun",
+    "i-am-olokun.mp3"
+  ],
+  [
+    "I Am Nymera",
+    "i-am-nymera.mp3"
+  ],
+  [
+    "I Am Gartina",
+    "i-am-gartina.mp3"
+  ],
+  [
+    "I Am Arjahn",
+    "i-am-arjahn.mp3"
+  ],
+  [
+    "I Am Dale",
+    "i-am-dale.mp3"
+  ],
+  [
+    "I Am Draygar",
+    "i-am-draygar.mp3"
+  ],
+  [
+    "I Am Elenia",
+    "i-am-elenia.mp3"
+  ],
+  [
+    "I Am Fenwick",
+    "i-am-fenwick.mp3"
+  ],
+  [
+    "I Am Aria",
+    "i-am-aria.mp3"
+  ],
+  [
+    "I Am Adelia",
+    "i-am-adelia.mp3"
+  ],
+  [
+    "Carry the Flame",
+    "carry-the-flame.mp3"
+  ],
+  [
+    "Prima Strings",
+    "prima-strings.mp3"
+  ],
+  [
+    "Prima Strings (Alternate)",
+    "prima-strings-alternate.mp3"
+  ],
+  [
+    "Prima Five Note",
+    "prima-five-note.mp3"
+  ],
+  [
+    "I Am Wrath",
+    "i-am-wrath.mp3"
+  ]
+].map(([title, file]) => ({ title, file, style: "fenumion", src: `${FENUMION_ADDITIONAL_MUSIC_BASE}/${file}` }));
+
+// Prima membership follows the checked Hardanger fiddle generation prompts.
+// See docs/SOUNDTRACK_INSTRUMENT_REVIEW_2026_11_13.json.
+const primaMusicFiles = new Set([
+  "prima-adventure.mp3",
+  "prima-battle-at-home.mp3",
+  "prima-battle.mp3",
+  "prima-five-note.mp3",
+  "prima-strings-alternate.mp3",
+  "prima-strings.mp3"
+]);
+
+// Playlists overlap the complete Fenumion group; each recording stays a single track.
+function musicPlaylistIncludes(track, playlist) {
+  if (playlist === "i-am") return track.style === "fenumion" && (/^I Am /i.test(track.title) || track.file === "saint-anky.mp3");
+  if (playlist === "prima") return primaMusicFiles.has(track.file);
+  return track.style === playlist;
+}
 
 const fenumionSoundtrack = [
   ["Alterac", "alterac.mp3"],
@@ -244,7 +349,7 @@ const fenumionSoundtrack = [
   ["Viking Encampment", "viking-encampment.mp3"],
   ["Viking War", "viking-war.mp3"]
 ].map(([title, file]) => ({ title, file, style: classifyMusicStyle(title), src: `${FENUMION_MUSIC_BASE}/action-drama/${file}` }))
-  .concat(fenumionSongs)
+  .concat(fenumionSongs, additionalFenumionSongs)
   .sort((a, b) => {
     const styleOrder = musicStyles.findIndex(style => style.id === a.style) - musicStyles.findIndex(style => style.id === b.style);
     return styleOrder || a.title.localeCompare(b.title);
@@ -324,7 +429,7 @@ function musicStyle(styleId) {
 }
 
 function visibleMusicTracks() {
-  return activeMusicStyle === "all" ? fenumionSoundtrack : fenumionSoundtrack.filter(track => track.style === activeMusicStyle);
+  return activeMusicStyle === "all" ? fenumionSoundtrack : fenumionSoundtrack.filter(track => musicPlaylistIncludes(track, activeMusicStyle));
 }
 
 function populateMusicStyles() {
@@ -380,7 +485,7 @@ function loadMusicTrack(index, { autoplay = false } = {}) {
   musicAudio.src = track.src;
   musicTitle.textContent = track.title;
   musicToggleNow.textContent = track.title;
-  musicStyleLabel.textContent = musicStyle(track.style).label;
+  musicStyleLabel.textContent = musicStyle(activeMusicStyle === "all" ? track.style : activeMusicStyle).label;
   musicTrackNumber.textContent = playlistIndex >= 0
     ? `Track ${playlistIndex + 1} of ${tracks.length} · ${fenumionSoundtrack.length} total`
     : `${fenumionSoundtrack.length} tracks`;
@@ -409,6 +514,7 @@ function selectMusicStyle(styleId, { loadFirst = true } = {}) {
   const tracks = visibleMusicTracks();
   const currentTrack = fenumionSoundtrack[musicIndex];
   populateMusicTracks();
+  musicStyleLabel.textContent = musicStyle(activeMusicStyle === "all" ? currentTrack.style : activeMusicStyle).label;
   if (loadFirst && !tracks.includes(currentTrack) && tracks.length) {
     loadMusicTrack(fenumionSoundtrack.indexOf(tracks[0]), { autoplay: !musicAudio.paused });
   } else {

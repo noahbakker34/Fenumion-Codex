@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-11-12
+Last updated: 2026-11-13
+
+## I Am, Prima and playable soundtrack additions · 13 November 2026
+
+Owner supplies 21 songs, requests I Am (including Saint Anky) and Prima playlists, then asks for all Hardanger fiddle tracks in Prima and all songs playable on the website. Twenty new originals are imported byte-for-byte. The resupplied Four Came In has identical audio after its metadata header, so remains one existing entry. Both distinct Prima Strings recordings survive. I Am contains 14 tracks; Prima contains six. All new songs also appear under Fenumion (40) and All styles (179). The original 159 track entries and pinned URLs remain exact.
+
+Public Suno prompts linked from the MP3 tags explicitly name Hardanger fiddle in exactly the six Prima recordings. Thirty-nine prompts are checked; Adventure has no exposed style metadata and remains unclassified. This is prompt evidence, not a claimed acoustic identification. Details/hash receipts: SOUNDTRACK_PLAYLISTS_2026_11_13.md, SOUNDTRACK_ADDITIONS_2026_11_13.json and SOUNDTRACK_INSTRUMENT_REVIEW_2026_11_13.json.
+
+Music7 preserves saved choices and the existing player; the heading follows the active overlapping playlist. New originals stream from pinned asset commit d10fccb4981d26359ec4798946f421b623414afe, uploaded with CI skipped before runtime publication. Existing audio transport and the Pages-size exclusion remain. The new check_music gate runs in the existing browser stage without a dependency or extra stage. Local actual playback passes for all 40 Fenumion songs, plus seek/navigation/repeat/end/persistence and four widths; metadata/durations and all 20 source hashes pass. Canonical content/history/maps/art/video and the complete private payload remain unchanged. The complete actual-playback gate also passes against the real public pinned audio URLs with local interception disabled. Runtime publication and final live verification follow.
 
 ## Thorn, Modeli and Serath’s sacrifice · 12 November 2026
 

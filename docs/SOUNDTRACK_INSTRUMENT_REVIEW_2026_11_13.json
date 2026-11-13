@@ -1,0 +1,336 @@
+{
+  "checkedOn": "2026-11-13",
+  "method": "Public Suno style prompts linked from the original MP3 tags. Instrument prompt evidence is not acoustic confirmation of the finished mix. No instrument labels are inferred from lyrics or song titles.",
+  "songs": [
+    {
+      "file": "adventure.mp3",
+      "url": "https://suno.com/song/9e33c94d-addf-46ee-8560-7e44be94e144",
+      "status": "ambiguous style metadata",
+      "tagCount": 0
+    },
+    {
+      "file": "aiya-elen-sila.mp3",
+      "url": "https://suno.com/song/3445dba7-f0b9-4c93-9644-bda07e7274c3",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "fbb6b25978be2eb167989e56692226e03c0e2de4eac6dabbcbbb9789e16f9d33"
+    },
+    {
+      "file": "aria-before-the-crown.mp3",
+      "url": "https://suno.com/song/69e7df35-eac4-493c-86b6-ef61b243a463",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "69a7453847a6e2ebf76a46745c162386c7e461bea3cb3d4cde7b105a3d1e9d0b"
+    },
+    {
+      "file": "babel.mp3",
+      "url": "https://suno.com/song/76300843-c74e-4b45-b6ec-35217ae237e6",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "2bc31c19950834b31624cab7fc8575f19139667479788a830f6c6a99dd4ed930"
+    },
+    {
+      "file": "breath-of-the-wild.mp3",
+      "url": "https://suno.com/song/3f23df39-4f27-430a-962e-a09ce8616791",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "3ce0d3eff18ff7108d8c39d209044e6e2ed1f1100bbed3770bbb965b480f866c"
+    },
+    {
+      "file": "carmen-and-paco.mp3",
+      "url": "https://suno.com/song/ba1859ed-80d6-44ff-8b10-7e2d4dfd15dc",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "a277330a027bfc1b1208bf7ec48cae73e5cc14c4a3598ed9013f61972dc1008c"
+    },
+    {
+      "file": "carry-the-flame.mp3",
+      "url": "https://suno.com/song/54a32927-3d6d-4e2f-ad8b-f9c669ce1cdd",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "a0ac74d19c49b37918d687b6bb1806c182234b6709216dc43ea1d8505a992c97"
+    },
+    {
+      "file": "death-arrives.mp3",
+      "url": "https://suno.com/song/ea253e60-b9e6-4ee7-ac13-697bf50d864f",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "e185fce4db420c6d6fc85811602eb8a9b72f72381cbe0a60f999f6bf068559ce"
+    },
+    {
+      "file": "death.mp3",
+      "url": "https://suno.com/song/6a18e391-623a-4b1f-8463-a9bf700df03a",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "15d1b1c4ad9e01d7f5b40da0af23cf4dd6f473dd7b34366470cc4ee30187207a"
+    },
+    {
+      "file": "elda.mp3",
+      "url": "https://suno.com/song/377863f2-23fd-47ef-bdaf-b2619bfb41ed",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "4234bf818676524de43675304c6ce11af34ff010ba5bba0194719987f1a65221"
+    },
+    {
+      "file": "four-came-in.mp3",
+      "url": "https://suno.com/song/60964809-7a8e-4b60-abe5-4e6d0f53ece7",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "4659c1d5d00c3f54957aaccccd80bae2f220507f81f3ac1c52bb4a94686fb978"
+    },
+    {
+      "file": "gael.mp3",
+      "url": "https://suno.com/song/4e63da7f-0118-4dd0-bda6-d4c45037b351",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "e8630ec79b891f2577de1264a389af26481bc8639ae61e7d69acc43f4128b6a2"
+    },
+    {
+      "file": "go-gently-friend.mp3",
+      "url": "https://suno.com/song/895ca389-727c-407d-a0e4-b196d62e3c34",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "8eba166767883a38ac28f4ce43fef822a7b33a5669fdb22d0e3b2a7a32ce2e98"
+    },
+    {
+      "file": "i-am-adelia.mp3",
+      "url": "https://suno.com/song/8f6693fb-2b66-47ce-87b9-6faf94c170f8",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "dc81f16a610668650bbd3882bf775f67636df7f23d8ad6a285679b1c7c3ac3a4"
+    },
+    {
+      "file": "i-am-aria.mp3",
+      "url": "https://suno.com/song/336f9231-69e7-4d12-9937-dd09fa26fa13",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "6e353d88471bcbafb187a0c7b6d43e67e007edb421140d6daaa7b97c2ece14cd"
+    },
+    {
+      "file": "i-am-arjahn.mp3",
+      "url": "https://suno.com/song/6186c975-95ac-4b73-8157-584fabe53adc",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "41164c4078d4282b963c02f07baaaa07a07c47370efcdea6d4f69b57465a15a8"
+    },
+    {
+      "file": "i-am-dale.mp3",
+      "url": "https://suno.com/song/ef1ec74e-d6e7-4f13-8b83-0149edd2803d",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "80dd316fee602c4b59ef815ebc2a3eb8854dbe2a2880ddba4010d4a8c0e32843"
+    },
+    {
+      "file": "i-am-draygar.mp3",
+      "url": "https://suno.com/song/24e5f665-6808-4baa-ad72-c23094707fe6",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "cea003ffab1ffebf059cc6b6d8e4e251603bda6b34e3ded000bcf46f08024355"
+    },
+    {
+      "file": "i-am-elenia.mp3",
+      "url": "https://suno.com/song/1de7ce2e-dec3-42dc-9a99-1d1e109928f9",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "e295d4d093119a97995399c0e780c87bff01e95af04142eab05d0ca8bf736567"
+    },
+    {
+      "file": "i-am-fenwick.mp3",
+      "url": "https://suno.com/song/f05063b0-e59c-4371-8913-18f6f3f6df11",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "01e390a4cfcd1aecef009f57fc73e939f85b0cecf409d57c7ed454a1d51ba7ec"
+    },
+    {
+      "file": "i-am-gartina.mp3",
+      "url": "https://suno.com/song/e598044a-09cf-4fe5-ae53-51073110376e",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "38cfff1034b91ec8d766344c0797b04761514ba70ff33858f5169dd88b771f6d"
+    },
+    {
+      "file": "i-am-nymera.mp3",
+      "url": "https://suno.com/song/4e5e2331-90f5-4af3-9f9e-06ef2d9b2f97",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "48b8acba24efef7fd07f988707e91c5851e4d5e94ff5085af2ac957717d0f8d3"
+    },
+    {
+      "file": "i-am-olokun.mp3",
+      "url": "https://suno.com/song/041c61f2-dab0-4760-828f-d74a35b8d24c",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "20a3c47b79d368e50ab12f082e9ba12fff452a534a9abf94ab4213f4dd8e9a0f"
+    },
+    {
+      "file": "i-am-scribonia.mp3",
+      "url": "https://suno.com/song/d692abc0-381d-455e-96f9-a800d09b0930",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "69645c197481aaa8bed20d9b78eb1d7ededcefbce3bfed8b937da44f40c71fd6"
+    },
+    {
+      "file": "i-am-vaerik-2.mp3",
+      "url": "https://suno.com/song/fc7d73f8-46b1-4a56-a50f-5af8788844eb",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "06b7501447b1bf37e0dcc642f5326ddd0638a67fcfc30a98d931b36eb1952558"
+    },
+    {
+      "file": "i-am-wrath.mp3",
+      "url": "https://suno.com/song/a48a98b9-1857-41bf-8b19-7e22fdd58db1",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "1d698aa0825372dfc5da0f1de4fd66fd3bfff2aa7ad0d0649b2f945a5f6901fb"
+    },
+    {
+      "file": "melian-carries-the-glow.mp3",
+      "url": "https://suno.com/song/6012b965-07b4-4750-85d4-2010316019e7",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "117766964e90f03c787788ac15a7587d078921fc80496e1934d39f7e690adcdc"
+    },
+    {
+      "file": "prima-adventure.mp3",
+      "url": "https://suno.com/song/33017b9d-92e1-4a0d-9498-5a7e7ffcb219",
+      "status": "checked",
+      "hardangerNamed": true,
+      "evidence": [
+        "Norwegian Hardanger fiddle-led battle lament, extremely high-register bowed melody with sharp "
+      ],
+      "styleSha256": "2a76fba84b3d56f40fbf170ecfe297e4335e078f0ac826dba340e43fcdcb56af"
+    },
+    {
+      "file": "prima-battle-at-home.mp3",
+      "url": "https://suno.com/song/11b7579d-0a1e-4c8e-b237-63d720c5837a",
+      "status": "checked",
+      "hardangerNamed": true,
+      "evidence": [
+        "Norwegian Hardanger fiddle-led battle lament, extremely high-register bowed melody with sharp "
+      ],
+      "styleSha256": "ca5389a42273198bd967c7b074849db404da472d1d8041b0945f41756dbac6e9"
+    },
+    {
+      "file": "prima-battle.mp3",
+      "url": "https://suno.com/song/84b9ee12-0e7f-41a3-ab5b-fbedcd22bd8a",
+      "status": "checked",
+      "hardangerNamed": true,
+      "evidence": [
+        "Norwegian Hardanger fiddle battle lament, exposed extreme high-register bowed fiddle with raw "
+      ],
+      "styleSha256": "b6b47b7a7a2adfeac53be8304c66a4bea996eb1a708e5b198b81148882858326"
+    },
+    {
+      "file": "prima-five-note.mp3",
+      "url": "https://suno.com/song/f120cac8-f7b2-4500-b4d1-6efbcc32d786",
+      "status": "checked",
+      "hardangerNamed": true,
+      "evidence": [
+        "Norwegian Hardanger fiddle-led cinematic battle lament, instrumental; slow deliberate pulse. C"
+      ],
+      "styleSha256": "fa7ea3060732c8a6e2908186c2008ded274b37d644e7dac4bb82491fb2d989a0"
+    },
+    {
+      "file": "prima-strings-alternate.mp3",
+      "url": "https://suno.com/song/946c8023-b9b6-4adc-9642-f1e819f2c1cc",
+      "status": "checked",
+      "hardangerNamed": true,
+      "evidence": [
+        "strings and powerful emotion. Still keep the Hardanger Norwegian Fiddle the centerpiece. The section given should repeat stronger"
+      ],
+      "styleSha256": "727af3e2d6efbf6f78cf3dd24b04dfe852f816d30eb86067ff2d46580670cd1f"
+    },
+    {
+      "file": "prima-strings.mp3",
+      "url": "https://suno.com/song/559ae237-dff5-41ce-bd2e-deb513d153e4",
+      "status": "checked",
+      "hardangerNamed": true,
+      "evidence": [
+        "Norwegian Hardanger fiddle-led cinematic battle lament, instrumental. Exposed solo fiddle open"
+      ],
+      "styleSha256": "c6805ec5387cb27526202c2571b7ce6d0aca99a932d013a8b0cc8d9e5e089fb7"
+    },
+    {
+      "file": "pristinia-stands.mp3",
+      "url": "https://suno.com/song/89711bff-b8ea-4792-aab8-8a89c94d6dfe",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "a85c42fc0a3894d6d18723ccbccc8bed8f5a0ff2b4bd2a1fcfbe6776e411d3ff"
+    },
+    {
+      "file": "rahu.mp3",
+      "url": "https://suno.com/song/5e73f41c-e3ce-4a94-8992-e40fd8829a72",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "850a23da226acb028ea8e746b9d8af35a870a79f6cd6f1f0e8628ce1d1afc50e"
+    },
+    {
+      "file": "saint-anky.mp3",
+      "url": "https://suno.com/song/fd14e701-dbf9-4f06-be3c-8804e0584b86",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "e910f102569d6d4e142542a92df73f564f4a40020498931e19e20067ed8006e4"
+    },
+    {
+      "file": "the-battle-approaches.mp3",
+      "url": "https://suno.com/song/6dcb3b3f-a712-4dc3-aec0-4b2caa626b74",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "3f145b6d19a2f5e396c7855958775945750a615492747869f6b64d829762d6e0"
+    },
+    {
+      "file": "the-void.mp3",
+      "url": "https://suno.com/song/73db71a3-147f-4e4d-9a9f-e7c38a6aa916",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "d5c474762d2b02d002bf7d593947b36897b333b8a45480359ba4b191bc81c593"
+    },
+    {
+      "file": "will-babel-claim-you.mp3",
+      "url": "https://suno.com/song/8d1667ef-5eeb-4f80-afdc-e7ce08211ea6",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "f0426e5ac97d7d39a45ad23a95018afc653f2941c0625d2c693d658c19211818"
+    },
+    {
+      "file": "zarathis.mp3",
+      "url": "https://suno.com/song/c5083f88-c79d-46bb-a365-d206bf04b649",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "c4c5552c70b22e79df2d56e1048a16f5f9ff72d309fa70f99f5fa975e403116b"
+    }
+  ]
+}

@@ -15001,6 +15001,365 @@
             ]
           }
         }
+      },
+      {
+        "title": "The Sanctum of Saturnia collapses; Minerva does not return",
+        "meta": "2026-11-20–2026-11-21 · source posts",
+        "sort": "2026-11-20-november-update-405",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest continuation",
+        "article": "sanctum-of-saturnia",
+        "section": "sanctum-last-choice",
+        "location": "Mage’s Ruin, high in Gael’s mountains",
+        "people": "Scribonia; Minerva; Oya; Lady Severina; Ruben",
+        "summary": "Oya saves the company from a corridor gauntlet. Deeper inside, the sanctum collapses; four escape after abandoning the relics, while Minerva dies in the waters below.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 4,
+        "importanceReason": "A major expedition uncovers Saturnia’s surviving sanctuary and ends an established investigator’s life, affecting Gael’s company and the Seekers in Prima. The contents of Scribonia’s discovery remain unspecified.",
+        "regions": [
+          "gael"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established calendar; statements and interpretations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-20",
+            "end": "2026-11-21",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 992,
+            "end": 993,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573505546777010277",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573535384216805527",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573560270050168863",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573580340553842689",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573582470526541875",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573585825466425467",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573585884845187216",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573588985694126161",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573588990617976940",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573589789683220481",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573590173311049791",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573590487112097894",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573591657524498555"
+        ],
+        "story": "sanctum-of-saturnia"
+      },
+      {
+        "title": "Screams interrupt the search for Larkhollow’s missing history",
+        "meta": "2026-11-17 · source posts",
+        "sort": "2026-11-17-november-update-406",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest continuation",
+        "article": "last-flower-before-winter",
+        "section": "flower-screams-in-the-market",
+        "location": "Eternal River; mountain road; Bell Path and Petal Market, Larkhollow",
+        "people": "Minerva; Thorn; Lucido Spettoro; Pin; Talla Briarwing",
+        "summary": "The company finds Talla, but her guarded answers break off when Lucido reports the florist killed in the Petal Market. They rush toward the stall; the attacker remains unknown.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 3,
+        "importanceReason": "Continues a regional inquiry and records a reported killing without assigning its culprit, cause or broader consequence.",
+        "regions": [
+          "verdelune"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established calendar; statements and interpretations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-17",
+            "end": "2026-11-17",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 989,
+            "end": 989,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1572439851712651386",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1572456392206454805",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1572467739057201284",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1572472736838586391",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1572473110576373761",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1572473370014908587",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1572473718897246310",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1572474733667295274"
+        ],
+        "story": "last-flower-before-winter"
+      },
+      {
+        "title": "Elias Vale is brought home from Nhalis’s clearing",
+        "meta": "2026-11-14 · source posts",
+        "sort": "2026-11-14-november-update-407",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest continuation",
+        "article": "vale-household-investigation",
+        "section": "vale-nhalis-and-the-choice",
+        "location": "Pristinia; market shops; unnamed woods beyond the town",
+        "people": "Clive L. Dragoon; Di’trillio; Saoirse; Felicity; Felicia; Elias Vale; Nhalis",
+        "summary": "The party passes the living barrier and meets Nhalis, who asks them to take Elias home. He postpones the transformation he requested and returns to Mara’s doorstep.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 2,
+        "importanceReason": "A local household investigation reaches its witnessed return. The private conversation and marriage remain unresolved.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established calendar; statements and interpretations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-14",
+            "end": "2026-11-14",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 986,
+            "end": 986,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1571234666705592472",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1571261020784304222",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1571264125399605290",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1571270774537457737",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1571272061127761921",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1571273294320242782",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1571273633601687637",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1571274230371188807",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1571275413227839552"
+        ],
+        "story": "vale-household-investigation"
+      },
+      {
+        "title": "The Maw-bound company loses the traveler it rescued",
+        "meta": "2026-11-12–2026-11-19 · source posts",
+        "sort": "2026-10-30-november-update-408",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest continuation",
+        "article": "attack-on-the-chains",
+        "section": "chains-the-red-darkness",
+        "location": "The Chains; ordered forest; Wasteland route toward the Maw; Voraketh",
+        "people": "Ithilrûnë Ailinor; Sildithas; Coralyn; Pappy; Carmen; the unnamed revenant",
+        "summary": "After an uneven rest, Sildithas brings a nameless survivor into the company. On the continued march he is swept away, the decanter’s water dwindles, and the company approaches darkness without a working solution.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 3,
+        "importanceReason": "A consequential continuation of the same expedition, without inventing arrival, victory or the unnamed traveler’s identity.",
+        "regions": [
+          "voraketh"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established calendar; statements and interpretations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-12",
+            "end": "2026-11-19",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 971,
+            "end": 971,
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-10-30",
+            "reason": "The narrator explicitly opens the next day in the Wasteland after the continuing 29 October expedition camp. The later session continues that walk without another rest. Advance the story to 30 October; preserve both posting windows.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1570625235022258177",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1570628851099246613",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1573166433251106837",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1573174671724126219",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1573179241418330173",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1573182975074504728",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1573189196808720475",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1573190493892780154",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1573190711992647834",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1573192097912193045",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1573192262278586511"
+            ]
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1570625235022258177",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1570628851099246613",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573166433251106837",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573174671724126219",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573179241418330173",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573182975074504728",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573189196808720475",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573190493892780154",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573190711992647834",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573192097912193045",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573192262278586511"
+        ],
+        "story": "attack-on-the-chains"
+      },
+      {
+        "title": "The Refuge company funds its next supply effort",
+        "meta": "2026-11-14–2026-11-15 · source posts",
+        "sort": "2026-11-14-november-update-409",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "skylight-refuge",
+        "section": "refuge-donations-and-planning",
+        "location": "Skylight Refuge",
+        "people": "Farkur; Olokun; Nymera; Arjahn; Elenia",
+        "summary": "Farkur offers recovery equipment freely; the company contributes funds and selects supplies. Olokun rejects sending Nymera into the cave alone. Ryvyt’s recovery remains pending.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 3,
+        "importanceReason": "A concrete resupply exchange serving the regional expedition, with wider trade and transport plans still incomplete.",
+        "regions": [
+          "babel-ashur",
+          "gael",
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established calendar; statements and interpretations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-14",
+            "end": "2026-11-15",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 986,
+            "end": 987,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571324464229257247",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571326269096992884",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571326910091366461",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571328091198853142",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571330064673538119",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571332695240343674",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571336064331816993",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571336215649718423",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571338241108611224",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571340023104802968",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571340493940596739",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571357594961055795",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1571424779636969574"
+        ]
+      },
+      {
+        "title": "Kasiri accepts Severina’s proposal",
+        "meta": "2026-11-18 · source posts",
+        "sort": "2026-11-18-november-update-410",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "kasiri-ruza",
+        "section": "kasiri-says-yes",
+        "location": "Kasiri Ruza",
+        "people": "Kasiri Ruza; Lady Severina Blackveil",
+        "summary": "After a Veilguard discussion and a completed rapier, Severina asks Kasiri to marry her. Kasiri accepts. The scene establishes an engagement.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 1,
+        "importanceReason": "A directly witnessed personal commitment, without inventing a later wedding.",
+        "regions": [
+          "gael"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established calendar; statements and interpretations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-18",
+            "end": "2026-11-18",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 990,
+            "end": 990,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1572705529690718360",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1572705812042883233",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1572705902468010058",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1572706476466896987",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1572708490403651816",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1572708965173960847"
+        ]
+      },
+      {
+        "title": "Kiralyn promises to look forward as her sword changes",
+        "meta": "2026-11-19 · source posts",
+        "sort": "2026-11-19-november-update-411",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "kiralyn-mohrn",
+        "section": "kiralyn-feather-and-forward",
+        "location": "Kiralyn Mohrn",
+        "people": "Kiralyn Mohrn; Dorothea Waldner",
+        "summary": "After an unsuccessful attempt to heal Dorothea’s scars, Kiralyn accepts a different promise about her own future. The sword changes color; its meaning remains unknown.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 1,
+        "importanceReason": "A witnessed personal commitment and visible response, without assigning a new divine office or completed cure.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established calendar; statements and interpretations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-19",
+            "end": "2026-11-19",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 991,
+            "end": 991,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1573163410458411137",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1573165306250002456",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1573166373616484385",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1573167641273573408",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1573168445191622768",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1573169302431998034",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1573171044980629595",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1573174152188399747",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1573190343115935745",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1573191728465313924"
+        ]
       }
     ],
     "characters": [
@@ -15583,10 +15942,10 @@
       },
       {
         "title": "Minerva",
-        "meta": "Witch; investigator; difficult ally",
+        "meta": "Witch; investigator; dies at Saturnia’s sanctum",
         "article": "minerva",
         "image": "assets/characters/minerva.png",
-        "summary": "An investigator whose bargain brings Selwyn’s body out of Verdelune; later back in Gael, she secures help for his return while the unseen ritual remains unexplained.",
+        "summary": "A witch and investigator whose difficult alliances restore Selwyn. Later, she dies beneath Mage’s Ruin after refusing to leave the sanctum’s relics; the quest confirms her death.",
         "aliases": [
           "Minerva"
         ]
@@ -53400,7 +53759,9 @@
     "dorothea-waldner",
     "trougar",
     "seraths-sacrifice",
-    "serath-vareth"
+    "serath-vareth",
+    "sanctum-of-saturnia",
+    "last-flower-before-winter"
   ],
   "timelineRegions": [
     {

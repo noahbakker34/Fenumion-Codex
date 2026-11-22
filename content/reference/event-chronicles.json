@@ -1,6 +1,6 @@
 {
-  "reviewed": "2026-10-30",
-  "scope": "All 38 public Interregional/World Changing milestones plus selected regional and focused histories. Event context links remain distinct from story destinations.",
+  "reviewed": "2026-11-22",
+  "scope": "All 39 public Interregional/World Changing milestones plus selected regional and focused histories. Event context links remain distinct from story destinations.",
   "stories": [
     {
       "article": "first-called-arrival",
@@ -608,11 +608,12 @@
       "article": "attack-on-the-chains",
       "events": [
         "The company stops constructs battering the Chains",
-        "The Maw-bound company camps without enough food or rest"
+        "The Maw-bound company camps without enough food or rest",
+        "The Maw-bound company loses the traveler it rescued"
       ],
-      "chapters": 10,
-      "words": 1584,
-      "sourceReceipts": 227,
+      "chapters": 13,
+      "words": 2093,
+      "sourceReceipts": 341,
       "existingPublicAccounts": [
         "voraketh",
         "ithilrune",
@@ -708,11 +709,12 @@
     {
       "article": "vale-household-investigation",
       "events": [
-        "Mara Vale’s request leads to a living barrier in the woods"
+        "Mara Vale’s request leads to a living barrier in the woods",
+        "Elias Vale is brought home from Nhalis’s clearing"
       ],
-      "chapters": 4,
-      "words": 957,
-      "sourceReceipts": 233,
+      "chapters": 6,
+      "words": 1376,
+      "sourceReceipts": 310,
       "existingPublicAccounts": []
     },
     {
@@ -742,9 +744,9 @@
         "The company finds Yen still defending the stone"
       ],
       "existingPublicAccounts": [],
-      "chapters": 4,
-      "words": 755,
-      "sourceReceipts": 73
+      "chapters": 5,
+      "words": 812,
+      "sourceReceipts": 82
     },
     {
       "article": "seraths-sacrifice",
@@ -762,6 +764,35 @@
       "chapters": 6,
       "words": 1103,
       "sourceReceipts": 129
+    },
+    {
+      "article": "sanctum-of-saturnia",
+      "events": [
+        "The Sanctum of Saturnia collapses; Minerva does not return"
+      ],
+      "existingPublicAccounts": [
+        "saturnia",
+        "scribonia",
+        "minerva",
+        "alpine-forest"
+      ],
+      "chapters": 6,
+      "words": 1260,
+      "sourceReceipts": 223
+    },
+    {
+      "article": "last-flower-before-winter",
+      "events": [
+        "Screams interrupt the search for Larkhollow’s missing history"
+      ],
+      "existingPublicAccounts": [
+        "song-the-wind-cannot-finish",
+        "verdelune",
+        "larkhollow"
+      ],
+      "chapters": 3,
+      "words": 539,
+      "sourceReceipts": 70
     }
   ],
   "calendarCorrection": {

@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-11-13
+Last updated: 2026-11-22
+
+## Regional updates and Saturnia’s sanctum · 22 November 2026
+
+The owner supplies nine text files. All 6,532 regional message bodies match native versions; the nine TXT/Markdown pairs are exact. The quest windows, Refuge gathering and selected regional scenes produce 63 new sections across 43 Fenumion records, including two new stories, the Vale ending, the continued Maw march and seven new milestones. Details: SOURCE_UPDATE_2026_11_22.md and source-update-2026-11-22.json.
+
+The quest explicitly confirms Minerva’s death. Her current profile/preview advance; earlier returns remain historical. Oya’s rescue, Ruben’s objections and Scribonia’s final refusal are retained, with the offered cost explicitly his spellbook rather than the goddess. No recovered relics, ascension mechanism, permanent flight or unseen revival. Talla’s questions and the reported florist killing remain unfinished. The Maw milestone advances one day after camp while preserving posting dates. Severina/Kasiri are engaged; invitations, construction and supply requests retain their limits. Gedankin extends one tournament through the paired stage and twelve existing records, without a champion or revived dead.
+
+820 selected Fenumion receipts and 122 private Gedankin version checks support the work. All 405 old events, existing classifications/art, 543 anchors, 1,320 paragraphs, maps/quotes/previews/private payload survive. Catalog320/build `b4d71f1e566c6d5e`: 672 records/623 bodies/3,189 sections, 273 people, 412 events/386 public, 39 major destinations, 49 stories/46 library entries. Gedankin data24 retains 72 people/48 events. No runtime/style/dependency/asset/workflow-stage change. Static and full event/directory/biography gates pass. Focused Chrome passes 43 bodies/source sets, 63 bookmark reloads, eighteen mobile layouts, actual reading journeys and separate tournament/participant paths without script/public HTTP errors. Screenshots are inspected. Publication/live verification follows.
 
 ## Shared website and Discord playlists · 13 November 2026
 

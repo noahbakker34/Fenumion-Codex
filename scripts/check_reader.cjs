@@ -9,7 +9,7 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  await page.route('https://auth.fenumion.com/**',r=>r.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));
  const go=async id=>{await page.goto(base+'#'+id);await page.waitForFunction(id=>byId.get(id.split('?')[0])?.bodyLoaded,id);await page.locator('#article-content').waitFor();};
  // Keep the ordinary reader-mode coverage on a profile outside the biography group.
- await go('djohandrai');
+ await go('coralyn');
  assert.equal(await page.locator('.character-brief').count(),1);
  assert(await page.locator('.character-brief').innerText().then(t=>/last established status/i.test(t)));
  assert(await page.locator('.section-evidence[data-evidence-kind=mixed]').count()>=1);
@@ -72,7 +72,7 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   await go(id);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),id+' mobile overflow');
  }
  // Keep the ordinary expandable brief covered on an unchanged reader.
- await go('djohandrai');await page.screenshot({path:'/tmp/codex-character-summary-mobile.png',fullPage:true});await page.locator('.character-brief').screenshot({path:'/tmp/codex-brief-mobile.png'});
+ await go('coralyn');await page.screenshot({path:'/tmp/codex-character-summary-mobile.png',fullPage:true});await page.locator('.character-brief').screenshot({path:'/tmp/codex-brief-mobile.png'});
  // A cold mobile bookmark must remain below the sticky header after late fonts load.
  const cold=await browser.newPage({viewport:{width:320,height:844},reducedMotion:'reduce'});cold.on('pageerror',e=>errors.push(e.message));
  await cold.route('https://auth.fenumion.com/**',r=>r.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));

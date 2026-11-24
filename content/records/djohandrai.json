@@ -2,8 +2,8 @@
   "id": "djohandrai",
   "title": "Djöhandrai",
   "category": "People",
-  "type": "Courage while afraid",
-  "dek": "Djo hides, stammers and loves a good meal—and keeps choosing to help people in danger.",
+  "type": "Tabaxi adventurer · courage while afraid",
+  "dek": "Djo arrives asking for Sister. Through rescues, dangerous curiosity and a home at the Soirée, he learns how to make room for other frightened people.",
   "tags": [
     "Djo",
     "Djöhandrai",
@@ -16,35 +16,236 @@
   "imageAlt": "Portrait of Djöhandrai, also called Djo",
   "imageCaption": "Djöhandrai · Djo",
   "facts": {
-    "Known as": "Djo",
-    "Seen with": "A spectral feline figure called Sister",
-    "Recurring choices": "Tending wounds and staying close to companions",
-    "Affiliation": "Not a member of the Seekers"
+    "Known as": "Djo · Djöhandrai",
+    "Home before the Gate": "Pura · as he names it",
+    "Clothing": "His father’s oversized coat",
+    "Companion": "A spectral feline figure called Sister; connection to his absent sister unresolved",
+    "Home and work": "The Sisters of Sorrow Soirée · room offered by Minerva; kitchen work and deliveries",
+    "Affiliation": "Adventures alongside the Seekers; not a member",
+    "Status": "Alive in the latest checked scene · 6, Month of the Wyrm, Year 3; feeds and welcomes Kiralyn at the Pilgrim’s Hearth"
   },
   "sources": [
     "Djöhandrai Deep Dive · user-supplied interpretation checked against primary scenes",
     "Quest-RP · selected arrival, April, July and September 2026 scenes",
     "Story Notes · Djo’s personal notes posted 1 and 6 February 2026 UTC",
-    "Quest continuation · Saoirse exchange posted 27 September 2026 UTC"
+    "Quest continuation · Saoirse exchange posted 27 September 2026 UTC",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1467352859602456841",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1467353748727922913",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1467367422016098355",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1467367861952581786",
+    "https://discord.com/channels/1177270231513694249/1201218376849162250/1467413861559828490",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490084771848519713",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490085055094194248",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490085148425720010",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1528928310627663984",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1528935352822399076",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1545992006881513482",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546031354851106926",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546034423957561444",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1545975713172168756",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546005796796498010",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546042743762059264",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1551071445822472193",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1551088990306697237",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1553619007221923921",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1553619777270972498",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1553620197703688295",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1545972628043595826",
+    "https://discord.com/channels/1177270231513694249/1201218376849162250/1469464981383807008",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1517694310609322077",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1517696870221086852",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1517700731858325544",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1517703551684706354",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519836721762533427",
+    "https://discord.com/channels/1177270231513694249/1198722893337608402/1526860876915806278",
+    "https://discord.com/channels/1177270231513694249/1198722893337608402/1526863793211314238",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1467369161368928493",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1467370499297378326",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1467371246068043868",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1467373203654705377",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1467399223698788395",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1467402196860801045",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1467404616978399313",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1486922324136427810",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1486926396319338557",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1486931172054405150",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1486949811281461350",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490088105301246115",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490131722501619912",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490135793195417642",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490144108180934887",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490144946576167044",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490152513067024507",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490153907178045460",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490155513802133554",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490155688847085700",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490159361518080141",
+    "https://discord.com/channels/1177270231513694249/1213007461540306984/1499564139507613889",
+    "https://discord.com/channels/1177270231513694249/1213007461540306984/1499564355300098208",
+    "https://discord.com/channels/1177270231513694249/1213007461540306984/1499564716303847434",
+    "https://discord.com/channels/1177270231513694249/1213007461540306984/1499568007645630666",
+    "https://discord.com/channels/1177270231513694249/1213007461540306984/1499569905673175170",
+    "https://discord.com/channels/1177270231513694249/1213007461540306984/1499570677961719906",
+    "https://discord.com/channels/1177270231513694249/1213007461540306984/1499572449455636653",
+    "https://discord.com/channels/1177270231513694249/1213007461540306984/1499573591786651710",
+    "https://discord.com/channels/1177270231513694249/1213007461540306984/1499573892174581944",
+    "https://discord.com/channels/1177270231513694249/1213007461540306984/1499574536478134404",
+    "https://discord.com/channels/1177270231513694249/1213007461540306984/1499577251371421799",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512876943119351869",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512884411480281311",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512920066403078244",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512921303122710569",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512926822902534245",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512930804286750842",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512940317471670295",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1515136894088773753",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1515138779332214879",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519818290724208796",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519819770596298926",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519822603605246103",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519824478387835111",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519834294363619460",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519838809569886219",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519841288579715113",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519842419531583488",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519854091776557066",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519856139574182011",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519865751123660862",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1519866672897458236",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1568397759508127815",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1528834753359380503",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1528915936080429227",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1528919777790263307",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1528948809948725268",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1533273943547318424",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1533291970598797403",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1533311203714273320",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1533314990889500865",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1533321760584372335",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1537675503635406930",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1537677082241278042",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1537679816835203163",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1537682173472276480",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1537692462489935892",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1537696822020276254",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1537880096428531762",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1542735484932063375",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1542738553736405003",
+    "https://discord.com/channels/1177270231513694249/1330584465952608308/1542741123607568404",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535102020862615602",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535126682556440637",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535127399975493655",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535130127678050377",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535130185702178862",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552856851824246875",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552876615371988993",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552878193806147705",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552893575220428832",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552902581724913736",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552904911178440805",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552911550228996138",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552912584309608550",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552913910254932010",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1490903250856054805",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1512879686064017579",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1553623787059159041",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1568391466697494691",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1568393871463944346",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1568395497654456382",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1568398000336928819",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1568400631641931859",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1568403073192435885",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1568405416055021689",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1568408490895081624",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1568411654331572368",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1573591657524498555"
   ],
-  "body": "<p>Djöhandrai, usually called Djo, is a frightened feline adventurer who keeps finding reasons to help. He stammers, hides, runs from horrors and makes time for food. He also tends the wounded and follows companions into danger. His courage is visible because the fear stays visible too.</p>\n<h2 id=\"djo-separation\">The person missing beside him</h2>\n<p>At <a href=\"#gate-clearing\">the Gate</a>, Djo asks where his sister is and whether he can go back. Being told there is no way home brings a mournful cry for her. Anáil offers a possibility: she can ask someone named Ada to send his sister through, though she cannot bring her immediately. This is Anáil’s offered hope, rather than a confirmed promise of reunion.</p>\n<p>In a hurried personal note, Djo says he has made friends and hopes his sister would be proud, but he needs her beside him. His unfinished reference to “Moma and Popa” is followed by angry tears. The note connects his present loneliness to an earlier absence; it does not tell us exactly what happened to his parents.</p>\n<blockquote>“I’m alone again. Like when Moma and Popa—” <cite>— Djo’s scratched note</cite></blockquote>\n<p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1467352859602456841\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1467353748727922913\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1467367422016098355\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1467367861952581786\" target=\"_blank\" rel=\"noopener\">4</a>.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1201218376849162250/1467413861559828490\" target=\"_blank\" rel=\"noopener\">1</a>.</p>\n<h2 id=\"djo-hiding\">“I was hiding first!”</h2>\n<p>Djo’s fear is something other people can see and share. When Timale jumps behind him, Djo objects: <q>H-Hey, I was hiding first!</q> Timale answers that Djo has nine lives and he only has one. The exchange is a joke between frightened companions, not proof of a literal ability to survive nine deaths.</p>\n<p>Later, Djo finds a green hag beside an amalgamation of rotten bodies and immediately flees. These moments preserve his instinct to find cover without deciding everything he will do afterward.</p>\n<p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1490084771848519713\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1490085055094194248\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1490085148425720010\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1528928310627663984\" target=\"_blank\" rel=\"noopener\">4</a>.</p>\n<h2 id=\"djo-care\">The wounded come first</h2>\n<p>In the July fight, Aurélia offers to make Djo faster. He is too focused on patching up an injured orc to answer immediately. His attention goes to the person bleeding beside him before his own combat advantage.</p>\n<p>During the September harpy expedition, he admits he knows a little about treating cuts. When Di’trillio falls, he panics and nevertheless works to stem the bleeding with precision. He continues helping while Sister fights. His uncertainty about himself and the care he actually provides coexist in the same scenes.</p>\n<p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1528935352822399076\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1545992006881513482\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546031354851106926\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546034423957561444\" target=\"_blank\" rel=\"noopener\">4</a>.</p>\n<h2 id=\"djo-sister\">Sister, present but unexplained</h2>\n<p>At the September gathering, Djo introduces a cheerful, ghostly feline figure as <strong>Sister</strong>. She appears beside him in combat. When Natalia asks about the apparition, Djo calls it a long story and says he will explain later.</p>\n<p>The visible companion and the name he gives her are established. Whether she is his original sister, how this manifestation came about, and whether Ada had any part in it remain unresolved here. These scenes do not identify Ada beyond Anáil’s acquaintance or show him causing Sister’s appearance.</p>\n<p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1545975713172168756\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546005796796498010\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546042743762059264\" target=\"_blank\" rel=\"noopener\">3</a>.</p>\n<h2 id=\"djo-proximity\">“Don’t stray too far!”</h2>\n<p>In the later <a href=\"#old-earth-hills\">Old Earth Hills</a> cave investigation, Djo wants to leave but chooses to help prevent the corpse’s fate from reaching others. He participates alongside <a href=\"#cave-company\">the cave company</a>; his presence does not make him a member of the Seekers.</p>\n<p>When Saoirse moves on, Djo calls, <q>W-Wait, Saoirse! Don’t stray too far!</q> and follows as protective detail. She calls him brave and offers a cheese sandwich. He devours it while trying to thank her through cheesy bites. Warmth and comedy remain part of his bravery.</p>\n<p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1551071445822472193\" target=\"_blank\" rel=\"noopener\">Cave choice</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1551088990306697237\" target=\"_blank\" rel=\"noopener\">Helping</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553619007221923921\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553619777270972498\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553620197703688295\" target=\"_blank\" rel=\"noopener\">3</a>.</p>\n<h2 id=\"djo-observer\">Sauce stains and uncomfortable questions</h2>\n<p>Djo arrives late to the September expedition after one more bowl of pasta. His food jokes give danger an ordinary scale, but they do not exhaust his character. A sauce-stained note about the Ahau shows him considering what people’s words might imply.</p>\n<p>He describes them as pleasant but territorial, records their sensitivity about <a href=\"#cala\">Cala</a> and their hostility to devils, and worries that language about destructive fire suggests cleansing. These are Djo’s impressions and suspicions. The note does not establish an Ahau plan or settle Cala’s intentions.</p>\n<p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1545972628043595826\" target=\"_blank\" rel=\"noopener\">1</a>.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1201218376849162250/1469464981383807008\" target=\"_blank\" rel=\"noopener\">1</a>.</p>\n<h2 id=\"djo-pattern\">Courage while afraid</h2>\n<p><strong>Interpretation:</strong> the recurring movement in Djo’s story is from needing someone nearby to trying to stay nearby for others. Fear does not disappear; tending wounds, following companions and accepting their warmth give him ways to act through it. Reading this as a response to separation is supported by his own note, but remains a reading of the pattern rather than a stated explanation of every choice.</p>\n<p>His significance stays personal: Sister’s place beside him, Timale’s shared fear, Aurélia’s offer during a fight, and Saoirse’s praise after danger. He becomes dependable without becoming invulnerable or losing the awkward voice and appetite that make him recognizable.</p>\n<h2 id=\"djo-open\">What remains open</h2>\n<ul><li>What happened to Moma and Popa, and the circumstances of his separation from his sister.</li><li>Sister’s exact identity and manifestation, and any connection to Anáil’s hope about Ada.</li><li>Where his concerns about the Ahau lead, and how future losses may affect his protectiveness.</li></ul>\n<p>Source dates identify Discord posts, not an established in-world calendar. Djo’s <a href=\"#player-perspectives\">Player Perspectives</a> notes preserve his own understanding; the scene accounts show what he and his companions actually do.</p>",
+  "body": "<p>Djöhandrai, usually called Djo, is a frightened feline adventurer who keeps finding reasons to help. He stammers, hides, runs from horrors and makes time for food. He also tends the wounded and follows companions into danger. His courage is visible because the fear stays visible too.</p>\n\n\n<h2 id=\"djo-parents-and-home\">The coat he brings from home</h2><p>Djo names his old world as Pura. In conversations with Minerva and Aurélia, he describes a childhood that was once more comfortable: a father who fought in a war, parents who became gravely ill, and an uncle who took everything after they died. He does not accept the uncle’s description of his father as a coward. These are Djo’s memories of a family history his companions have not witnessed.</p><p>The oversized coat he wears belonged to his father. After losing their home, he says, he and Sister had to steal food. The Church of Aphnas gave the street children somewhere to sleep, but during services they were expected to hide in the attic or stay outside. Shelter did not mean being welcomed in public.</p><p>That history gives his appetite another dimension without explaining every stolen roll. He can enjoy eating, be greedy about a pastry and remember going hungry. When he later speaks about Pristinia, the difference he notices is ordinary and precise: people welcome him; merchants do not threaten him; nuns do not shoo him away.</p>\n\n<h2 id=\"djo-separation\">The person missing beside him</h2>\n<p>At <a href=\"#gate-clearing\">the Gate</a>, Djo asks where his sister is and whether he can go back. Being told there is no way home brings a mournful cry for her. Anáil offers a possibility: she can ask someone named Ada to send his sister through, though she cannot bring her immediately. This is Anáil’s offered hope, rather than a confirmed promise of reunion.</p>\n<p>In a hurried personal note, Djo says he has made friends and hopes his sister would be proud, but he needs her beside him. His unfinished reference to “Moma and Popa” is followed by angry tears. The note connects his present loneliness to an earlier absence; it does not tell us exactly what happened to his parents. His later account of their illness, deaths and lost home supplies more of that history.</p>\n<blockquote>“I’m alone again. Like when Moma and Popa—” <cite>— Djo’s scratched note</cite></blockquote>\n<p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1467352859602456841\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1467353748727922913\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1467367422016098355\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1467367861952581786\" target=\"_blank\" rel=\"noopener\">4</a>.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1201218376849162250/1467413861559828490\" target=\"_blank\" rel=\"noopener\">1</a>.</p>\n\n\n<h2 id=\"djo-first-friend\">A friend on the first night</h2><p>At the Gate, Zorkris gives Djo someone to hide beside. The protection is practical: stay close, signal when frightened, let the larger body stand between him and danger. But the newly arrived Djo does more than receive help. When Anáil asks for aid, he tells the others that she needs them and takes a hesitant step after her.</p><p>Later in that same encounter, Zorkris falls. Djo panics, then turns his fear against the attacker: “He’s my friend!” He throws his remaining dagger to keep the foe away. His concern for companions is already present on his first night; later rescues give it more room and greater skill.</p><p>The encounter also ends strangely. A crystal flashes, the company finds itself back at the Gate, and the narrator specifically preserves Djo’s memory of Anáil. Remembering the woman who offered help is not the same as knowing whether her promise about Sister will be fulfilled.</p>\n\n<h2 id=\"djo-serath-and-fire\">Serath, and the people he gets out of the fire</h2><p>After a rift leaves him shaken, Djo seeks <a href=\"#serath-vareth\">Serath Vareth</a> at the Common Man. He collapses into her embrace, tells her he was not strong enough and calls himself a coward for running. She offers the comfort he needs to start moving again. He later tries to give her money for listening. Help is something he struggles to accept without paying it back.</p><p>During the coastal-raider expedition, he is still asking what happened to her. Accounts differ, and he cannot make sense of them. That uncertainty travels with him into a fight that ends in a burning ship, trapped people and angry disagreement among the adventurers.</p><p>His first attempt to reach the ship is defeated by rough water. When Arethusa falls in the flames, the narrator records Djo and Kaelen pressing in to save her. Kaelen returns for people below deck and collapses too. Djo then sprints through the burning vessel, grabs him and makes it out. Kaelen thanks him afterward.</p><p>The rescue does not redeem the whole expedition. The trapped commoners die, the captain escapes and the ship goes down. Arethusa calls the night a failure. Djo leaves singed and limping, yet thinks that keeping his companions alive is what Serath would have wanted. Her judgment of the operation and his relief at the people saved can both remain true.</p>\n\n<h2 id=\"djo-hiding\">“I was hiding first!”</h2>\n<p>Djo’s fear is something other people can see and share. When Timale jumps behind him, Djo objects: <q>H-Hey, I was hiding first!</q> Timale answers that Djo has nine lives and he only has one. The exchange is a joke between frightened companions, not proof of a literal ability to survive nine deaths.</p>\n<p>Later, Djo finds a green hag beside an amalgamation of rotten bodies and immediately flees. These moments preserve his instinct to find cover without deciding everything he will do afterward.</p>\n<p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1490084771848519713\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1490085055094194248\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1490085148425720010\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1528928310627663984\" target=\"_blank\" rel=\"noopener\">4</a>.</p>\n\n\n<h2 id=\"djo-dangerous-curiosity\">The crystal he chooses to touch</h2><p>Fear does not always keep Djo from taking a risk. At <a href=\"#before-survey\">The Before</a>, Minerva unwraps a piece of Delerium and invites him to touch it. He asks why it was wrapped, hesitates, then runs a claw over the surface. The sick feeling comes before he stops. He looks at Minerva, lifts the stone more firmly and keeps examining it until his stomach lurches and he drops it.</p><p>The narrator confirms contamination. Minerva praises his bravery; Djo coughs, aches and wants to be anywhere far from purple. Both parts matter: she tempts him to handle it, and he makes the choice to continue after feeling sick. Neither a story of effortless courage nor one of passive victimhood fits the whole scene.</p><p>The next expedition into The Before shows what he has learned and what he has not escaped. He repeats a warning to himself not to touch the purple material, questions Modeli’s confidence and remembers having held Delerium before. During the fight, contamination hits again. He feels worse than before and scrambles over the wall, desperate for somewhere that resembles home.</p><p>That retreat belongs beside the rescue from the ship. He can push into danger for another person and still flee when his body and nerve are overwhelmed. The surviving scenes do not give him a clean immunity, a permanent cure or a fearless new self.</p>\n\n<h2 id=\"djo-minerva-home\">Minerva makes room</h2><p><a href=\"#minerva\">Minerva</a> offers something Djo cannot get from explanations of the Gate: company now. When he fears he will never find Sister, she says she cannot replace her, but will be there if he needs her. Later, when he tries to swallow his anger and grief, she invites him to let them out.</p><p>He eventually holds onto her, cries and admits he never wanted any of this. Sister’s spectral figure joins the embrace. For a moment he is content simply to remain in one place. When Minerva calls him chosen family, his response is a broad, unguarded smile.</p><p>The kindness does not remove Minerva’s harsher edges. In the same conversation, she warns him about trusting people with his heart and jokes about maiming or killing whoever breaks it. Her encouragement around Delerium has already helped draw him into danger. Djo’s affection for her is real without making every example she sets a safe one.</p><p>The promise of a home becomes a room at the Sisters of Sorrow Soirée. He worries about being a bother and jokes that they will need twice the food budget. Herb had let him sleep around the tables, he says; a bed is something he has not had in a long time. He accepts a stay, and Minerva instructs Misty to prepare his room. Later he describes the Soirée as both his workplace and the first home he has had in a long time.</p>\n\n<h2 id=\"djo-karnak\">Karnak calls him a brother</h2><p><a href=\"#karnak\">Karnak</a> gives a different kind of reassurance. In a letter, he remembers their hunts, battles and arguments, praises Djo’s courage and kindness, and asks him to stop carrying every mistake so heavily. The note ends by calling Djo his little brother and includes a cloak for his best friend.</p><p>The letter is Karnak’s judgment of their companionship, rather than a claim of blood kinship. It answers something Djo repeatedly doubts: whether fear and mistakes have made him a burden to the people beside him. One of those people tells him plainly that the journeys were better because he was there.</p>\n\n<h2 id=\"djo-pirates-and-restraint\">The anger that runs ahead of him</h2><p>Djo is not always the reluctant one at the back. In the pursuit of Green Beard, he pushes forward with his rapier drawn, impatient with delays. When the tunnel reveals a hag and a mass of corpses, he flees in terror. After the fight, he apologizes to Titav and <a href=\"#aurelia\">Aurélia</a>: he got ahead of himself, put them in danger and needs to listen.</p><p>At the later confrontation, the desire to kill the pirate is unmistakable. He fixes his bow on Green Beard, demands permission from Minerva to shoot and struggles to accept the pair’s departure. He also repeatedly worries about missing companions in the tunnels. His fury and his need to keep everyone together are present in the same encounter.</p><p>At <a href=\"#pilgrims-hearth\">the Pilgrim’s Hearth</a>, Aurélia gives him room to reconsider. He checks whether she is all right and apologizes for the situation he drew her into. Her concern about working with Green Beard does not make him trust the pirate. It does make him question whether killing a man is the same as helping Herb.</p><p>Djo blames himself for not being there when Herb’s old tavern burned. That is his guilt, not the narrator assigning him responsibility for the attack. He wants to prevent another loss, yet admits that he needs Aurélia’s voice of reason. He offers his paw to reassure her, then goes to the kitchen to help Herb. Cooking becomes another way to make himself useful.</p><p>Minerva later asks whether he will gather information from the Thieves Guild. He tentatively agrees because he wants Pristinia safer, while making clear that he dislikes dealing with criminals and does not know where to begin. An offer and a reluctant answer do not establish that he infiltrated the guild or completed the task.</p>\n\n<h2 id=\"djo-rifts\">Beyond the breach</h2><p>In the <a href=\"#dark-expanse-rift\">Dark Expanse rift</a>, Djo enters with his blade ready. He and Sister coordinate their strikes through a huge foe’s stone and flesh. The wider company still has to confront the moving heads that threaten to rebuild the bodies. Djo’s part belongs within that group fight; the narrator closes the encounter on the assumption that everyone escapes before the opening fails.</p><p>The <a href=\"#volcanic-rift\">volcanic rift</a> catches him on the road between Gartina’s estate and Pristinia. He goes through despite the heat, takes a perch and notices that the crystal’s pulsing matches the rising heat. His arrows alone do not break it. The party’s attacks, healing and eventual destruction of the crystal bring down the realm around them.</p><p>His fur is singed and his strength nearly spent. Seeing Ryvyt and Espera fall, he is about to cry out when Fenwick and Scribonia restore them. Relief is immediate. His next concern is more familiar: finding the people who might sell him gems that make food. The collapsing rift returns him to the road, and his attempted pursuit of Farkur and Ryvyt ends in an indignant shout.</p>\n\n<h2 id=\"djo-sister\">Sister, present but unexplained</h2>\n<p>At the gathering before the first harpy expedition, Djo introduces a cheerful, ghostly feline figure as <strong>Sister</strong>. She appears beside him in combat. When Natalia asks about the apparition, Djo calls it a long story and says he will explain later.</p>\n<p>The visible companion and the name he gives her are established. Whether she is his original sister, how this manifestation came about, and whether Ada had any part in it remain unresolved here. These scenes do not identify Ada beyond Anáil’s acquaintance or show him causing Sister’s appearance.</p>\n<p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1545975713172168756\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546005796796498010\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546042743762059264\" target=\"_blank\" rel=\"noopener\">3</a>.</p>\n<p>The spectral figure is already present in the blizzard rift, before the harpy gathering. Later, Djo can speak of her beside him and still worry that he will never find Sister through the Gate. The resemblance and shared name do not settle that distinction. He also moves into the spectral figure’s place while treating Di’Trillio; the scene shows what he does, without explaining the power’s origin.</p>\n\n<h2 id=\"djo-care\">The wounded come first</h2>\n<p>In the July fight, Aurélia offers to make Djo faster. He is too focused on patching up an injured orc to answer immediately. His attention goes to the person bleeding beside him before his own combat advantage.</p>\n<p>During the September harpy expedition, he admits he knows a little about treating cuts. When Di’trillio falls, he panics and nevertheless works to stem the bleeding with precision. He continues helping while Sister fights. His uncertainty about himself and the care he actually provides coexist in the same scenes.</p>\n<p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1528935352822399076\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1545992006881513482\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546031354851106926\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546034423957561444\" target=\"_blank\" rel=\"noopener\">4</a>.</p>\n\n\n<h2 id=\"djo-proximity\">“Don’t stray too far!”</h2>\n<p>In the later <a href=\"#old-earth-hills\">Old Earth Hills</a> cave investigation, Djo wants to leave but chooses to help prevent the corpse’s fate from reaching others. He participates alongside <a href=\"#cave-company\">the cave company</a>; his presence does not make him a member of the Seekers.</p>\n<p>When Saoirse moves on, Djo calls, <q>W-Wait, Saoirse! Don’t stray too far!</q> and follows as protective detail. She calls him brave and offers a cheese sandwich. He devours it while trying to thank her through cheesy bites. Warmth and comedy remain part of his bravery.</p>\n<p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1551071445822472193\" target=\"_blank\" rel=\"noopener\">Cave choice</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1551088990306697237\" target=\"_blank\" rel=\"noopener\">Helping</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553619007221923921\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553619777270972498\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553620197703688295\" target=\"_blank\" rel=\"noopener\">3</a>.</p>\n<p>After the cave battle, Djo offers treats and medical supplies, then places the dead person’s sword gently in their lap. He recalls his father’s teaching that a soldier should rest with a weapon in hand. His care extends from keeping companions close to making a small gesture for somebody he cannot save.</p>\n\n<h2 id=\"djo-observer\">Sauce stains and uncomfortable questions</h2>\n<p>Djo arrives late to the September expedition after one more bowl of pasta. His food jokes give danger an ordinary scale, but they do not exhaust his character. A sauce-stained note about the Ahau shows him considering what people’s words might imply.</p>\n<p>He describes them as pleasant but territorial, records their sensitivity about <a href=\"#cala\">Cala</a> and their hostility to devils, and worries that language about destructive fire suggests cleansing. These are Djo’s impressions and suspicions. The note does not establish an Ahau plan or settle Cala’s intentions.</p>\n<p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1545972628043595826\" target=\"_blank\" rel=\"noopener\">1</a>.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1201218376849162250/1469464981383807008\" target=\"_blank\" rel=\"noopener\">1</a>.</p>\n\n\n<h2 id=\"djo-meal-for-newcomer\">A meal for someone newly arrived</h2><p>By 6, Month of the Wyrm, Year 3, Djo is carrying supplies into the Pilgrim’s Hearth with <a href=\"#kiralyn-mohrn\">Kiralyn Mohrn</a>. When he hears her stomach growl, he offers a warm roll, asks nothing in return and goes to the kitchen for soup. He has learned by watching the Soirée’s staff, helping with preparation and discovering what tastes good. He even admits to improving the seasoning on rolls taken from work.</p><p>He tells Kiralyn that Minerva gave him a job and a home. At that point, he knows only that she has been away for some time. As Kiralyn describes being far from home and unsure what to do, he explains that many adventurers arrived from elsewhere. His list of dangers becomes a jumble of harpies, hags, pirates, rifts and Delerium; he apologizes, then offers gentler advice: find friends, learn, eat well and take the day as it comes.</p><p>The change is small enough to be convincing. Djo still stammers, steals rolls and gets lost in an explanation. He can now make an unfamiliar place more welcoming for somebody else. His latest checked scene ends with thanks for help with the boxes, rather than a victory speech.</p><p><a href=\"#sanctum-of-saturnia\">Minerva later dies in Saturnia’s sanctum</a>. No checked scene here shows Djo learning of that death or responding to it. The home he describes on the sixth remains a real part of his history; its next chapter has not yet been told through him.</p>\n\n<h2 id=\"djo-pattern\">Courage while afraid</h2>\n<p><strong>Interpretation:</strong> the recurring movement in Djo’s story is from needing someone nearby to trying to stay nearby for others. Fear does not disappear; tending wounds, following companions and accepting their warmth give him ways to act through it. Reading this as a response to separation is supported by his own note, but remains a reading of the pattern rather than a stated explanation of every choice.</p>\n<p>His significance stays personal: Sister’s place beside him, Timale’s shared fear, Aurélia’s offer during a fight, and Saoirse’s praise after danger. He becomes dependable without becoming invulnerable or losing the awkward voice and appetite that make him recognizable.</p>\n<p>The pattern is not a straight climb from helplessness into bravery. He defends Zorkris on his first night, later makes a dangerous choice with a crystal, apologizes for a reckless pursuit and learns to welcome another newcomer. Courage, curiosity, anger and care keep competing. His most convincing growth is in the different ways he finds to help.</p>\n\n<h2 id=\"djo-open\">What remains open</h2>\n<ul><li>The cause of the illness Djo says took his parents, the family dispute he describes and the circumstances of his separation from Sister.</li><li>Sister’s exact identity and manifestation, and any connection to Anáil’s hope about Ada.</li><li>Where his concerns about the Ahau lead, and how future losses may affect his protectiveness.</li></ul>\n<p>The Final War calendar follows the Codex’s posting-date convention, with the Old Earth Hills continuation retaining its established quest day. Djo’s <a href=\"#player-perspectives\">Player Perspectives</a> notes preserve his own understanding; the scene accounts show what he and his companions actually do.</p>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "djo-parents-and-home",
+      "title": "The coat he brings from home",
+      "chapter": "The coat he brings from home",
+      "evidence": {
+        "kind": "testimony",
+        "label": "Personal history & attributed claims",
+        "scope": "section",
+        "summary": "Djo supplies the account of Pura, his parents, uncle, church shelter and stolen food. His coat is present in the scene. No independent reconstruction of the family dispute, illness or war is established.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1517694310609322077",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1517696870221086852",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1517700731858325544",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1517703551684706354",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519836721762533427",
+          "https://discord.com/channels/1177270231513694249/1198722893337608402/1526860876915806278",
+          "https://discord.com/channels/1177270231513694249/1198722893337608402/1526863793211314238"
+        ]
+      }
+    },
     {
       "id": "djo-separation",
       "title": "The person missing beside him",
       "chapter": "History & consequences",
       "evidence": {
         "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "label": "Observed scenes & personal accounts",
+        "summary": "The linked primary scenes support the described actions. Djo’s fears and recollections retain their attribution; Sister’s nature and the fulfilment of Anáil’s offer remain unresolved.",
+        "scope": "section",
         "sources": [
-          "Djöhandrai Deep Dive · user-supplied interpretation checked against primary scenes",
-          "Quest-RP · selected arrival, April, July and September 2026 scenes",
-          "Story Notes · Djo’s personal notes posted 1 and 6 February 2026 UTC",
-          "Quest continuation · Saoirse exchange posted 27 September 2026 UTC"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467352859602456841",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467353748727922913",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467367422016098355",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467367861952581786",
+          "https://discord.com/channels/1177270231513694249/1201218376849162250/1467413861559828490"
+        ]
+      }
+    },
+    {
+      "id": "djo-first-friend",
+      "title": "A friend on the first night",
+      "chapter": "A friend on the first night",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest choices & consequences",
+        "scope": "section",
+        "summary": "The cited scenes establish actions and stated outcomes. Memories, motives and interpretations retain their speakers; narrator outcomes take precedence.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467369161368928493",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467370499297378326",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467371246068043868",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467373203654705377",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467399223698788395",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467402196860801045",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467404616978399313"
+        ]
+      }
+    },
+    {
+      "id": "djo-serath-and-fire",
+      "title": "Serath, and the people he gets out of the fire",
+      "chapter": "Serath, and the people he gets out of the fire",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & personal accounts",
+        "scope": "section",
+        "summary": "The coastal quest establishes the rescues and losses. The earlier tavern scene supplies Serath’s comfort; Djo’s uncertainty and later thought about what she would want remain his perspective. The narrator’s “Alpha” is identified as Kaelen by his preceding collapse and subsequent thanks.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1486922324136427810",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1486926396319338557",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1486931172054405150",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1486949811281461350",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490088105301246115",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490131722501619912",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490135793195417642",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490144108180934887",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490144946576167044",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490152513067024507",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490153907178045460",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490155513802133554",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490155688847085700",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490159361518080141"
         ]
       }
     },
@@ -53,32 +254,147 @@
       "title": "“I was hiding first!”",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest choices & consequences",
+        "summary": "The linked scenes establish actions and speech. Interpretations connect those scenes without turning fears, jokes or personal conclusions into objective facts.",
+        "scope": "section",
         "sources": [
-          "Djöhandrai Deep Dive · user-supplied interpretation checked against primary scenes",
-          "Quest-RP · selected arrival, April, July and September 2026 scenes",
-          "Story Notes · Djo’s personal notes posted 1 and 6 February 2026 UTC",
-          "Quest continuation · Saoirse exchange posted 27 September 2026 UTC"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490084771848519713",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490085055094194248",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490085148425720010",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1528928310627663984"
         ]
       }
     },
     {
-      "id": "djo-care",
-      "title": "The wounded come first",
-      "chapter": "History & consequences",
+      "id": "djo-dangerous-curiosity",
+      "title": "The crystal he chooses to touch",
+      "chapter": "The crystal he chooses to touch",
       "evidence": {
         "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "label": "Observed scenes & personal accounts",
+        "scope": "section",
+        "summary": "The Before’s narrated RP establishes the voluntary handling and contamination. The subsequent main quest establishes renewed contamination and retreat. Minerva’s praise is her response, not a ruling that the choice was wise; the quest does not establish permanent injury or a lasting cure.",
         "sources": [
-          "Djöhandrai Deep Dive · user-supplied interpretation checked against primary scenes",
-          "Quest-RP · selected arrival, April, July and September 2026 scenes",
-          "Story Notes · Djo’s personal notes posted 1 and 6 February 2026 UTC",
-          "Quest continuation · Saoirse exchange posted 27 September 2026 UTC"
+          "https://discord.com/channels/1177270231513694249/1213007461540306984/1499564139507613889",
+          "https://discord.com/channels/1177270231513694249/1213007461540306984/1499564355300098208",
+          "https://discord.com/channels/1177270231513694249/1213007461540306984/1499564716303847434",
+          "https://discord.com/channels/1177270231513694249/1213007461540306984/1499568007645630666",
+          "https://discord.com/channels/1177270231513694249/1213007461540306984/1499569905673175170",
+          "https://discord.com/channels/1177270231513694249/1213007461540306984/1499570677961719906",
+          "https://discord.com/channels/1177270231513694249/1213007461540306984/1499572449455636653",
+          "https://discord.com/channels/1177270231513694249/1213007461540306984/1499573591786651710",
+          "https://discord.com/channels/1177270231513694249/1213007461540306984/1499573892174581944",
+          "https://discord.com/channels/1177270231513694249/1213007461540306984/1499574536478134404",
+          "https://discord.com/channels/1177270231513694249/1213007461540306984/1499577251371421799",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512876943119351869",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512884411480281311",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512920066403078244",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512921303122710569",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512926822902534245",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512930804286750842",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512940317471670295"
+        ]
+      }
+    },
+    {
+      "id": "djo-minerva-home",
+      "title": "Minerva makes room",
+      "chapter": "Minerva makes room",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & personal accounts",
+        "scope": "section",
+        "summary": "The conversations establish the offered care, accepted room and employment as Djo later describes it. They do not explain Sister’s nature, turn Minerva’s threats into completed violence or establish Djo’s response to Minerva’s later death.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1515136894088773753",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1515138779332214879",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519818290724208796",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519819770596298926",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519822603605246103",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519824478387835111",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519834294363619460",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519838809569886219",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519841288579715113",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519842419531583488",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519854091776557066",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519856139574182011",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519865751123660862",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1519866672897458236",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568397759508127815"
+        ]
+      }
+    },
+    {
+      "id": "djo-karnak",
+      "title": "Karnak calls him a brother",
+      "chapter": "Karnak calls him a brother",
+      "evidence": {
+        "kind": "testimony",
+        "label": "Personal history & attributed claims",
+        "scope": "section",
+        "summary": "Karnak’s letter and gift establish an explicitly fraternal friendship. They do not establish a biological relationship, Djo’s exact age or an unseen response to the letter.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1528834753359380503"
+        ]
+      }
+    },
+    {
+      "id": "djo-pirates-and-restraint",
+      "title": "The anger that runs ahead of him",
+      "chapter": "The anger that runs ahead of him",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & personal accounts",
+        "scope": "section",
+        "summary": "The quests establish his haste, threats, apologies and concern for companions. The Hearth conversation preserves his guilt and Aurélia’s influence without assigning him the burning. The later proposed information work has no completed outcome here.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1528915936080429227",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1528919777790263307",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1528928310627663984",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1528948809948725268",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1533273943547318424",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1533291970598797403",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1533311203714273320",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1533314990889500865",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1533321760584372335",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1537675503635406930",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1537677082241278042",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1537679816835203163",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1537682173472276480",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1537692462489935892",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1537696822020276254",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1537880096428531762",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1542735484932063375",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1542738553736405003",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1542741123607568404"
+        ]
+      }
+    },
+    {
+      "id": "djo-rifts",
+      "title": "Beyond the breach",
+      "chapter": "Beyond the breach",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest choices & consequences",
+        "scope": "section",
+        "summary": "The rift quests establish his participation, paired strike, crystal observation and return point. They do not credit him with closing either rift alone, establish a shop visit or turn Ryvyt’s rescue here into survival of his later fatal quest.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535102020862615602",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535126682556440637",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535127399975493655",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535130127678050377",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535130185702178862",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552856851824246875",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552876615371988993",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552878193806147705",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552893575220428832",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552902581724913736",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552904911178440805",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552911550228996138",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552912584309608550",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552913910254932010"
         ]
       }
     },
@@ -87,15 +403,34 @@
       "title": "Sister, present but unexplained",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "unresolved",
+        "label": "What remains unexplained",
+        "summary": "The linked primary scenes support the described actions. Djo’s fears and recollections retain their attribution; Sister’s nature and the fulfilment of Anáil’s offer remain unresolved.",
+        "scope": "section",
         "sources": [
-          "Djöhandrai Deep Dive · user-supplied interpretation checked against primary scenes",
-          "Quest-RP · selected arrival, April, July and September 2026 scenes",
-          "Story Notes · Djo’s personal notes posted 1 and 6 February 2026 UTC",
-          "Quest continuation · Saoirse exchange posted 27 September 2026 UTC"
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1490903250856054805",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1512879686064017579",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1545975713172168756",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546005796796498010",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546042743762059264",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1515136894088773753"
+        ]
+      }
+    },
+    {
+      "id": "djo-care",
+      "title": "The wounded come first",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest choices & consequences",
+        "summary": "The linked scenes establish actions and speech. Interpretations connect those scenes without turning fears, jokes or personal conclusions into objective facts.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1528935352822399076",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1545992006881513482",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546031354851106926",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546034423957561444"
         ]
       }
     },
@@ -104,15 +439,17 @@
       "title": "“Don’t stray too far!”",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest choices & consequences",
+        "summary": "The linked scenes establish actions and speech. Interpretations connect those scenes without turning fears, jokes or personal conclusions into objective facts.",
+        "scope": "section",
         "sources": [
-          "Djöhandrai Deep Dive · user-supplied interpretation checked against primary scenes",
-          "Quest-RP · selected arrival, April, July and September 2026 scenes",
-          "Story Notes · Djo’s personal notes posted 1 and 6 February 2026 UTC",
-          "Quest continuation · Saoirse exchange posted 27 September 2026 UTC"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1551071445822472193",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1551088990306697237",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1553619007221923921",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1553619777270972498",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1553620197703688295",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1553623787059159041"
         ]
       }
     },
@@ -121,15 +458,37 @@
       "title": "Sauce stains and uncomfortable questions",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "testimony",
+        "label": "Djo’s impressions",
+        "summary": "The linked scenes establish actions and speech. Interpretations connect those scenes without turning fears, jokes or personal conclusions into objective facts.",
+        "scope": "section",
         "sources": [
-          "Djöhandrai Deep Dive · user-supplied interpretation checked against primary scenes",
-          "Quest-RP · selected arrival, April, July and September 2026 scenes",
-          "Story Notes · Djo’s personal notes posted 1 and 6 February 2026 UTC",
-          "Quest continuation · Saoirse exchange posted 27 September 2026 UTC"
+          "https://discord.com/channels/1177270231513694249/1201218376849162250/1469464981383807008",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1545972628043595826"
+        ]
+      }
+    },
+    {
+      "id": "djo-meal-for-newcomer",
+      "title": "A meal for someone newly arrived",
+      "chapter": "A meal for someone newly arrived",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & personal accounts",
+        "scope": "section",
+        "summary": "The Hearth scene establishes food, deliveries and the welcome he offers Kiralyn. Employment, learning to cook and Minerva’s absence are Djo’s account. Her later quest-established death is linked separately; no knowledge or grief reaction is assigned to him.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568391466697494691",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568393871463944346",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568395497654456382",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568397759508127815",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568398000336928819",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568400631641931859",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568403073192435885",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568405416055021689",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568408490895081624",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568411654331572368",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1573591657524498555"
         ]
       }
     },
@@ -138,15 +497,16 @@
       "title": "Courage while afraid",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "interpretation",
+        "label": "Reading across the scenes",
+        "summary": "The linked scenes establish actions and speech. Interpretations connect those scenes without turning fears, jokes or personal conclusions into objective facts.",
+        "scope": "section",
         "sources": [
-          "Djöhandrai Deep Dive · user-supplied interpretation checked against primary scenes",
-          "Quest-RP · selected arrival, April, July and September 2026 scenes",
-          "Story Notes · Djo’s personal notes posted 1 and 6 February 2026 UTC",
-          "Quest continuation · Saoirse exchange posted 27 September 2026 UTC"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467402196860801045",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490152513067024507",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1528948809948725268",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568393871463944346",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1568411654331572368"
         ]
       }
     },
@@ -155,50 +515,272 @@
       "title": "What remains open",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "unresolved",
+        "label": "What remains unexplained",
+        "summary": "The linked primary scenes support the described actions. Djo’s fears and recollections retain their attribution; Sister’s nature and the fulfilment of Anáil’s offer remain unresolved.",
+        "scope": "section",
         "sources": [
-          "Djöhandrai Deep Dive · user-supplied interpretation checked against primary scenes",
-          "Quest-RP · selected arrival, April, July and September 2026 scenes",
-          "Story Notes · Djo’s personal notes posted 1 and 6 February 2026 UTC",
-          "Quest continuation · Saoirse exchange posted 27 September 2026 UTC"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1467367422016098355",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546042743762059264",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1517703551684706354",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1515136894088773753",
+          "https://discord.com/channels/1177270231513694249/1330584465952608308/1542741123607568404"
         ]
       }
     }
   ],
   "brief": {
-    "identity": "Courage while afraid",
-    "significance": "Djo hides, stammers and loves a good meal—and keeps choosing to help people in danger.",
+    "identity": "Tabaxi adventurer · courage while afraid",
+    "significance": "Djo arrives asking for Sister. Through rescues, dangerous curiosity and a home at the Soirée, he learns how to make room for other frightened people.",
     "actions": [
       {
-        "title": "Vessalia’s party investigates the harpy cave",
-        "event": "Vessalia’s party investigates the harpy cave",
-        "date": "19–20 Sep 2026 · Discord posting dates (America/New_York)"
+        "section": "djo-serath-and-fire",
+        "title": "The people he gets out of the burning ship",
+        "date": "4, Month of Namo'o, Year 3"
       },
       {
-        "title": "The harpy cave is collapsed after a final prayer",
-        "event": "The harpy cave is collapsed after a final prayer",
-        "date": "26–27 Sep 2026 · Discord posting date (America/New_York)"
+        "section": "djo-dangerous-curiosity",
+        "title": "The Delerium he chooses to handle",
+        "date": "1, Month of Physisia, Year 3"
+      },
+      {
+        "section": "djo-meal-for-newcomer",
+        "title": "A meal and a welcome for Kiralyn",
+        "date": "6, Month of the Wyrm, Year 3"
       }
     ],
-    "status": "Last dated entry in this selection: 26–27 Sep 2026 · Discord posting date (America/New_York). Later status is not established here.",
+    "status": "Alive in the latest checked scene · 6, Month of the Wyrm, Year 3; feeds and welcomes Kiralyn at the Pilgrim’s Hearth",
     "relationships": [
       {
-        "id": "cave-company",
-        "label": "The Seekers",
-        "relation": "Connected in this history"
+        "id": "minerva",
+        "label": "Minerva",
+        "relation": "Chosen family; offers a room and work"
+      },
+      {
+        "id": "serath-vareth",
+        "label": "Serath Vareth",
+        "relation": "Comfort he remembers during the coastal rescue"
+      },
+      {
+        "id": "aurelia",
+        "label": "Aurélia",
+        "relation": "Companion whose caution he learns to hear"
       }
     ],
-    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+    "basis": "Checked quest outcomes and compatible personal scenes. Djo’s memories, fears and proposed work remain attributed; selected moments are a reading guide."
   },
   "profile": {
-    "personality": "Djo is visibly anxious, sincere and food-motivated. He hides, stammers and runs from frightening things, but repeatedly helps people while still afraid. His personal note connects present loneliness with an earlier absence involving Moma and Popa, whose circumstances remain unknown.",
-    "achievements": "Tends an injured orc before answering Aurélia’s offer of speed; treats fallen companions during the harpy expedition while Sister fights; joins the later cave investigation and follows Saoirse as protective detail. He is not a member of the Seekers.",
-    "relationships": "He arrived asking for his sister; Anáil offered to ask Ada for help. Later he introduces a spectral feline companion as Sister, whose exact identity remains unresolved. Timale shares his comic fear, Aurélia offers help in battle, and Saoirse praises his courage and gives him a sandwich."
+    "personality": "Djo is anxious, curious, hungry and capable of sudden anger. He hides and stammers, yet defends companions from his first night. He sometimes makes reckless choices, apologizes for them and looks for practical ways to help. Food becomes something he learns to prepare and share as well as something he wants.",
+    "achievements": "Helps rescue Arethusa and pulls Kaelen from a burning ship; treats fallen companions while Sister fights; participates in rift battles and the Old Earth Hills investigation. Later learns kitchen work at the Soirée and welcomes Kiralyn with food and advice. Not a member of the Seekers.",
+    "relationships": "Sister remains his central absence and an unexplained spectral presence. Serath comforts him; Minerva gives him a home; Karnak calls him a little brother; Aurélia challenges his recklessness; Herb gives him people and work to return to. Saoirse recognizes the courage he doubts."
   },
   "video": "assets/characters/djohandrai-animation.mp4",
   "videoType": "video/mp4",
-  "videoCaption": "Djöhandrai · Djo"
+  "videoCaption": "Djöhandrai · Djo",
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "djo-before-and-gate",
+        "title": "Home, Sister and the Gate",
+        "sections": [
+          "djo-parents-and-home",
+          "djo-separation"
+        ]
+      },
+      {
+        "id": "djo-friends-and-fire",
+        "title": "Friends he tries to keep alive",
+        "sections": [
+          "djo-first-friend",
+          "djo-serath-and-fire",
+          "djo-hiding"
+        ]
+      },
+      {
+        "id": "djo-curiosity",
+        "title": "Curiosity and contamination",
+        "sections": [
+          "djo-dangerous-curiosity"
+        ]
+      },
+      {
+        "id": "djo-finding-home",
+        "title": "A room, a family and a brother",
+        "sections": [
+          "djo-minerva-home",
+          "djo-karnak"
+        ]
+      },
+      {
+        "id": "djo-anger-and-breaches",
+        "title": "Anger, restraint and the rifts",
+        "sections": [
+          "djo-pirates-and-restraint",
+          "djo-rifts"
+        ]
+      },
+      {
+        "id": "djo-sister-and-medicine",
+        "title": "Sister beside the wounded",
+        "sections": [
+          "djo-sister",
+          "djo-care"
+        ]
+      },
+      {
+        "id": "djo-staying-close",
+        "title": "Keeping close in the Old Earth Hills",
+        "sections": [
+          "djo-proximity"
+        ]
+      },
+      {
+        "id": "djo-notes-and-kitchen",
+        "title": "An observer, a cook and a welcome",
+        "sections": [
+          "djo-observer",
+          "djo-meal-for-newcomer"
+        ]
+      },
+      {
+        "id": "djo-continuing",
+        "title": "The person who is still afraid",
+        "sections": [
+          "djo-pattern",
+          "djo-open"
+        ]
+      },
+      {
+        "id": "djo-people",
+        "title": "People who change this history",
+        "kind": "relationships",
+        "sections": []
+      }
+    ],
+    "relationships": [
+      "minerva",
+      "serath-vareth",
+      "karnak",
+      "aurelia",
+      "herb",
+      "saoirse"
+    ]
+  },
+  "relationshipMap": {
+    "title": "The people Djo stays close to",
+    "filters": [
+      {
+        "id": "all",
+        "label": "All ties"
+      },
+      {
+        "id": "bond",
+        "label": "People and commitments"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "minerva",
+        "title": "Minerva",
+        "subtitle": "A home with a dangerous teacher",
+        "category": "bond",
+        "strength": 1,
+        "x": 50,
+        "y": 8,
+        "direction": "mutual",
+        "relation": "A home with a dangerous teacher",
+        "history": "She offers company without replacing Sister, gives Djo a room and work, and calls him family. She also encourages the dangerous crystal handling.",
+        "consequence": "Her tenderness and influence matter together. Her later death is established; his response is not.",
+        "evidence": "Checked primary scenes; personal recollections and unshown outcomes retain the limits stated in the history.",
+        "article": "minerva"
+      },
+      {
+        "id": "serath-vareth",
+        "title": "Serath Vareth",
+        "subtitle": "Someone who listens",
+        "category": "bond",
+        "strength": 1,
+        "x": 83,
+        "y": 29,
+        "direction": "mutual",
+        "relation": "Someone who listens",
+        "history": "Djo seeks her after the terrifying rift and is comforted in her arms. During the coastal rescue he thinks of what she would want.",
+        "consequence": "Her kindness remains part of how he understands keeping people alive.",
+        "evidence": "Checked primary scenes; personal recollections and unshown outcomes retain the limits stated in the history.",
+        "article": "serath-vareth"
+      },
+      {
+        "id": "karnak",
+        "title": "Karnak",
+        "subtitle": "The little brother he chooses",
+        "category": "bond",
+        "strength": 1,
+        "x": 83,
+        "y": 71,
+        "direction": "mutual",
+        "relation": "The little brother he chooses",
+        "history": "Karnak writes that their journeys were better with Djo and asks him not to carry every mistake so heavily.",
+        "consequence": "The letter establishes fraternal friendship, not blood kinship.",
+        "evidence": "Checked primary scenes; personal recollections and unshown outcomes retain the limits stated in the history.",
+        "article": "karnak"
+      },
+      {
+        "id": "aurelia",
+        "title": "Aurélia",
+        "subtitle": "Caution he learns to hear",
+        "category": "bond",
+        "strength": 1,
+        "x": 50,
+        "y": 92,
+        "direction": "mutual",
+        "relation": "Caution he learns to hear",
+        "history": "He worries when she disappears from the tunnels, apologizes for his haste and later hears her objections to working with Green Beard.",
+        "consequence": "He acknowledges the need for her voice of reason without losing his anger at the pirate.",
+        "evidence": "Checked primary scenes; personal recollections and unshown outcomes retain the limits stated in the history.",
+        "article": "aurelia"
+      },
+      {
+        "id": "herb",
+        "title": "Herb",
+        "subtitle": "Food, shelter and work to return to",
+        "category": "bond",
+        "strength": 1,
+        "x": 17,
+        "y": 71,
+        "direction": "mutual",
+        "relation": "Food, shelter and work to return to",
+        "history": "Herb lets him sleep around the tables. Djo later wants to help in the kitchen and delivers supplies to the Hearth.",
+        "consequence": "Protecting Herb can mean useful work as well as chasing a pirate.",
+        "evidence": "Checked primary scenes; personal recollections and unshown outcomes retain the limits stated in the history.",
+        "article": "herb"
+      },
+      {
+        "id": "saoirse",
+        "title": "Saoirse",
+        "subtitle": "Keeping one another close",
+        "category": "bond",
+        "strength": 1,
+        "x": 17,
+        "y": 29,
+        "direction": "mutual",
+        "relation": "Keeping one another close",
+        "history": "Djo follows as protective detail in the harpy cave. Saoirse praises his bravery and offers a sandwich.",
+        "consequence": "The fear remains visible beside practical care and ordinary pleasure.",
+        "evidence": "Checked primary scenes; personal recollections and unshown outcomes retain the limits stated in the history.",
+        "article": "saoirse"
+      }
+    ],
+    "insights": [],
+    "intro": "Companionship, care and the examples he follows",
+    "center": {
+      "title": "Djöhandrai",
+      "subtitle": "Courage, care and a place to belong"
+    }
+  },
+  "sourceReview": {
+    "reviewed": "2026-11-24",
+    "scope": "Selected original quest, rift and compatible RP scenes; latest personal scene 6 November 2026. Quest outcomes govern.",
+    "ledger": "content/reference/djo-dossier-review-2026-11-24.json"
+  }
 }

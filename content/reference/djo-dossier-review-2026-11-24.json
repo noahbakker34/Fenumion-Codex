@@ -1,0 +1,1440 @@
+{
+  "reviewed": "2026-11-24",
+  "article": "djohandrai",
+  "request": "Deep public character dossier and a separate ChatGPT-ready file",
+  "scope": "Selected original main quest, rift, Story Notes and compatible Prima RP; sources indexed through the supplied 22 November packet. Latest checked Djo scene: 6 November. Not a claim to have read every archived message.",
+  "authority": "Explicit owner canon and quest narrator outcomes govern. Compatible RP supplies personal history and ordinary life. Statements, interpretations and unresolved questions remain distinct.",
+  "decisions": [
+    "Retain the existing identity, portrait, animation, PC classification, aliases and all eight earlier section bookmarks.",
+    "The burning-ship quest credits Djo with helping save Arethusa and rescuing Kaelen, while retaining the commoner deaths and escaped captain. Alpha in the rescue narration is matched to Kaelen’s collapse and thanks.",
+    "Djo defends Zorkris on his first night; do not flatten his development into a wholly selfish coward who learns care only later.",
+    "Later compatible dialogue supplies his account of parental illness/deaths, his uncle taking the home, church shelter, Pura and his father’s coat. Correct the former limited-source unknown, without converting memories into independently established family history.",
+    "The Before scene has Minerva tempting him, his voluntary continued handling and narrated contamination. Her praise does not make it safe or erase his agency.",
+    "Sister is already spectral in the blizzard rift, before the September introduction. The original sister’s identity, fate, reunion and Anáil/Ada mechanism remain unresolved; Djo later still hopes to find her.",
+    "Minerva’s offered/accepted room and Djo’s later work/cooking account establish a home. Affection coexists with dangerous influence and proposed criminal information work, whose completion is not shown.",
+    "Rift participation is a group achievement. No sole crystal destruction, confirmed shop visit, permanent contamination cure or literal nine lives.",
+    "Old Earth Hills retains the existing 19 September quest day across later continuation posts. No new timeline milestone is manufactured.",
+    "Advance current Djo status to the 6 November Hearth scene. Minerva’s subsequent death is established separately; Djo’s knowledge and grief response remain unshown.",
+    "Keep him outside the Seekers; fraternal language from Karnak is a chosen bond, not biological kinship.",
+    "No private cosmology, account/controller information, unplayed goals, raw transcript or speculative romance is published."
+  ],
+  "sections": [
+    {
+      "id": "djo-parents-and-home",
+      "kind": "testimony",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1517694310609322077",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1517696870221086852",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1517700731858325544",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1517703551684706354",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519836721762533427",
+        "https://discord.com/channels/1177270231513694249/1198722893337608402/1526860876915806278",
+        "https://discord.com/channels/1177270231513694249/1198722893337608402/1526863793211314238"
+      ]
+    },
+    {
+      "id": "djo-separation",
+      "kind": "mixed",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467352859602456841",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467353748727922913",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467367422016098355",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467367861952581786",
+        "https://discord.com/channels/1177270231513694249/1201218376849162250/1467413861559828490"
+      ]
+    },
+    {
+      "id": "djo-first-friend",
+      "kind": "quest",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467369161368928493",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467370499297378326",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467371246068043868",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467373203654705377",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467399223698788395",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467402196860801045",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467404616978399313"
+      ]
+    },
+    {
+      "id": "djo-serath-and-fire",
+      "kind": "mixed",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1198721749030818044/1486922324136427810",
+        "https://discord.com/channels/1177270231513694249/1198721749030818044/1486926396319338557",
+        "https://discord.com/channels/1177270231513694249/1198721749030818044/1486931172054405150",
+        "https://discord.com/channels/1177270231513694249/1198721749030818044/1486949811281461350",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490088105301246115",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490131722501619912",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490135793195417642",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490144108180934887",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490144946576167044",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490152513067024507",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490153907178045460",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490155513802133554",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490155688847085700",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490159361518080141"
+      ]
+    },
+    {
+      "id": "djo-hiding",
+      "kind": "quest",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490084771848519713",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490085055094194248",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490085148425720010",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1528928310627663984"
+      ]
+    },
+    {
+      "id": "djo-dangerous-curiosity",
+      "kind": "mixed",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1213007461540306984/1499564139507613889",
+        "https://discord.com/channels/1177270231513694249/1213007461540306984/1499564355300098208",
+        "https://discord.com/channels/1177270231513694249/1213007461540306984/1499564716303847434",
+        "https://discord.com/channels/1177270231513694249/1213007461540306984/1499568007645630666",
+        "https://discord.com/channels/1177270231513694249/1213007461540306984/1499569905673175170",
+        "https://discord.com/channels/1177270231513694249/1213007461540306984/1499570677961719906",
+        "https://discord.com/channels/1177270231513694249/1213007461540306984/1499572449455636653",
+        "https://discord.com/channels/1177270231513694249/1213007461540306984/1499573591786651710",
+        "https://discord.com/channels/1177270231513694249/1213007461540306984/1499573892174581944",
+        "https://discord.com/channels/1177270231513694249/1213007461540306984/1499574536478134404",
+        "https://discord.com/channels/1177270231513694249/1213007461540306984/1499577251371421799",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1512876943119351869",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1512884411480281311",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1512920066403078244",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1512921303122710569",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1512926822902534245",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1512930804286750842",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1512940317471670295"
+      ]
+    },
+    {
+      "id": "djo-minerva-home",
+      "kind": "mixed",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1515136894088773753",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1515138779332214879",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519818290724208796",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519819770596298926",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519822603605246103",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519824478387835111",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519834294363619460",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519838809569886219",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519841288579715113",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519842419531583488",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519854091776557066",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519856139574182011",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519865751123660862",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1519866672897458236",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568397759508127815"
+      ]
+    },
+    {
+      "id": "djo-karnak",
+      "kind": "testimony",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1528834753359380503"
+      ]
+    },
+    {
+      "id": "djo-pirates-and-restraint",
+      "kind": "mixed",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1528915936080429227",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1528919777790263307",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1528928310627663984",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1528948809948725268",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1533273943547318424",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1533291970598797403",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1533311203714273320",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1533314990889500865",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1533321760584372335",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1537675503635406930",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1537677082241278042",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1537679816835203163",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1537682173472276480",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1537692462489935892",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1537696822020276254",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1537880096428531762",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1542735484932063375",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1542738553736405003",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1542741123607568404"
+      ]
+    },
+    {
+      "id": "djo-rifts",
+      "kind": "quest",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1535102020862615602",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1535126682556440637",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1535127399975493655",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1535130127678050377",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1535130185702178862",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1552856851824246875",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1552876615371988993",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1552878193806147705",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1552893575220428832",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1552902581724913736",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1552904911178440805",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1552911550228996138",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1552912584309608550",
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1552913910254932010"
+      ]
+    },
+    {
+      "id": "djo-sister",
+      "kind": "unresolved",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1356070501163991211/1490903250856054805",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1512879686064017579",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1545975713172168756",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1546005796796498010",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1546042743762059264",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1515136894088773753"
+      ]
+    },
+    {
+      "id": "djo-care",
+      "kind": "quest",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1528935352822399076",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1545992006881513482",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1546031354851106926",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1546034423957561444"
+      ]
+    },
+    {
+      "id": "djo-proximity",
+      "kind": "quest",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1551071445822472193",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1551088990306697237",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1553619007221923921",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1553619777270972498",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1553620197703688295",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1553623787059159041"
+      ]
+    },
+    {
+      "id": "djo-observer",
+      "kind": "testimony",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1201218376849162250/1469464981383807008",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1545972628043595826"
+      ]
+    },
+    {
+      "id": "djo-meal-for-newcomer",
+      "kind": "mixed",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568391466697494691",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568393871463944346",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568395497654456382",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568397759508127815",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568398000336928819",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568400631641931859",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568403073192435885",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568405416055021689",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568408490895081624",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568411654331572368",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1573591657524498555"
+      ]
+    },
+    {
+      "id": "djo-pattern",
+      "kind": "interpretation",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467402196860801045",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1490152513067024507",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1528948809948725268",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568393871463944346",
+        "https://discord.com/channels/1177270231513694249/1531328406489272330/1568411654331572368"
+      ]
+    },
+    {
+      "id": "djo-open",
+      "kind": "unresolved",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1467367422016098355",
+        "https://discord.com/channels/1177270231513694249/1199083630354501673/1546042743762059264",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1517703551684706354",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1515136894088773753",
+        "https://discord.com/channels/1177270231513694249/1330584465952608308/1542741123607568404"
+      ]
+    }
+  ],
+  "receipts": [
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1467352859602456841",
+      "message": "1467352859602456841",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-01-31T18:56:23.827-08:00",
+      "edited": null,
+      "contentHash": "c298c03fffc80c68215574dabf609a7ed8d83ea0b005207b8c04af4e984c21bf",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1467353748727922913",
+      "message": "1467353748727922913",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-01-31T18:59:55.811-08:00",
+      "edited": null,
+      "contentHash": "89f0e989b18437ec183639f83a0c3e008eae5a9a110e0cdfbef521939813eb4c",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1467367422016098355",
+      "message": "1467367422016098355",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-01-31T19:54:15.777-08:00",
+      "edited": null,
+      "contentHash": "275ac8c996a23fe80d87a109587bbfe007ec7b6e655c322307a35b7f672cd334",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1467367861952581786",
+      "message": "1467367861952581786",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-01-31T19:56:00.666-08:00",
+      "edited": null,
+      "contentHash": "99983296d05665aa4e2ffa3ec706817f9d31147cb74f235590a9fc15bfecbec4",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1467369161368928493",
+      "message": "1467369161368928493",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-01-31T20:01:10.471-08:00",
+      "edited": null,
+      "contentHash": "2519e04bfcdf04ff6f23ac484d8aeb1cd6309ff825cccbfabffad8da126754b8",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1467370499297378326",
+      "message": "1467370499297378326",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-01-31T20:06:29.458-08:00",
+      "edited": null,
+      "contentHash": "ad263b65df5675a61b347a93323612baac31851a7c94e40e006f2da7779eb65b",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1467371246068043868",
+      "message": "1467371246068043868",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-01-31T20:09:27.502-08:00",
+      "edited": null,
+      "contentHash": "27757ddafcdfb63a30959a19e66b38ab7bb4b579b9d0f3d80c53dc7af2548d38",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1467373203654705377",
+      "message": "1467373203654705377",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-01-31T20:17:14.227-08:00",
+      "edited": null,
+      "contentHash": "cbf6ebe96a43cdf0950639a805d5afb1230b45ec8f640b29f12654fb62c6c846",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1467399223698788395",
+      "message": "1467399223698788395",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-01-31T22:00:37.889-08:00",
+      "edited": null,
+      "contentHash": "345c08e2244f360fafa95c76f0716e1c01b65c5811e4382edfa6a3e71b2d1fa6",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1467402196860801045",
+      "message": "1467402196860801045",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-01-31T22:12:26.746-08:00",
+      "edited": null,
+      "contentHash": "618e8ad99f3bd3eeb1e6e5c0ee39cbff475c395dde9f5b60ef66bcfa4f26faec",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1467404616978399313",
+      "message": "1467404616978399313",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-01-31T22:22:03.747-08:00",
+      "edited": null,
+      "contentHash": "344a28aae58b894f66f625fad78064a116f3a1972986107aa869ed23487dc296",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1201218376849162250/1467413861559828490",
+      "message": "1467413861559828490",
+      "channel": "1201218376849162250",
+      "timestamp": "2026-02-01T06:58:47.827000+00:00",
+      "edited": "2026-02-01T07:25:03.013000+00:00",
+      "contentHash": "7a16be85cd45708870727ae31b5c9a51710de87fab75181e27ddbc10c5a2f53b",
+      "source": "all-source-updates-2026-11-22"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1201218376849162250/1469464981383807008",
+      "message": "1469464981383807008",
+      "channel": "1201218376849162250",
+      "timestamp": "2026-02-06T22:49:12.901000+00:00",
+      "edited": null,
+      "contentHash": "249ee0fbbf0baaad940de6a09e784efd11de98f36f59ebd5191612d65d0438cb",
+      "source": "all-source-updates-2026-11-22"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1198721749030818044/1486922324136427810",
+      "message": "1486922324136427810",
+      "channel": "1198721749030818044",
+      "timestamp": "2026-03-27T02:58:27.755000+00:00",
+      "edited": null,
+      "contentHash": "0610894b3eafb6f057b718052291486b4001dbe00753df024ddbe0d4ec734116",
+      "source": "guild-1177270231513694249"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1198721749030818044/1486926396319338557",
+      "message": "1486926396319338557",
+      "channel": "1198721749030818044",
+      "timestamp": "2026-03-27T03:14:38.639000+00:00",
+      "edited": null,
+      "contentHash": "8b2b2eceb92a1c2e5e82ea5126bbe2cc26dda306408421694aa076939fedec7c",
+      "source": "guild-1177270231513694249"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1198721749030818044/1486931172054405150",
+      "message": "1486931172054405150",
+      "channel": "1198721749030818044",
+      "timestamp": "2026-03-27T03:33:37.263000+00:00",
+      "edited": null,
+      "contentHash": "3e51f4eba676b01227f9c56d36d5953eb7fa214efe3e64f770e02828c3670bfd",
+      "source": "guild-1177270231513694249"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1198721749030818044/1486949811281461350",
+      "message": "1486949811281461350",
+      "channel": "1198721749030818044",
+      "timestamp": "2026-03-27T04:47:41.201000+00:00",
+      "edited": null,
+      "contentHash": "9d563ab574396ab9365c2498567a7a4e44ff1e48df1a8598088c6f8a03fbebcd",
+      "source": "guild-1177270231513694249"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490084771848519713",
+      "message": "1490084771848519713",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T13:24:54.045-07:00",
+      "edited": null,
+      "contentHash": "de47292bf94f84cdb6f77723dcd62a4ba350ff8c5a0c2885a1f6419e44b78a20",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490085055094194248",
+      "message": "1490085055094194248",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T13:26:01.576-07:00",
+      "edited": null,
+      "contentHash": "acf6bdaf1e224a9d6acc67f775f17d8e24421d15dce043b5a3806b3fc6e43500",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490085148425720010",
+      "message": "1490085148425720010",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T13:26:23.828-07:00",
+      "edited": null,
+      "contentHash": "5025f9dde77451ba5390c8f35dd1962d4d699279b727a4fc0b43f56924387255",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490088105301246115",
+      "message": "1490088105301246115",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T13:38:08.802-07:00",
+      "edited": null,
+      "contentHash": "3ec073bf6073bb65ed95911d3346810af4739124d0c033047ad4d0125feaab6a",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490131722501619912",
+      "message": "1490131722501619912",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T16:31:27.953-07:00",
+      "edited": null,
+      "contentHash": "77cd57382488ecc27270e5a39abb9ad80f7cb66c8262231e277f7cdb7984646d",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490135793195417642",
+      "message": "1490135793195417642",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T16:47:38.482-07:00",
+      "edited": null,
+      "contentHash": "aacd32a9c7a0d2fc0560d267fac7d31fd4b4b30ef86cbb8341e4651cd4ebaabf",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490144108180934887",
+      "message": "1490144108180934887",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T17:20:40.929-07:00",
+      "edited": null,
+      "contentHash": "9cb1820a70d13dd35afe4ad2481ffa8bfaed0db2fe74c3296c797b3eebfa308c",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490144946576167044",
+      "message": "1490144946576167044",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T17:24:00.818-07:00",
+      "edited": null,
+      "contentHash": "d3ff66d5c54d5b0fdc51f5b68989e1b61e4a0c60661b8f2f27c392b5f75f6d51",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490152513067024507",
+      "message": "1490152513067024507",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T17:54:04.81-07:00",
+      "edited": null,
+      "contentHash": "a5b0b827ea8f22dbf5f7eb40ff1c8fb8eada26eddd7b5e838fe85215b83ef365",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490153907178045460",
+      "message": "1490153907178045460",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T17:59:37.192-07:00",
+      "edited": null,
+      "contentHash": "f82b5273c5fb30fd8232e94e6ce731e0087db78c17615d640d2e80b46dd3aa14",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490155513802133554",
+      "message": "1490155513802133554",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T18:06:00.241-07:00",
+      "edited": null,
+      "contentHash": "b9688cacb9fa0bf79c6ed35766a6ba1759af179584c14ba65abd0869571b0a5a",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490155688847085700",
+      "message": "1490155688847085700",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T18:06:41.975-07:00",
+      "edited": null,
+      "contentHash": "24ca5842491ad066ead272082aa3e326220b607685244aeacbe916734e928fee",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1490159361518080141",
+      "message": "1490159361518080141",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-04-04T18:21:17.608-07:00",
+      "edited": null,
+      "contentHash": "b3f45514bcb4776b5415fb40397ffc8f9f6edba6a9197c7d6cdfe83319d4baaa",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1490903250856054805",
+      "message": "1490903250856054805",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-04-07T02:37:14.647000+00:00",
+      "edited": null,
+      "contentHash": "30ad144cb420025e46b99def2cfa8476397466876448cb7bad80212ab119085b",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1213007461540306984/1499564139507613889",
+      "message": "1499564139507613889",
+      "channel": "1213007461540306984",
+      "timestamp": "2026-05-01T00:12:31.413000+00:00",
+      "edited": null,
+      "contentHash": "398a7f7cf729be65baca528e3daf8e0b2fa5c66cb51785a2dd5276664c216c94",
+      "source": "prima-the-before"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1213007461540306984/1499564355300098208",
+      "message": "1499564355300098208",
+      "channel": "1213007461540306984",
+      "timestamp": "2026-05-01T00:13:22.862000+00:00",
+      "edited": null,
+      "contentHash": "46748a73139809bf6802bcdfed111fd26c53b299fb2deba4636b2f2140d952ad",
+      "source": "prima-the-before"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1213007461540306984/1499564716303847434",
+      "message": "1499564716303847434",
+      "channel": "1213007461540306984",
+      "timestamp": "2026-05-01T00:14:48.932000+00:00",
+      "edited": "2026-05-01T00:15:14.890000+00:00",
+      "contentHash": "98c59de011bb773a98836ea219e914af0270ef700ee6125505f89a66d5bd4e5e",
+      "source": "prima-the-before"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1213007461540306984/1499568007645630666",
+      "message": "1499568007645630666",
+      "channel": "1213007461540306984",
+      "timestamp": "2026-05-01T00:27:53.649000+00:00",
+      "edited": null,
+      "contentHash": "6bc5cc8fc05c8961d46db6d0579bfccf0f230c95d01420ea72fae822441c1e38",
+      "source": "prima-the-before"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1213007461540306984/1499569905673175170",
+      "message": "1499569905673175170",
+      "channel": "1213007461540306984",
+      "timestamp": "2026-05-01T00:35:26.174000+00:00",
+      "edited": null,
+      "contentHash": "de8d242ca4f2edc4a7c0764a5cc1bfe2c3df30f7e50cd7a5733319f2fe07a617",
+      "source": "prima-the-before"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1213007461540306984/1499570677961719906",
+      "message": "1499570677961719906",
+      "channel": "1213007461540306984",
+      "timestamp": "2026-05-01T00:38:30.302000+00:00",
+      "edited": null,
+      "contentHash": "e7fb913a15af58b35da1024b47424c5feb446f27b21bf9746be89a075985eefe",
+      "source": "prima-the-before"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1213007461540306984/1499572449455636653",
+      "message": "1499572449455636653",
+      "channel": "1213007461540306984",
+      "timestamp": "2026-05-01T00:45:32.659000+00:00",
+      "edited": null,
+      "contentHash": "9572ef75aa9f1daafe9041c80cb0e70764722d00adb7ec23deaa2def2590763d",
+      "source": "prima-the-before"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1213007461540306984/1499573591786651710",
+      "message": "1499573591786651710",
+      "channel": "1213007461540306984",
+      "timestamp": "2026-05-01T00:50:05.012000+00:00",
+      "edited": null,
+      "contentHash": "889bbbacb2a8bbf53b3279fa31a5ff32047fe789f04c24f3e30576087e1fbfe4",
+      "source": "prima-the-before"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1213007461540306984/1499573892174581944",
+      "message": "1499573892174581944",
+      "channel": "1213007461540306984",
+      "timestamp": "2026-05-01T00:51:16.630000+00:00",
+      "edited": null,
+      "contentHash": "2e1b74efa37e552d25b2324e9d11d379aede6c4a5c4a2db61f5e7a53d3573148",
+      "source": "prima-the-before"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1213007461540306984/1499574536478134404",
+      "message": "1499574536478134404",
+      "channel": "1213007461540306984",
+      "timestamp": "2026-05-01T00:53:50.244000+00:00",
+      "edited": null,
+      "contentHash": "447c7759f2ac2bcbd75e01099a4536b03227d94033665c4e40e268aace80b12d",
+      "source": "prima-the-before"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1213007461540306984/1499577251371421799",
+      "message": "1499577251371421799",
+      "channel": "1213007461540306984",
+      "timestamp": "2026-05-01T01:04:37.525000+00:00",
+      "edited": null,
+      "contentHash": "2b1c851a201a0fe406374274eda3aff7eda627fc2df5839e2ee46e6dc7516575",
+      "source": "prima-the-before"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1512876943119351869",
+      "message": "1512876943119351869",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-06-06T10:52:51.134-07:00",
+      "edited": null,
+      "contentHash": "19dde28d1aeaa21555b30a94f05935d2318e9aedad8076955700f1c7046f7903",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1512879686064017579",
+      "message": "1512879686064017579",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-06-06T11:03:45.103-07:00",
+      "edited": null,
+      "contentHash": "9ee1af26cce87dbd79faadbe88942c841ea3b1f3c11a131a9d58a0343fe88c34",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1512884411480281311",
+      "message": "1512884411480281311",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-06-06T11:22:31.73-07:00",
+      "edited": null,
+      "contentHash": "070831041ef84deeff3d6e073921be467e1c2f861dac5a2ee352e3b41e2ba7f6",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1512920066403078244",
+      "message": "1512920066403078244",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-06-06T13:44:12.526-07:00",
+      "edited": null,
+      "contentHash": "c664d3b5a88f01691cb24e78639836ae1595945a2392c96ad235570ff2d1389e",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1512921303122710569",
+      "message": "1512921303122710569",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-06-06T13:49:07.383-07:00",
+      "edited": null,
+      "contentHash": "4ac93d6818694cba42c70e38d1252d93435c06c9f69ffc51bc23c2e8fc63538a",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1512926822902534245",
+      "message": "1512926822902534245",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-06-06T14:11:03.401-07:00",
+      "edited": null,
+      "contentHash": "a47871188960563bcd4f2d4280dfc3ecc39823c8ce72806abc24fd421c97242e",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1512930804286750842",
+      "message": "1512930804286750842",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-06-06T14:26:52.637-07:00",
+      "edited": null,
+      "contentHash": "b2022a4eb09ccc3ce05e1f6ad0fd21b65f9d1bf2886a38b5a6844a1794eb7758",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1512940317471670295",
+      "message": "1512940317471670295",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-06-06T15:04:40.757-07:00",
+      "edited": null,
+      "contentHash": "d45c6fd739ca56122d2cfd5bf6207aab7fcef75d18399bf7cdaf84b758411bb4",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1515136894088773753",
+      "message": "1515136894088773753",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-12T23:33:05.433000+00:00",
+      "edited": null,
+      "contentHash": "ead39ceb94839d6b692abef5dd3413340715ebe8f380b1976b989628fb739c59",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1515138779332214879",
+      "message": "1515138779332214879",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-12T23:40:34.910000+00:00",
+      "edited": null,
+      "contentHash": "5c369058736787203a1b766c455d12bf1c5a261ba06d85813eb93afd739018db",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1517694310609322077",
+      "message": "1517694310609322077",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-20T00:55:21.046000+00:00",
+      "edited": null,
+      "contentHash": "005da03d251c0a88f626fcd8a6a4d4e2338558ca77ff3b8609342b6965817498",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1517696870221086852",
+      "message": "1517696870221086852",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-20T01:05:31.305000+00:00",
+      "edited": null,
+      "contentHash": "d4056e84eeb351c0265ba6ca811e96479b5c8cddaa149a47b7ab183e62c0ca88",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1517700731858325544",
+      "message": "1517700731858325544",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-20T01:20:51.991000+00:00",
+      "edited": "2026-06-20T01:21:36.645000+00:00",
+      "contentHash": "fa5cb5db7c6d84f994dc98b26a70966c651355498470546154dd0bbfa11d0d59",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1517703551684706354",
+      "message": "1517703551684706354",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-20T01:32:04.290000+00:00",
+      "edited": "2026-06-25T21:21:24.953000+00:00",
+      "contentHash": "41719f1bfe9094f0c8307df62b88e6571d13040a6a7d08df9e58feb153978d38",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519818290724208796",
+      "message": "1519818290724208796",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-25T21:35:17.367000+00:00",
+      "edited": "2026-06-25T21:39:37.124000+00:00",
+      "contentHash": "d98d3224a69efea329dfba5fbb0b2abee60e378a043502c08a45a6f7d0525e40",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519819770596298926",
+      "message": "1519819770596298926",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-25T21:41:10.196000+00:00",
+      "edited": null,
+      "contentHash": "cc79edccc3ea9917431778ca4d5541eec85724fa2ff6ec446c1bb1350edcdc84",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519822603605246103",
+      "message": "1519822603605246103",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-25T21:52:25.638000+00:00",
+      "edited": "2026-06-25T21:53:33.299000+00:00",
+      "contentHash": "c66e38ff8ffad80700a649196dffd9aecadfbb86f7a5b26f6f1e76c7a4ee1649",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519824478387835111",
+      "message": "1519824478387835111",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-25T21:59:52.621000+00:00",
+      "edited": null,
+      "contentHash": "8b64ab4d11b818fc35b537665040134cce4f69237b61cb2b3bb8fc5cc36ca260",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519834294363619460",
+      "message": "1519834294363619460",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-25T22:38:52.932000+00:00",
+      "edited": "2026-06-25T22:40:49.946000+00:00",
+      "contentHash": "c9d769200988ff0c6463064da788010d483dc7179fd8e748959024975ed14aa2",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519836721762533427",
+      "message": "1519836721762533427",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-25T22:48:31.669000+00:00",
+      "edited": null,
+      "contentHash": "c7110cb8e403e0b2f2342458b0309dd46cde860c8a330ddd0a1bfb69fefa45af",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519838809569886219",
+      "message": "1519838809569886219",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-25T22:56:49.441000+00:00",
+      "edited": "2026-06-25T22:57:48.948000+00:00",
+      "contentHash": "69038b3a452b6e56dda0abad086ed0df1e7eccc91a53b71dc8b540ac71bf9273",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519841288579715113",
+      "message": "1519841288579715113",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-25T23:06:40.483000+00:00",
+      "edited": "2026-06-25T23:07:00.694000+00:00",
+      "contentHash": "010939e13ae33fa32df5cc272b4bb76f0405d010dc4df98e2ba4fd28fe7fc29d",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519842419531583488",
+      "message": "1519842419531583488",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-25T23:11:10.123000+00:00",
+      "edited": null,
+      "contentHash": "fbe8dd6a4ad2cd870e255ca0c92d365420e9b68b54a9a19b9e40a2d13ff44958",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519854091776557066",
+      "message": "1519854091776557066",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-25T23:57:33.003000+00:00",
+      "edited": null,
+      "contentHash": "b734c77c13781b5c38a375aa75454277c3068f97bd3f4a858cb05f15ea3bca85",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519856139574182011",
+      "message": "1519856139574182011",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-26T00:05:41.236000+00:00",
+      "edited": null,
+      "contentHash": "1b18ccc47bcf70b8dfc7bd9ced79622975e7d731535b15cb9e9d5d05ad0fcf25",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519865751123660862",
+      "message": "1519865751123660862",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-26T00:43:52.808000+00:00",
+      "edited": null,
+      "contentHash": "a91617bb7dd46cd3509063911b1a2a6323f2f9b125fdebd3d6edc092fd41fd64",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1519866672897458236",
+      "message": "1519866672897458236",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-06-26T00:47:32.576000+00:00",
+      "edited": "2026-06-26T00:48:08.276000+00:00",
+      "contentHash": "debb9288c0d6793ee3c822536db987c548538f89b9618b7f364b68e8b6b2bcea",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1198722893337608402/1526860876915806278",
+      "message": "1526860876915806278",
+      "channel": "1198722893337608402",
+      "timestamp": "2026-07-15T08:00:00.760000+00:00",
+      "edited": null,
+      "contentHash": "221c4ab65b991d0c9ff13a223a0d3aeca93ba5592b620c25662021f686985808",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1198722893337608402/1526863793211314238",
+      "message": "1526863793211314238",
+      "channel": "1198722893337608402",
+      "timestamp": "2026-07-15T08:11:36.059000+00:00",
+      "edited": null,
+      "contentHash": "27c85fd1e5d97a8c4efcab890651d9579ac9f1067ddd9037079026f2e0efe01c",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1528834753359380503",
+      "message": "1528834753359380503",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-07-20T18:43:29.577000+00:00",
+      "edited": "2026-07-20T18:45:38.808000+00:00",
+      "contentHash": "5ad3c44a82fad3b689373ca811d07dab0d13fcf7fe9ff76c7471444b9d22ee72",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1528915936080429227",
+      "message": "1528915936080429227",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-07-20T17:06:05.046-07:00",
+      "edited": null,
+      "contentHash": "bab5269b3c9d37f5e6a3db3071fb96386af37a89d03d5790eb2bea6525b53f45",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1528919777790263307",
+      "message": "1528919777790263307",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-07-20T17:21:20.981-07:00",
+      "edited": null,
+      "contentHash": "d3cf5c49ab8081f8a87888bf09fd1690e7803d2b70796612c68035743024f21f",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1528928310627663984",
+      "message": "1528928310627663984",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-07-20T17:55:15.368-07:00",
+      "edited": null,
+      "contentHash": "9161791951bf61535d596082b2dba11520d809e352647955566d7f1eaecbdb33",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1528935352822399076",
+      "message": "1528935352822399076",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-07-20T18:23:14.358-07:00",
+      "edited": "2026-07-20T18:24:28.305-07:00",
+      "contentHash": "320643d1ab5e5616304f03e776d33fc7350a133e35a4232b15d6870b53698b75",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1528948809948725268",
+      "message": "1528948809948725268",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-07-20T19:16:42.787-07:00",
+      "edited": null,
+      "contentHash": "f8d2d0d3497d405d779d3c714f5f00fe03a514e622e6bedff694e1e4e8ab7efd",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1533273943547318424",
+      "message": "1533273943547318424",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-01T17:43:14.994-07:00",
+      "edited": null,
+      "contentHash": "474f60261786a76912a37f71c871f14648aec2dfc3c46121cd34fa098fb1f131",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1533291970598797403",
+      "message": "1533291970598797403",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-01T18:54:52.978-07:00",
+      "edited": null,
+      "contentHash": "4bd5c8601aea8f7affc8d0fb2d2e0c0c5076011c8de42c58e69167ee68f90371",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1533311203714273320",
+      "message": "1533311203714273320",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-01T20:11:18.51-07:00",
+      "edited": null,
+      "contentHash": "ec7998280c547270df357184e19365d23cbd3e8e8ea694879f83a2bc2c0aa84b",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1533314990889500865",
+      "message": "1533314990889500865",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-01T20:26:21.443-07:00",
+      "edited": "2026-08-01T20:26:49.248-07:00",
+      "contentHash": "c2d5cd939a2b743e06019026acd9c850a5703767c803cd9ad0e2e5c566bfc573",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1533321760584372335",
+      "message": "1533321760584372335",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-01T20:53:15.464-07:00",
+      "edited": null,
+      "contentHash": "9184d2794dc313e5d8c835833c08fc20c3dd08a6a76604102f2a9a1194f9c84a",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1535102020862615602",
+      "message": "1535102020862615602",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-08-07T01:47:22.590000+00:00",
+      "edited": null,
+      "contentHash": "46dbc1c927728583f685aab519e188c720d1a7a3dcbfb72a63a33165b34e8edb",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1535126682556440637",
+      "message": "1535126682556440637",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-08-07T03:25:22.396000+00:00",
+      "edited": null,
+      "contentHash": "3ee5462fdb924507147024460daa95a298b7517fe19d030375807e0ae94856b9",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1535127399975493655",
+      "message": "1535127399975493655",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-08-07T03:28:13.442000+00:00",
+      "edited": null,
+      "contentHash": "e1d6a3b41c57d4b838612de8265b2674bafde7aae67f92dd386f8dcf8a954613",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1535130127678050377",
+      "message": "1535130127678050377",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-08-07T03:39:03.777000+00:00",
+      "edited": null,
+      "contentHash": "fb268dbaf4645cf3f77f25f2fcc7835e5585fe2b18fb98594ef9fc6d3b8b0121",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1535130185702178862",
+      "message": "1535130185702178862",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-08-07T03:39:17.611000+00:00",
+      "edited": null,
+      "contentHash": "737b54bd62de9a85dfc5ad7faa9addd5af37181574ad2be2b3d420109deabe71",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1537675503635406930",
+      "message": "1537675503635406930",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-08-14T04:13:28.696000+00:00",
+      "edited": null,
+      "contentHash": "c25e4e7d663fe830889284f9ced5928a9158344df0d460fc1d7e47c3f13d2353",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1537677082241278042",
+      "message": "1537677082241278042",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-08-14T04:19:45.065000+00:00",
+      "edited": null,
+      "contentHash": "a7d2b76c600628510874f8568e51f9481082cbf9a4326eb199ce49f41af9b248",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1537679816835203163",
+      "message": "1537679816835203163",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-08-14T04:30:37.043000+00:00",
+      "edited": null,
+      "contentHash": "95f4677a0de7c8c4497c5adaff4eda1a96d2a3f2635802b0bda518ca02bc5d1f",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1537682173472276480",
+      "message": "1537682173472276480",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-08-14T04:39:58.909000+00:00",
+      "edited": null,
+      "contentHash": "f964cc1b2326d18bb7f457353a636fbe1e9c36c043f0e7b30fc7109975cafceb",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1537692462489935892",
+      "message": "1537692462489935892",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-08-14T05:20:52.002000+00:00",
+      "edited": null,
+      "contentHash": "4a9f18cbc6bfb88096545329c4a20f76d66c20409de2d903d610ffd2de7d1802",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1537696822020276254",
+      "message": "1537696822020276254",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-08-14T05:38:11.395000+00:00",
+      "edited": null,
+      "contentHash": "68f1e23563a473f80b388dca289eedae565804e391d76cdae03d96b98b30e0fb",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1537880096428531762",
+      "message": "1537880096428531762",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-08-14T17:46:27.419000+00:00",
+      "edited": null,
+      "contentHash": "57290bd9601c33fe07a8daa1c27b29d598e0615f898d4bbb8d25365290be4bf3",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1542735484932063375",
+      "message": "1542735484932063375",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-08-28T03:20:02.247000+00:00",
+      "edited": "2026-08-28T03:22:00.646000+00:00",
+      "contentHash": "a4af6957043c07c778e3de7dae4528b9e6f479319e499060505964890579f972",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1542738553736405003",
+      "message": "1542738553736405003",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-08-28T03:32:13.907000+00:00",
+      "edited": null,
+      "contentHash": "7a224160ba6897f5db6d36a306b60d08103ed747fb035f233f7c1dc8d55d3f0d",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1330584465952608308/1542741123607568404",
+      "message": "1542741123607568404",
+      "channel": "1330584465952608308",
+      "timestamp": "2026-08-28T03:42:26.612000+00:00",
+      "edited": null,
+      "contentHash": "aefd07c5594d867177430e791845e2ba90bb210f49f01fa078b0f12ca47854e6",
+      "source": "prima-remaining-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1545972628043595826",
+      "message": "1545972628043595826",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-05T18:43:17.308-07:00",
+      "edited": null,
+      "contentHash": "5a7f7a5155fc763920cab40c137571b90260fbda35d81a871c6f0425d7f7f19a",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1545975713172168756",
+      "message": "1545975713172168756",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-05T18:55:32.86-07:00",
+      "edited": null,
+      "contentHash": "2ffba33f825ce0a6ecae0c0f35b59227a3454518a53560d2217f31f12d5312e0",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1545992006881513482",
+      "message": "1545992006881513482",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-05T20:00:17.583-07:00",
+      "edited": null,
+      "contentHash": "658031bf5a99634ad8c8bf05d91d1520881162748a92a7e4744118f1c1d3fc8d",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1546005796796498010",
+      "message": "1546005796796498010",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-05T20:55:05.355-07:00",
+      "edited": null,
+      "contentHash": "23352c57fe8a132059e22eb2b9755a0874ca78037104ce38a5e6c6583af85224",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1546031354851106926",
+      "message": "1546031354851106926",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-05T22:36:38.87-07:00",
+      "edited": null,
+      "contentHash": "edba1f44847b7f55fde33944c1b3b735d8d2244237494497101ed033d24daefe",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1546034423957561444",
+      "message": "1546034423957561444",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-05T22:48:50.602-07:00",
+      "edited": null,
+      "contentHash": "39ac8a7d44766bf3a3556d8dfbc6909dad7b0804d7583c1f8b05546145b36e74",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1546042743762059264",
+      "message": "1546042743762059264",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-05T23:21:54.198-07:00",
+      "edited": null,
+      "contentHash": "8c63e7053590479a48c6242a9059812e3f2da690bba5c16ed22e93374432552e",
+      "source": "Original quest export"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1551071445822472193",
+      "message": "1551071445822472193",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-20T03:24:10.198000+00:00",
+      "edited": null,
+      "contentHash": "f684daf4730a8ca9aca2a34d207d3f7b02e2b9047cff7fa35f08122ef4f6eb61",
+      "source": "codex-text-update-2026-10-23"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1551088990306697237",
+      "message": "1551088990306697237",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-20T04:33:53.129000+00:00",
+      "edited": null,
+      "contentHash": "0e02e1bfc649a79a602cefc9635378728ea12faadf8bc86d5fa1800c9f6ed7c4",
+      "source": "codex-text-update-2026-10-23"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1552856851824246875",
+      "message": "1552856851824246875",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-09-25T01:38:44.160000+00:00",
+      "edited": null,
+      "contentHash": "936615ceac67d5a9dfd848254013c2987e99966939165c300acf065841a5b2a4",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1552876615371988993",
+      "message": "1552876615371988993",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-09-25T02:57:16.157000+00:00",
+      "edited": null,
+      "contentHash": "eee34975c92a59e729f0cd291aed3dadb24dbafdff57affa6a7eeb38dcace40c",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1552878193806147705",
+      "message": "1552878193806147705",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-09-25T03:03:32.485000+00:00",
+      "edited": null,
+      "contentHash": "8ccfd0fbc183bb2dbecd67747e1a6d7372367e7e64d61be6fa5db4a6ece06b74",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1552893575220428832",
+      "message": "1552893575220428832",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-09-25T04:04:39.700000+00:00",
+      "edited": null,
+      "contentHash": "ad029fe6dad588500daddc69e2c1e9e379c6448065f8f27b65fb8b2dedda3189",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1552902581724913736",
+      "message": "1552902581724913736",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-09-25T04:40:27.018000+00:00",
+      "edited": null,
+      "contentHash": "36bdda764845c60976a3d17a07517298d67275cdf17614ff2206c09cc9128ebf",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1552904911178440805",
+      "message": "1552904911178440805",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-09-25T04:49:42.403000+00:00",
+      "edited": null,
+      "contentHash": "a549c2de3482c08b071a14b311d41056d8cd6cb9966fedc14f53143484993417",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1552911550228996138",
+      "message": "1552911550228996138",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-09-25T05:16:05.276000+00:00",
+      "edited": null,
+      "contentHash": "2761ff23254f9de4c243a0f66b914c8c740232199355000d1a91f44a5ad00573",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1552912584309608550",
+      "message": "1552912584309608550",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-09-25T05:20:11.820000+00:00",
+      "edited": null,
+      "contentHash": "d5223eaaf381e11447eceb343c145ea67f944bb21c02d0318ed3764c6039ed1e",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1356070501163991211/1552913910254932010",
+      "message": "1552913910254932010",
+      "channel": "1356070501163991211",
+      "timestamp": "2026-09-25T05:25:27.950000+00:00",
+      "edited": null,
+      "contentHash": "1de24b40a0c94fd3a0b05d0073116d227282766bf9fb709f79100d1dbbd5dac5",
+      "source": "rift-rp/rift-rp"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1553619007221923921",
+      "message": "1553619007221923921",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-27T04:07:16.167000+00:00",
+      "edited": null,
+      "contentHash": "2f5fafe863aa1cf303823784c8cf1716665a516358bc8f2252b79632b043312e",
+      "source": "codex-text-update-2026-10-23"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1553619777270972498",
+      "message": "1553619777270972498",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-27T04:10:19.761000+00:00",
+      "edited": null,
+      "contentHash": "2a8651bae2197f63667408a4a0af15cae046af2cdea2277c41a80b8473dfb7fd",
+      "source": "codex-text-update-2026-10-23"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1553620197703688295",
+      "message": "1553620197703688295",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-27T04:12:00+00:00",
+      "edited": null,
+      "contentHash": "c10dff5b7aa762adf95ae417b0164454ad0fea2f31459ab6a6c6c0ecdc6d97a8",
+      "source": "codex-text-update-2026-10-23"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1553623787059159041",
+      "message": "1553623787059159041",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-09-27T04:26:15.769000+00:00",
+      "edited": "2026-09-27T04:26:46.978000+00:00",
+      "contentHash": "2ab72b6e64dd3c21ca35781b8bb02bbb0d0e64bcbaea48fa1b3c5fa82a35a733",
+      "source": "codex-text-update-2026-10-23"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1568391466697494691",
+      "message": "1568391466697494691",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-11-06T22:27:44.965000+00:00",
+      "edited": null,
+      "contentHash": "39cbec4c49bd23d993c7658f5c09061e481b309fe5947240ad5fbf4ba07e2d49",
+      "source": "all-source-updates-2026-11-22"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1568393871463944346",
+      "message": "1568393871463944346",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-11-06T22:37:18.306000+00:00",
+      "edited": null,
+      "contentHash": "71bfafdd1f77e7118ea67c7ff6532fb572ee018af0bf0f0d2fd682344cd2ac75",
+      "source": "all-source-updates-2026-11-22"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1568395497654456382",
+      "message": "1568395497654456382",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-11-06T22:43:46.020000+00:00",
+      "edited": null,
+      "contentHash": "60fc316423611441cbfbb8385fc98bb91292b88450cad85b6a61c31b94455979",
+      "source": "all-source-updates-2026-11-22"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1568397759508127815",
+      "message": "1568397759508127815",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-11-06T22:52:45.288000+00:00",
+      "edited": null,
+      "contentHash": "1e01a8497d4bdb8d45ce7d0adee5e132ea61a0e821ab4fe56699dc4e71b2a86e",
+      "source": "all-source-updates-2026-11-22"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1568398000336928819",
+      "message": "1568398000336928819",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-11-06T22:53:42.706000+00:00",
+      "edited": null,
+      "contentHash": "64a90b1c8fca4ceaeff49ba88ab7650cb7a6dd5c4f33cf0c7b3afc4faac78105",
+      "source": "all-source-updates-2026-11-22"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1568400631641931859",
+      "message": "1568400631641931859",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-11-06T23:04:10.058000+00:00",
+      "edited": null,
+      "contentHash": "cd905de67e1bb06a74d11920ac86e740741f43b78239190c31d438bc4b1f8a6c",
+      "source": "all-source-updates-2026-11-22"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1568403073192435885",
+      "message": "1568403073192435885",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-11-06T23:13:52.169000+00:00",
+      "edited": null,
+      "contentHash": "33fe9fcf6c5646eb9c85536dc5635f97200ec18cb33f3ad393355a8ff8f2a9bd",
+      "source": "all-source-updates-2026-11-22"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1568405416055021689",
+      "message": "1568405416055021689",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-11-06T23:23:10.751000+00:00",
+      "edited": null,
+      "contentHash": "abf10ba74929235abba9c1e5dd9ca7628f27eed71020545c9edd4a5ac4ba9d60",
+      "source": "all-source-updates-2026-11-22"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1568408490895081624",
+      "message": "1568408490895081624",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-11-06T23:35:23.850000+00:00",
+      "edited": null,
+      "contentHash": "73a8fb6451735ea7e2cb750a28b2e39c1d079affc541447c9ca0f9df67fa0f8d",
+      "source": "all-source-updates-2026-11-22"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1531328406489272330/1568411654331572368",
+      "message": "1568411654331572368",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-11-06T23:47:58.072000+00:00",
+      "edited": null,
+      "contentHash": "441963bd612df5a18259d27836a9777891d3052a406e9d5d5e4ec8c52fdce79a",
+      "source": "all-source-updates-2026-11-22"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1573591657524498555",
+      "message": "1573591657524498555",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-11-21T06:51:27.073000+00:00",
+      "edited": null,
+      "contentHash": "e4adf99ed9a942632ad47dc2edd86decd845dc6ea5935f13d7b18462e555e072",
+      "source": "all-source-updates-2026-11-22"
+    }
+  ]
+}

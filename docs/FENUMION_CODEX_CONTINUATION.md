@@ -1,6 +1,12 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-11-22
+Last updated: 2026-11-24
+
+## Djöhandrai’s deeper public dossier · 24 November 2026
+
+The owner requests a deep public profile plus a file for ChatGPT. Djo’s existing page gains nine source sections: family recollections, first-night care, Serath and the burning-ship rescue, contamination, Minerva’s offered home, Karnak’s fraternal letter, pirate anger and restraint, rifts, and the later welcome he offers Kiralyn. Details: DJO_DOSSIER_2026_11_24.md and djo-dossier-review-2026-11-24.json. The separate ChatGPT reading copy remains outside Git.
+
+130 cited primary versions support the seventeen-section, ten-chapter profile and six linked relationships. Quest outcomes govern; family memories retain attribution. The earlier spectral Sister appearance does not resolve her identity or Ada’s involvement. No completed infiltration, sole rift victory, permanent cure, biological brotherhood or Seekers membership. Latest personal scene advances to 6 November; Minerva’s later death is established without inventing Djo’s response. Eight old bookmarks, art, animation and all other canonical bodies/timeline/map/quote/private data survive. Catalog321 retains 672 records/623 bodies, now3,198 sections. Focused Chrome and static/calendar checks pass; publication/live verification follows. No new runtime, style, media, dependency or workflow stage.
 
 ## Regional updates and Saturnia’s sanctum · 22 November 2026
 

@@ -2,6 +2,10 @@
 
 Last updated: 2026-11-24
 
+## Supplied soundtrack recordings and feast artwork · 26 November 2026
+
+The owner supplies sixteen MP3s and approves the silent feast animation as One More Plate website artwork. Fourteen new titles and two stable-ID recording replacements bring the shared catalog to 193 tracks: 54 custom and 139 unchanged background recordings. The custom themes contain I Am15, Prima9, Tales8, Places9 and Peril13. Three new public prompts name Hardanger fiddle and join Prima. Music9/styles179 add muted, playback-bound artwork with a reduced-motion poster; the calendar exclusion preserves literal song titles. Details and validation: SOUNDTRACK_UPDATE_2026_11_26.md and the two dated JSON receipts. Publication and Discord runtime sync follow.
+
 ## Djöhandrai’s deeper public dossier · 24 November 2026
 
 The owner requests a deep public profile plus a file for ChatGPT. Djo’s existing page gains nine source sections: family recollections, first-night care, Serath and the burning-ship rescue, contamination, Minerva’s offered home, Karnak’s fraternal letter, pirate anger and restraint, rifts, and the later welcome he offers Kiralyn. Details: DJO_DOSSIER_2026_11_24.md and djo-dossier-review-2026-11-24.json. The separate ChatGPT reading copy remains outside Git.

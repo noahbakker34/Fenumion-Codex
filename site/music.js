@@ -3,6 +3,9 @@ const FENUMION_MUSIC_BASE = "https://raw.githubusercontent.com/noahbakker34/Fenu
 
 const FENUMION_ADDITIONAL_MUSIC_BASE = "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion";
 
+const FENUMION_NOVEMBER_MUSIC_BASE = "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion";
+const refreshedFenumionFiles = new Set(["i-am-fenwick.mp3", "the-battle-approaches.mp3"]);
+
 const musicStyles = [
   { id: "all", label: "All background music", collection: "background" },
   { id: "fenumion", label: "All Fenumion songs", collection: "custom" },
@@ -191,32 +194,95 @@ const additionalFenumionSongs = [
     "I Am Wrath",
     "i-am-wrath.mp3"
   ]
-].map(([title, file]) => ({ title, file, style: "fenumion", src: `${FENUMION_ADDITIONAL_MUSIC_BASE}/${file}` }));
+].map(([title, file]) => ({ title, file, style: "fenumion", src: `${refreshedFenumionFiles.has(file) ? FENUMION_NOVEMBER_MUSIC_BASE : FENUMION_ADDITIONAL_MUSIC_BASE}/${file}` }));
+
+const novemberFenumionSongs = [
+  [
+    "Darkness and Blood",
+    "darkness-and-blood.mp3"
+  ],
+  [
+    "Final Drum Hit",
+    "final-drum-hit.mp3"
+  ],
+  [
+    "Follow the Moon",
+    "follow-the-moon.mp3"
+  ],
+  [
+    "I Am The Dawn",
+    "i-am-the-dawn.mp3"
+  ],
+  [
+    "One More Plate",
+    "one-more-plate.mp3"
+  ],
+  [
+    "Only Ambition Remains",
+    "only-ambition-remains.mp3"
+  ],
+  [
+    "Prima in Mourning",
+    "prima-in-mourning.mp3"
+  ],
+  [
+    "Prima Strings Climax",
+    "prima-strings-climax.mp3"
+  ],
+  [
+    "Send us Out to Die",
+    "send-us-out-to-die.mp3"
+  ],
+  [
+    "The Entrance",
+    "the-entrance.mp3"
+  ],
+  [
+    "The Horrors of the Void 2",
+    "the-horrors-of-the-void-2.mp3"
+  ],
+  [
+    "The Horrors of the Void",
+    "the-horrors-of-the-void.mp3"
+  ],
+  [
+    "The March Goes On",
+    "the-march-goes-on.mp3"
+  ],
+  [
+    "The Reckoning",
+    "the-reckoning.mp3"
+  ]
+].map(([title, file]) => ({ title, file, style: "fenumion", src: `${FENUMION_NOVEMBER_MUSIC_BASE}/${file}` }));
 
 // Prima membership follows the checked Hardanger fiddle generation prompts.
-// See docs/SOUNDTRACK_INSTRUMENT_REVIEW_2026_11_13.json.
+// See docs/SOUNDTRACK_INSTRUMENT_REVIEW_2026_11_13.json and SOUNDTRACK_INSTRUMENT_REVIEW_2026_11_26.json.
 const primaMusicFiles = new Set([
   "prima-adventure.mp3",
   "prima-battle-at-home.mp3",
   "prima-battle.mp3",
   "prima-five-note.mp3",
   "prima-strings-alternate.mp3",
-  "prima-strings.mp3"
+  "prima-strings.mp3",
+  "prima-in-mourning.mp3",
+  "prima-strings-climax.mp3",
+  "the-march-goes-on.mp3"
 ]);
 
 // Editorial listening groups: these memberships make no new lore claims.
 const fenumionListeningPlaylists = {
   "fenumion-tales": new Set([
     "aiya-elen-sila.mp3", "aria-before-the-crown.mp3", "carmen-and-paco.mp3",
-    "elda.mp3", "four-came-in.mp3", "go-gently-friend.mp3", "melian-carries-the-glow.mp3"
+    "elda.mp3", "four-came-in.mp3", "go-gently-friend.mp3", "melian-carries-the-glow.mp3", "one-more-plate.mp3"
   ]),
   "fenumion-places": new Set([
     "adventure.mp3", "babel.mp3", "breath-of-the-wild.mp3", "gael.mp3",
-    "rahu.mp3", "the-void.mp3", "will-babel-claim-you.mp3", "zarathis.mp3"
+    "rahu.mp3", "the-void.mp3", "will-babel-claim-you.mp3", "zarathis.mp3", "follow-the-moon.mp3"
   ]),
   "fenumion-peril": new Set([
     "carry-the-flame.mp3", "death.mp3", "death-arrives.mp3",
-    "pristinia-stands.mp3", "the-battle-approaches.mp3"
+    "pristinia-stands.mp3", "the-battle-approaches.mp3",
+    "darkness-and-blood.mp3", "final-drum-hit.mp3", "only-ambition-remains.mp3", "send-us-out-to-die.mp3", "the-entrance.mp3", "the-horrors-of-the-void-2.mp3", "the-horrors-of-the-void.mp3", "the-reckoning.mp3"
   ])
 };
 
@@ -378,7 +444,7 @@ const fenumionSoundtrack = [
   ["Viking Encampment", "viking-encampment.mp3"],
   ["Viking War", "viking-war.mp3"]
 ].map(([title, file]) => ({ title, file, style: classifyMusicStyle(title), src: `${FENUMION_MUSIC_BASE}/action-drama/${file}` }))
-  .concat(fenumionSongs, additionalFenumionSongs)
+  .concat(fenumionSongs, additionalFenumionSongs, novemberFenumionSongs)
   .sort((a, b) => {
     const styleOrder = musicStyles.findIndex(style => style.id === a.style) - musicStyles.findIndex(style => style.id === b.style);
     return styleOrder || a.title.localeCompare(b.title);
@@ -407,6 +473,9 @@ const musicDuration = document.querySelector("#music-duration");
 const musicTrackNumber = document.querySelector("#music-track-number");
 const musicVolume = document.querySelector("#music-volume");
 const musicStatus = document.querySelector("#music-status");
+const musicArtwork = document.querySelector("#music-artwork");
+const musicArtworkVideo = document.querySelector("#music-artwork-video");
+const musicArtworkMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 const musicRecommendations = [
   { match: /aria|pride/, title: "Mother of Deceit Reprise", reason: "A beautiful, treacherous theme for Aria and the pride that shadows her story." },
@@ -509,12 +578,35 @@ function formatMusicTime(value) {
   return `${minutes}:${seconds}`;
 }
 
+function syncMusicArtwork() {
+  const animate = !musicArtwork.hidden && !musicPanel.hidden && !document.hidden
+    && !musicAudio.paused && !musicAudio.ended && !musicArtworkMotion.matches;
+  if (animate) musicArtworkVideo.play().catch(() => {});
+  else musicArtworkVideo.pause();
+}
+
+function loadMusicArtwork(track) {
+  const hasArtwork = track.file === "one-more-plate.mp3";
+  musicArtwork.hidden = !hasArtwork;
+  if (hasArtwork) {
+    musicArtworkVideo.poster = "assets/music-art/one-more-plate-poster.jpg";
+    if (!musicArtworkVideo.hasAttribute("src")) musicArtworkVideo.src = "assets/music-art/one-more-plate-loop.mp4";
+  } else if (musicArtworkVideo.hasAttribute("src")) {
+    musicArtworkVideo.pause();
+    musicArtworkVideo.removeAttribute("src");
+    musicArtworkVideo.removeAttribute("poster");
+    musicArtworkVideo.load();
+  }
+  syncMusicArtwork();
+}
+
 function updateMusicState() {
   const playing = !musicAudio.paused;
   musicPlay.textContent = playing ? "Ⅱ" : "▶";
   musicPlay.setAttribute("aria-label", playing ? "Pause" : "Play");
   musicToggle.classList.toggle("playing", playing);
   musicPlayer.classList.toggle("playing", playing);
+  syncMusicArtwork();
 }
 
 function loadMusicTrack(index, { autoplay = false } = {}) {
@@ -523,6 +615,7 @@ function loadMusicTrack(index, { autoplay = false } = {}) {
   const tracks = visibleMusicTracks();
   const playlistIndex = tracks.indexOf(track);
   musicAudio.src = track.src;
+  loadMusicArtwork(track);
   musicTitle.textContent = track.title;
   musicToggleNow.textContent = track.title;
   musicStyleLabel.textContent = musicStyle(activeMusicStyle).label;
@@ -569,8 +662,12 @@ function selectMusicStyle(styleId, { loadFirst = true } = {}) {
 function openMusicPanel(open = true) {
   musicPanel.hidden = !open;
   musicToggle.setAttribute("aria-expanded", String(open));
+  syncMusicArtwork();
   if (open) musicPlay.focus();
 }
+
+document.addEventListener("visibilitychange", syncMusicArtwork);
+musicArtworkMotion.addEventListener("change", syncMusicArtwork);
 
 musicToggle.addEventListener("click", () => openMusicPanel(musicPanel.hidden));
 musicClose.addEventListener("click", () => { openMusicPanel(false); musicToggle.focus(); });

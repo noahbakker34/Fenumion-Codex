@@ -56,6 +56,12 @@
       "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/carry-the-flame.mp3"
     },
     {
+      "id": "fenumion/darkness-and-blood",
+      "title": "Darkness and Blood",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/darkness-and-blood.mp3"
+    },
+    {
       "id": "fenumion/death",
       "title": "Death",
       "style": "fenumion",
@@ -72,6 +78,18 @@
       "title": "Elda",
       "style": "fenumion",
       "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/elda.mp3"
+    },
+    {
+      "id": "fenumion/final-drum-hit",
+      "title": "Final Drum Hit",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/final-drum-hit.mp3"
+    },
+    {
+      "id": "fenumion/follow-the-moon",
+      "title": "Follow the Moon",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/follow-the-moon.mp3"
     },
     {
       "id": "fenumion/four-came-in",
@@ -131,7 +149,7 @@
       "id": "fenumion/i-am-fenwick",
       "title": "I Am Fenwick",
       "style": "fenumion",
-      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-fenwick.mp3"
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/i-am-fenwick.mp3"
     },
     {
       "id": "fenumion/i-am-gartina",
@@ -158,6 +176,12 @@
       "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-scribonia.mp3"
     },
     {
+      "id": "fenumion/i-am-the-dawn",
+      "title": "I Am The Dawn",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/i-am-the-dawn.mp3"
+    },
+    {
       "id": "fenumion/i-am-vaerik-2",
       "title": "I Am Vaerik 2",
       "style": "fenumion",
@@ -174,6 +198,18 @@
       "title": "Melian Carries the Glow",
       "style": "fenumion",
       "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/melian-carries-the-glow.mp3"
+    },
+    {
+      "id": "fenumion/one-more-plate",
+      "title": "One More Plate",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/one-more-plate.mp3"
+    },
+    {
+      "id": "fenumion/only-ambition-remains",
+      "title": "Only Ambition Remains",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/only-ambition-remains.mp3"
     },
     {
       "id": "fenumion/prima-adventure",
@@ -200,6 +236,12 @@
       "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/prima-five-note.mp3"
     },
     {
+      "id": "fenumion/prima-in-mourning",
+      "title": "Prima in Mourning",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/prima-in-mourning.mp3"
+    },
+    {
       "id": "fenumion/prima-strings",
       "title": "Prima Strings",
       "style": "fenumion",
@@ -210,6 +252,12 @@
       "title": "Prima Strings (Alternate)",
       "style": "fenumion",
       "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/prima-strings-alternate.mp3"
+    },
+    {
+      "id": "fenumion/prima-strings-climax",
+      "title": "Prima Strings Climax",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/prima-strings-climax.mp3"
     },
     {
       "id": "fenumion/pristinia-stands",
@@ -230,10 +278,46 @@
       "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/saint-anky.mp3"
     },
     {
+      "id": "fenumion/send-us-out-to-die",
+      "title": "Send us Out to Die",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/send-us-out-to-die.mp3"
+    },
+    {
       "id": "fenumion/the-battle-approaches",
       "title": "The Battle Approaches",
       "style": "fenumion",
-      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/the-battle-approaches.mp3"
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/the-battle-approaches.mp3"
+    },
+    {
+      "id": "fenumion/the-entrance",
+      "title": "The Entrance",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/the-entrance.mp3"
+    },
+    {
+      "id": "fenumion/the-horrors-of-the-void",
+      "title": "The Horrors of the Void",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/the-horrors-of-the-void.mp3"
+    },
+    {
+      "id": "fenumion/the-horrors-of-the-void-2",
+      "title": "The Horrors of the Void 2",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/the-horrors-of-the-void-2.mp3"
+    },
+    {
+      "id": "fenumion/the-march-goes-on",
+      "title": "The March Goes On",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/the-march-goes-on.mp3"
+    },
+    {
+      "id": "fenumion/the-reckoning",
+      "title": "The Reckoning",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e3c120ef41db27de35d265c11e859447794712ca/site/assets/music/fenumion/the-reckoning.mp3"
     },
     {
       "id": "fenumion/the-void",
@@ -1093,7 +1177,7 @@
       "id": "fenumion",
       "name": "All Fenumion songs",
       "collection": "custom",
-      "description": "Custom Fenumion · Suno · 40 tracks.",
+      "description": "Custom Fenumion · Suno · 54 tracks.",
       "track_ids": [
         "fenumion/adventure",
         "fenumion/aiya-elen-sila",
@@ -1102,9 +1186,12 @@
         "fenumion/breath-of-the-wild",
         "fenumion/carmen-and-paco",
         "fenumion/carry-the-flame",
+        "fenumion/darkness-and-blood",
         "fenumion/death",
         "fenumion/death-arrives",
         "fenumion/elda",
+        "fenumion/final-drum-hit",
+        "fenumion/follow-the-moon",
         "fenumion/four-came-in",
         "fenumion/gael",
         "fenumion/go-gently-friend",
@@ -1119,19 +1206,30 @@
         "fenumion/i-am-nymera",
         "fenumion/i-am-olokun",
         "fenumion/i-am-scribonia",
+        "fenumion/i-am-the-dawn",
         "fenumion/i-am-vaerik-2",
         "fenumion/i-am-wrath",
         "fenumion/melian-carries-the-glow",
+        "fenumion/one-more-plate",
+        "fenumion/only-ambition-remains",
         "fenumion/prima-adventure",
         "fenumion/prima-battle",
         "fenumion/prima-battle-at-home",
         "fenumion/prima-five-note",
+        "fenumion/prima-in-mourning",
         "fenumion/prima-strings",
         "fenumion/prima-strings-alternate",
+        "fenumion/prima-strings-climax",
         "fenumion/pristinia-stands",
         "fenumion/rahu",
         "fenumion/saint-anky",
+        "fenumion/send-us-out-to-die",
         "fenumion/the-battle-approaches",
+        "fenumion/the-entrance",
+        "fenumion/the-horrors-of-the-void",
+        "fenumion/the-horrors-of-the-void-2",
+        "fenumion/the-march-goes-on",
+        "fenumion/the-reckoning",
         "fenumion/the-void",
         "fenumion/will-babel-claim-you",
         "fenumion/zarathis"
@@ -1142,7 +1240,7 @@
       "id": "i-am",
       "name": "I Am",
       "collection": "custom",
-      "description": "Custom Fenumion · Suno · 14 tracks.",
+      "description": "Custom Fenumion · Suno · 15 tracks.",
       "track_ids": [
         "fenumion/i-am-adelia",
         "fenumion/i-am-aria",
@@ -1155,6 +1253,7 @@
         "fenumion/i-am-nymera",
         "fenumion/i-am-olokun",
         "fenumion/i-am-scribonia",
+        "fenumion/i-am-the-dawn",
         "fenumion/i-am-vaerik-2",
         "fenumion/i-am-wrath",
         "fenumion/saint-anky"
@@ -1165,14 +1264,17 @@
       "id": "prima",
       "name": "Prima",
       "collection": "custom",
-      "description": "Custom Fenumion · Suno · 6 tracks.",
+      "description": "Custom Fenumion · Suno · 9 tracks.",
       "track_ids": [
         "fenumion/prima-adventure",
         "fenumion/prima-battle",
         "fenumion/prima-battle-at-home",
         "fenumion/prima-five-note",
+        "fenumion/prima-in-mourning",
         "fenumion/prima-strings",
-        "fenumion/prima-strings-alternate"
+        "fenumion/prima-strings-alternate",
+        "fenumion/prima-strings-climax",
+        "fenumion/the-march-goes-on"
       ],
       "shuffle": false
     },
@@ -1180,7 +1282,7 @@
       "id": "fenumion-tales",
       "name": "Tales & Remembrance",
       "collection": "custom",
-      "description": "Custom Fenumion · Suno · 7 tracks.",
+      "description": "Custom Fenumion · Suno · 8 tracks.",
       "track_ids": [
         "fenumion/aiya-elen-sila",
         "fenumion/aria-before-the-crown",
@@ -1188,7 +1290,8 @@
         "fenumion/elda",
         "fenumion/four-came-in",
         "fenumion/go-gently-friend",
-        "fenumion/melian-carries-the-glow"
+        "fenumion/melian-carries-the-glow",
+        "fenumion/one-more-plate"
       ],
       "shuffle": false
     },
@@ -1196,11 +1299,12 @@
       "id": "fenumion-places",
       "name": "Places & Journeys",
       "collection": "custom",
-      "description": "Custom Fenumion · Suno · 8 tracks.",
+      "description": "Custom Fenumion · Suno · 9 tracks.",
       "track_ids": [
         "fenumion/adventure",
         "fenumion/babel",
         "fenumion/breath-of-the-wild",
+        "fenumion/follow-the-moon",
         "fenumion/gael",
         "fenumion/rahu",
         "fenumion/the-void",
@@ -1213,13 +1317,21 @@
       "id": "fenumion-peril",
       "name": "Peril & Resolve",
       "collection": "custom",
-      "description": "Custom Fenumion · Suno · 5 tracks.",
+      "description": "Custom Fenumion · Suno · 13 tracks.",
       "track_ids": [
         "fenumion/carry-the-flame",
+        "fenumion/darkness-and-blood",
         "fenumion/death",
         "fenumion/death-arrives",
+        "fenumion/final-drum-hit",
+        "fenumion/only-ambition-remains",
         "fenumion/pristinia-stands",
-        "fenumion/the-battle-approaches"
+        "fenumion/send-us-out-to-die",
+        "fenumion/the-battle-approaches",
+        "fenumion/the-entrance",
+        "fenumion/the-horrors-of-the-void",
+        "fenumion/the-horrors-of-the-void-2",
+        "fenumion/the-reckoning"
       ],
       "shuffle": false
     },

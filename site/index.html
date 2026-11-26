@@ -9,11 +9,11 @@
   <link rel="icon" type="image/png" sizes="1024x1024" href="fenumion-logo.png?v=111">
   <link rel="shortcut icon" type="image/png" href="fenumion-logo.png?v=111">
   <link rel="apple-touch-icon" href="fenumion-logo.png?v=111">
-  <link rel="stylesheet" href="styles.css?v=178">
+  <link rel="stylesheet" href="styles.css?v=179">
   <link rel="stylesheet" href="codex-layout.css?v=15">
   <script src="data/catalog.js?v=321" defer></script>
   <script src="fenumion-calendar.js?v=3" defer></script>
-  <script src="music.js?v=8" defer></script>
+  <script src="music.js?v=9" defer></script>
   <script src="reader-copy.js?v=4" defer></script>
   <script src="article-layout.js?v=6" defer></script>
   <script src="player-perspectives.js?v=3" defer></script>
@@ -31,7 +31,7 @@
 </head>
 <body class="codex-world fenumion-world">
   <a class="skip-link" href="#article">Skip to article</a>
-  <div class="music-player" id="music-player">
+  <div class="music-player" id="music-player" data-calendar-source>
     <button class="music-toggle" id="music-toggle" type="button" aria-expanded="false" aria-controls="music-panel">
       <span class="music-toggle-icon" aria-hidden="true">♪</span>
       <span class="music-toggle-label">Soundtrack</span>
@@ -48,6 +48,9 @@
         <strong id="music-recommendation-title">Middle Earth</strong>
         <small id="music-recommendation-reason">A welcoming overture for the Fenumion Codex.</small>
       </button>
+      <figure class="music-artwork" id="music-artwork" hidden>
+        <video id="music-artwork-video" muted loop playsinline preload="none" aria-label="Feast artwork for One More Plate"></video>
+      </figure>
       <audio id="music-audio" preload="metadata"></audio>
       <div class="music-library">
         <label>Playlist

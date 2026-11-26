@@ -1,0 +1,124 @@
+{
+  "checkedOn": "2026-11-26",
+  "method": "Public style prompts linked by the supplied MP3 tags; instrument prompt evidence is not acoustic confirmation.",
+  "songs": [
+    {
+      "file": "darkness-and-blood.mp3",
+      "url": "https://suno.com/song/40e787e3-5d3b-42af-a2cb-09a3705bc2f8",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "7a30457fe3249503b4f9650c595685266b856f626b8ab7939d8598bbb991784a"
+    },
+    {
+      "file": "final-drum-hit.mp3",
+      "url": "https://suno.com/song/016293c4-ef6c-4c07-b8fa-b9b94db5a4b7",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "46bb2b8bc44ba40a8b8af68e16f7894ee9c7e915f7716f23369400b2d6b606dd"
+    },
+    {
+      "file": "follow-the-moon.mp3",
+      "url": "https://suno.com/song/20f4c358-d621-4d81-a716-5246d2a8c0fc",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "cd4280f510c40c34a89274955d05f5829ec3637fc12ae77e8a89b08590a430c3"
+    },
+    {
+      "file": "i-am-the-dawn.mp3",
+      "url": "https://suno.com/song/46aaccca-ccf1-4621-bbaf-2f9ff220b3d1",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "90e0edd9e0522c4815ffb2e9105865fcd0cdef290ea0c18295e999e9c89443c1"
+    },
+    {
+      "file": "one-more-plate.mp3",
+      "url": "https://suno.com/song/4523903c-235b-49b5-95bd-55206bb66019",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "b2a9d909def4f055216ae366baa3371a0f6193804cdbd1550a834372b76581c0"
+    },
+    {
+      "file": "only-ambition-remains.mp3",
+      "url": "https://suno.com/song/ca4088c4-b73b-4533-9cd6-4c0036a3753c",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "99723547f80afc493712ce4ead0c9bf86726ee2880cd0180ae36b6399fa1d8fe"
+    },
+    {
+      "file": "prima-in-mourning.mp3",
+      "url": "https://suno.com/song/fd6e248f-0a73-4b93-90eb-8cf53c7bf8d0",
+      "status": "checked",
+      "hardangerNamed": true,
+      "evidence": [
+        "Hardanger fiddle"
+      ],
+      "styleSha256": "1d28f833d70f19454db42a52c77c113d1a5eb274cf1e516214b74b827fd2219e"
+    },
+    {
+      "file": "prima-strings-climax.mp3",
+      "url": "https://suno.com/song/946c8023-b9b6-4adc-9642-f1e819f2c1cc",
+      "status": "checked",
+      "hardangerNamed": true,
+      "evidence": [
+        "Hardanger fiddle"
+      ],
+      "styleSha256": "727af3e2d6efbf6f78cf3dd24b04dfe852f816d30eb86067ff2d46580670cd1f"
+    },
+    {
+      "file": "send-us-out-to-die.mp3",
+      "url": "https://suno.com/song/3877b77a-0abc-41b0-9a8d-f564ae351642",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "51d34f6c6744a61242450b4068af89839800da25012954925de1b03c04993e3e"
+    },
+    {
+      "file": "the-entrance.mp3",
+      "url": "https://suno.com/song/efe47312-3bbc-4d44-bebf-15ca036c8279",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "ac77ba9eca329e31b8a461be5cd7e0a4f387c22be00fc27105726a0d904964cf"
+    },
+    {
+      "file": "the-horrors-of-the-void-2.mp3",
+      "url": "https://suno.com/song/f63fa817-41da-4f72-b8cc-3113ca87d10a",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "c6e2b882cedaefabeddbea06a0e55f0367a0114a278be8ad8fa0e1f1594c14c7"
+    },
+    {
+      "file": "the-horrors-of-the-void.mp3",
+      "url": "https://suno.com/song/c4ed8457-2462-4d16-8d25-b77b410a7725",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "1ab6ddcffb85ae38fb0552ace771ebeb9697a396379ad619626b7526d90ee34d"
+    },
+    {
+      "file": "the-march-goes-on.mp3",
+      "url": "https://suno.com/song/8b903461-ec9e-41e0-8df3-2f33f869682b",
+      "status": "checked",
+      "hardangerNamed": true,
+      "evidence": [
+        "Hardanger fiddle"
+      ],
+      "styleSha256": "616e3d49e23b0238cd08366946fc54195ed88df4593ed87d6f40ee782c1e3bfe"
+    },
+    {
+      "file": "the-reckoning.mp3",
+      "url": "https://suno.com/song/bf5432aa-55cc-40e6-855b-109397bf5a51",
+      "status": "checked",
+      "hardangerNamed": false,
+      "evidence": [],
+      "styleSha256": "62f8de803a3804de19a19eb850310fc203c43cc100a685b226cd835f6aa15b26"
+    }
+  ]
+}

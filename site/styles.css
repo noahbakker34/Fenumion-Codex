@@ -113,6 +113,9 @@ a:hover { color: var(--gold-bright); }
   pointer-events: auto;
 }
 .music-panel[hidden] { display: none; }
+.music-artwork { margin: .7rem 0 0; overflow: hidden; border: 1px solid var(--line); border-radius: 7px; background: #0b1915; }
+.music-artwork[hidden] { display: none; }
+.music-artwork video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 .music-heading { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: .65rem; align-items: center; }
 .music-heading > span { color: var(--gold); }
 .music-heading small,

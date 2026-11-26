@@ -4,7 +4,7 @@ Last updated: 2026-11-26
 
 ## Nuru and the Void playlist · 26 November 2026
 
-The owner confirms Follow the Moon is Nuru's song and requests a Void playlist plus a complete Suno collection. Music10 moves Follow the Moon to I Am16 and adds Void3 with The Void and both Horrors recordings. Places7/Peril11, Prima9/Tales8; all 54 custom songs have one thematic home. All Fenumion songs remains all 54 Suno songs. Shared JSON exposes fifteen lists, with eighteen on the bot after preserving its starters. Details: PLAYLIST_CORRECTIONS_2026_11_26.md. Publication and verification follow.
+The owner confirms Follow the Moon is Nuru's song and requests a Void playlist plus a complete Suno collection. Music10 moves Follow the Moon to I Am16 and adds Void3 with The Void and both Horrors recordings. Places7/Peril11, Prima9/Tales8; all 54 custom songs have one thematic home. All Fenumion songs remains all 54 Suno songs. Shared JSON exposes fifteen lists, with eighteen on the bot after preserving its starters. Details: PLAYLIST_CORRECTIONS_2026_11_26.md. Published `af8e049b83573445817d49d63770efadc1d2ee5d` in successful [Pages run 45894796605](https://github.com/noahbakker34/Fenumion-Codex/actions/runs/45894796605). All hosted gates and seventy bot tests pass. Three public files match tested bytes; live I Am16, Void3, Suno54 and Void play/pause are verified. Atomic playlist refresh avoids a bot restart. Its saved panel shows eighteen options with the new counts, and the live importer preserves all starters.
 
 ## Supplied soundtrack recordings and feast artwork · 26 November 2026
 

@@ -1240,8 +1240,9 @@
       "id": "i-am",
       "name": "I Am",
       "collection": "custom",
-      "description": "Custom Fenumion · Suno · 15 tracks.",
+      "description": "Custom Fenumion · Suno · 16 tracks.",
       "track_ids": [
+        "fenumion/follow-the-moon",
         "fenumion/i-am-adelia",
         "fenumion/i-am-aria",
         "fenumion/i-am-arjahn",
@@ -1279,6 +1280,18 @@
       "shuffle": false
     },
     {
+      "id": "fenumion-void",
+      "name": "Void",
+      "collection": "custom",
+      "description": "Custom Fenumion · Suno · 3 tracks.",
+      "track_ids": [
+        "fenumion/the-horrors-of-the-void",
+        "fenumion/the-horrors-of-the-void-2",
+        "fenumion/the-void"
+      ],
+      "shuffle": false
+    },
+    {
       "id": "fenumion-tales",
       "name": "Tales & Remembrance",
       "collection": "custom",
@@ -1299,15 +1312,13 @@
       "id": "fenumion-places",
       "name": "Places & Journeys",
       "collection": "custom",
-      "description": "Custom Fenumion · Suno · 9 tracks.",
+      "description": "Custom Fenumion · Suno · 7 tracks.",
       "track_ids": [
         "fenumion/adventure",
         "fenumion/babel",
         "fenumion/breath-of-the-wild",
-        "fenumion/follow-the-moon",
         "fenumion/gael",
         "fenumion/rahu",
-        "fenumion/the-void",
         "fenumion/will-babel-claim-you",
         "fenumion/zarathis"
       ],
@@ -1317,7 +1328,7 @@
       "id": "fenumion-peril",
       "name": "Peril & Resolve",
       "collection": "custom",
-      "description": "Custom Fenumion · Suno · 13 tracks.",
+      "description": "Custom Fenumion · Suno · 11 tracks.",
       "track_ids": [
         "fenumion/carry-the-flame",
         "fenumion/darkness-and-blood",
@@ -1329,8 +1340,6 @@
         "fenumion/send-us-out-to-die",
         "fenumion/the-battle-approaches",
         "fenumion/the-entrance",
-        "fenumion/the-horrors-of-the-void",
-        "fenumion/the-horrors-of-the-void-2",
         "fenumion/the-reckoning"
       ],
       "shuffle": false

@@ -25,7 +25,7 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   const group=page.locator('#music-style'),track=page.locator('#music-track-select');
   assert(await page.locator('#music-audio').evaluate(audio=>audio.paused),'no autoplay on entry');
   await group.selectOption('i-am');
-  const characterTitles=await track.locator('option').allTextContents();assert.equal(characterTitles.length,15);assert(characterTitles.includes('Saint Anky'));assert(characterTitles.every(title=>/^I Am |^Saint Anky$/.test(title)));
+  const characterTitles=await track.locator('option').allTextContents();assert.equal(characterTitles.length,16);assert(characterTitles.includes('Saint Anky'));assert(characterTitles.includes('Follow the Moon'));assert(characterTitles.every(title=>/^I Am |^Saint Anky$|^Follow the Moon$/.test(title)));
   assert.equal(await page.locator('#music-style-label').textContent(),'I Am');
   await track.selectOption('saint-anky.mp3');assert(await page.locator('#music-audio').evaluate(audio=>audio.paused),'selection does not start playback');
   await page.locator('#music-play').click();await page.waitForFunction(()=>!musicAudio.paused&&musicAudio.currentTime>.3);
@@ -37,7 +37,7 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   await page.locator('#music-previous').click();assert.notEqual(await track.inputValue(),'saint-anky.mp3');
   await page.locator('#music-next').click();assert.equal(await track.inputValue(),'saint-anky.mp3','next stays inside the playlist');
   await page.locator('#music-audio').evaluate(audio=>audio.dispatchEvent(new Event('ended')));await page.waitForFunction(()=>musicTrackSelect.value!=="saint-anky.mp3");
-  assert.equal(await track.inputValue(),'i-am-adelia.mp3','loop wraps at the end of the character playlist');
+  assert.equal(await track.inputValue(),'follow-the-moon.mp3','loop wraps at the end of the character playlist');
   await page.locator('#music-audio').evaluate(audio=>audio.pause());
   await track.selectOption('saint-anky.mp3');await page.locator('#music-loop').click();await page.locator('#music-audio').evaluate(audio=>audio.dispatchEvent(new Event('ended')));
   assert.equal(await page.locator('#music-status').innerText(),'Playlist complete');assert.equal(await track.inputValue(),'saint-anky.mp3');
@@ -62,9 +62,10 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   const shared=await sharedResponse.json();assert.equal(shared.schema_version,1);assert.equal(shared.tracks.length,entries.length);
   const publicRows=entries.map(row=>({id:new URL(row.src).pathname.split('/assets/music/')[1].replace(/\.mp3$/,''),title:row.title,style:row.style,url:row.src}));assert.deepEqual(shared.tracks,publicRows,'bot catalogue exactly matches the website recordings');
   assert.deepEqual(await group.locator('optgroup').evaluateAll(nodes=>nodes.map(node=>node.label)),['Custom Fenumion · Suno','Background soundtrack']);
-  const themes=[['i-am',15],['prima',9],['fenumion-tales',8],['fenumion-places',9],['fenumion-peril',13]],covered=[];
+  const themes=[['i-am',16],['prima',9],['fenumion-void',3],['fenumion-tales',8],['fenumion-places',7],['fenumion-peril',11]],covered=[];
   for(const [id,count] of themes){await group.selectOption(id);const files=await track.locator('option').evaluateAll(nodes=>nodes.map(node=>node.value));assert.equal(files.length,count,id);assert(files.every(file=>customFiles.has(file)),id+' is custom only');covered.push(...files);}
   assert.equal(covered.length,54);assert.equal(new Set(covered).size,54,'custom themes do not overlap');assert.deepEqual([...new Set(covered)].sort(),[...customFiles].sort(),'every custom song is organized');
+  await group.selectOption('fenumion-void');assert.deepEqual(await track.locator('option').allTextContents(),['The Horrors of the Void','The Horrors of the Void 2','The Void'],'Void contains its three custom songs');
   const playlistIds=await group.locator('option').evaluateAll(nodes=>nodes.map(node=>({id:node.value,custom:node.parentElement.label.startsWith('Custom')})));
   for(const playlist of playlistIds){
    await group.selectOption(playlist.id);
@@ -125,6 +126,6 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   await page.setViewportSize({width:1440,height:1000});await page.evaluate(async()=>{await document.fonts.ready;await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));});await page.screenshot({path:'/tmp/fenumion-music-playlists-desktop.png'});
   await group.selectOption('fenumion');await track.selectOption('one-more-plate.mp3');await page.setViewportSize({width:390,height:844});await page.screenshot({path:'/tmp/fenumion-music-playlists-mobile.png'});
   assert.deepEqual(errors,[]);
-  console.log('PASS five custom playlists cover 54 Suno songs once; seven mood playlists cover 139 background tracks; source-isolated collections/recommendations/navigation; legacy preference migration; all 54 custom MP3s play; controls/persistence and 4 widths');
+  console.log('PASS six custom playlists cover 54 Suno songs once; seven mood playlists cover 139 background tracks; source-isolated collections/recommendations/navigation; legacy preference migration; all 54 custom MP3s play; controls/persistence and 4 widths');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1);});

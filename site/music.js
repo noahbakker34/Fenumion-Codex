@@ -11,6 +11,7 @@ const musicStyles = [
   { id: "fenumion", label: "All Fenumion songs", collection: "custom" },
   { id: "i-am", label: "I Am", collection: "custom" },
   { id: "prima", label: "Prima", collection: "custom" },
+  { id: "fenumion-void", label: "Void", collection: "custom" },
   { id: "fenumion-tales", label: "Tales & Remembrance", collection: "custom" },
   { id: "fenumion-places", label: "Places & Journeys", collection: "custom" },
   { id: "fenumion-peril", label: "Peril & Resolve", collection: "custom" },
@@ -271,20 +272,26 @@ const primaMusicFiles = new Set([
 
 // Editorial listening groups: these memberships make no new lore claims.
 const fenumionListeningPlaylists = {
+  "fenumion-void": new Set([
+    "the-void.mp3", "the-horrors-of-the-void.mp3", "the-horrors-of-the-void-2.mp3"
+  ]),
   "fenumion-tales": new Set([
     "aiya-elen-sila.mp3", "aria-before-the-crown.mp3", "carmen-and-paco.mp3",
     "elda.mp3", "four-came-in.mp3", "go-gently-friend.mp3", "melian-carries-the-glow.mp3", "one-more-plate.mp3"
   ]),
   "fenumion-places": new Set([
     "adventure.mp3", "babel.mp3", "breath-of-the-wild.mp3", "gael.mp3",
-    "rahu.mp3", "the-void.mp3", "will-babel-claim-you.mp3", "zarathis.mp3", "follow-the-moon.mp3"
+    "rahu.mp3", "will-babel-claim-you.mp3", "zarathis.mp3"
   ]),
   "fenumion-peril": new Set([
     "carry-the-flame.mp3", "death.mp3", "death-arrives.mp3",
     "pristinia-stands.mp3", "the-battle-approaches.mp3",
-    "darkness-and-blood.mp3", "final-drum-hit.mp3", "only-ambition-remains.mp3", "send-us-out-to-die.mp3", "the-entrance.mp3", "the-horrors-of-the-void-2.mp3", "the-horrors-of-the-void.mp3", "the-reckoning.mp3"
+    "darkness-and-blood.mp3", "final-drum-hit.mp3", "only-ambition-remains.mp3", "send-us-out-to-die.mp3", "the-entrance.mp3", "the-reckoning.mp3"
   ])
 };
+
+// Owner-confirmed character songs whose titles do not start with I Am. Follow the Moon is about Nuru.
+const characterMusicFiles = new Set(["saint-anky.mp3", "follow-the-moon.mp3"]);
 
 function musicPlaylistIncludes(track, playlist) {
   const custom = track.style === "fenumion";
@@ -292,7 +299,7 @@ function musicPlaylistIncludes(track, playlist) {
   if (playlist === "fenumion") return custom;
   if (musicStyles.find(style => style.id === playlist)?.collection === "custom") {
     if (!custom) return false;
-    if (playlist === "i-am") return /^I Am /i.test(track.title) || track.file === "saint-anky.mp3";
+    if (playlist === "i-am") return /^I Am /i.test(track.title) || characterMusicFiles.has(track.file);
     if (playlist === "prima") return primaMusicFiles.has(track.file);
     return fenumionListeningPlaylists[playlist]?.has(track.file) || false;
   }

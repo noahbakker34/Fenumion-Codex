@@ -110,7 +110,7 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   await page.emulateMedia({reducedMotion:'no-preference'});
   await page.locator('#music-play').click();
   await page.waitForFunction(()=>!musicAudio.paused&&musicAudio.currentTime>.15&&!document.querySelector('#music-artwork-video').paused&&document.querySelector('#music-artwork-video').currentTime>.1);
-  await page.locator('#music-play').click();assert(await page.locator('#music-artwork-video').evaluate(video=>video.paused),'artwork pauses with music');
+  await page.locator('#music-play').click();await page.waitForFunction(()=>musicAudio.paused&&document.querySelector('#music-artwork-video').paused);assert(await page.locator('#music-artwork-video').evaluate(video=>video.paused),'artwork pauses with music');
   await page.emulateMedia({reducedMotion:'reduce'});await page.locator('#music-play').click();
   await page.waitForFunction(()=>!musicAudio.paused&&musicAudio.currentTime>.3);
   assert(await page.locator('#music-artwork-video').evaluate(video=>video.paused&&!!video.poster),'reduced motion keeps a still image');
